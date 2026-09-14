@@ -3,21 +3,7 @@
 Collects YouTube comments left under local coverage of data centers proposed in Oklahoma,
 and gives you a page for reading and coding them.
 
-The companion repository, **elsa_yt**, covers generation and fuels — solar, wind, battery
-storage, carbon capture, nuclear and hydrogen. This one is split out because a data center
-is *demand* rather than generation, and because on its own it sweeps every Oklahoma county
-and town in under two weeks instead of thirteen.
-
-**The two share one API key, so they must not run on the same day.** The YouTube quota
-belongs to the Google Cloud project rather than the repository. This one runs Thursdays,
-elsa_yt runs Mondays. If you ever want both on the same day, make a second Google Cloud
-project and give this repository its own key.
-
-`codebook.json` is deliberately identical in both. Both exports then carry the same
-columns, so the two can be stacked in a spreadsheet and compared directly — which is the
-whole point of collecting them alongside each other. Keep them in sync.
-
-Live at **https://hbedle-subsurface.github.io/elsa_yt/**
+Live at **https://hbedle-subsurface.github.io/datacenter_yt/**
 
 ---
 
