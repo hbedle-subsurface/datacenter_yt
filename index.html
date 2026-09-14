@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What people say about data centers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F6F8F6; --card:#FFFFFF;
+  --ink:#17241F; --ink-soft:#5A6B64;
+  --water:#1C5C6E; --water-pale:#E4EEF1;
+  --prairie:#4A7A4E; --prairie-pale:#E7EFE7;
+  --clay:#9E4F2C; --clay-pale:#F5E8E1;
+  --rule:#CBD9D3; --rule-soft:#E2EAE6; --sand:#E8EDE9;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,Segoe UI,sans-serif;
+  --serif:"Source Serif 4",Charter,Georgia,serif;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0;padding:0}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-size:15px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  display:flex;flex-direction:column;min-height:100vh;
+}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--water)}
+:focus-visible{outline:2px solid var(--water);outline-offset:2px;border-radius:2px}
+
+/* ------------------------------------------------------- masthead -- */
+header.top{border-bottom:1px solid var(--rule);background:var(--card);padding:14px 20px 0}
+.mast{display:flex;flex-wrap:wrap;align-items:baseline;gap:14px}
+.mast h1{font-family:var(--serif);font-weight:600;font-size:21px;margin:0;letter-spacing:-.01em}
+.mast .sub{color:var(--ink-soft);font-size:13.5px}
+.mast .spacer{flex:1}
+.mast .counts{font-size:13px;color:var(--ink-soft);white-space:nowrap}
+.mast .counts b{color:var(--ink);font-weight:600}
+
+.strip{display:flex;gap:2px;align-items:flex-end;padding:12px 0 0;overflow-x:auto}
+.stbar{flex:1 1 16px;min-width:16px;max-width:52px;background:none;border:0;
+  padding:0 0 3px;cursor:pointer;text-align:center}
+.stbar .bar{height:34px;display:flex;align-items:flex-end;justify-content:center}
+.stbar .fill{width:100%;background:var(--rule);border-radius:1px 1px 0 0;min-height:1px;
+  transition:height .18s ease}
+.stbar .live{background:var(--water)}
+.stbar .lbl{font-size:9px;color:var(--ink-soft);letter-spacing:.02em;padding-top:3px}
+.stbar .cnt{display:block;font-size:9px;color:var(--ink-soft);opacity:.75}
+.stbar[aria-pressed="true"] .fill{background:var(--water-pale)}
+.stbar[aria-pressed="true"] .live{background:var(--water)}
+.stbar[aria-pressed="true"] .lbl{color:var(--water);font-weight:600}
+.stbar:hover .fill{filter:brightness(.94)}
+.striplab{font-size:10.5px;color:var(--ink-soft);margin:1px 0 8px}
+
+/* --------------------------------------------------------- layout -- */
+.wrap{display:grid;grid-template-columns:236px minmax(0,1fr) 288px;flex:1;min-height:0}
+.col{overflow-y:auto;padding:16px 18px}
+.rail{border-right:1px solid var(--rule)}
+.side{border-left:1px solid var(--rule);background:#FBFCFB}
+h2.sec{font-size:12px;font-weight:600;margin:0 0 8px;color:var(--ink-soft)}
+.rail section{margin-bottom:20px}
+
+/* ------------------------------------------------------- controls -- */
+.chip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--rule);
+  background:var(--card);color:var(--ink);padding:3px 9px;border-radius:20px;
+  font-size:12.5px;cursor:pointer;margin:0 4px 4px 0}
+.chip[aria-pressed="true"]{background:var(--water);border-color:var(--water);color:#fff}
+.chip.g[aria-pressed="true"]{background:var(--prairie);border-color:var(--prairie)}
+.chip .n{opacity:.62;font-size:11px}
+.chip:hover{border-color:var(--water)}
+.search{width:100%;padding:7px 10px;border:1px solid var(--rule);border-radius:4px;background:var(--card)}
+.linkish{background:none;border:0;padding:0;color:var(--water);cursor:pointer;
+  font-size:12.5px;text-decoration:underline;text-underline-offset:2px}
+.btn{border:1px solid var(--water);background:var(--water);color:#fff;padding:7px 12px;
+  border-radius:4px;cursor:pointer;font-size:13px;font-weight:500}
+.btn.ghost{background:var(--card);color:var(--water)}
+a.btn{text-decoration:none;display:inline-block}
+.btn.wide{width:100%;text-align:left}
+.btn:disabled{opacity:.45;cursor:default}
+.exhint{font-size:11.5px;color:var(--ink-soft);margin:4px 0 13px;line-height:1.4}
+
+#active{margin-bottom:9px}
+.pill{display:inline-flex;align-items:center;gap:6px;background:var(--water);color:#fff;
+  border:0;border-radius:20px;padding:3px 6px 3px 11px;font-size:12.5px;
+  margin:0 5px 5px 0;cursor:pointer}
+.pill .x{display:inline-flex;align-items:center;justify-content:center;width:15px;height:15px;
+  border-radius:50%;background:rgba(255,255,255,.24);font-size:11px}
+.pill:hover .x{background:rgba(255,255,255,.42)}
+.pill.clear{background:none;color:var(--water);padding-left:4px;text-decoration:underline;
+  text-underline-offset:2px}
+
+/* ---------------------------------------------------- result list -- */
+.hits{font-size:12.5px;color:var(--ink-soft);margin:0 0 10px}
+.art{background:var(--card);border:1px solid var(--rule-soft);border-left:3px solid var(--rule);
+  border-radius:3px;padding:10px 12px;margin-bottom:7px;cursor:pointer}
+.art:hover{border-color:var(--rule);border-left-color:var(--water)}
+.art.strong{border-left-color:var(--water)}
+.art.weak{border-left-color:var(--rule-soft);background:#FCFDFC}
+.art .hd{font-family:var(--serif);font-size:15.5px;font-weight:600;line-height:1.28}
+.art .meta{font-size:11.5px;color:var(--ink-soft);margin-top:3px}
+.art.seen .hd{color:var(--ink-soft);font-weight:400}
+.art.seen .hd::after{content:'read';font-size:9.5px;color:var(--prairie);
+  border:1px solid #D3E3D4;background:var(--prairie-pale);border-radius:3px;
+  padding:0 4px;margin-left:7px;vertical-align:2px;font-family:var(--sans)}
+.tag{display:inline-block;font-size:10.5px;padding:1px 6px;border-radius:3px;
+  background:var(--sand);color:var(--ink-soft);margin:4px 4px 0 0;border:1px solid var(--rule-soft)}
+.tag.topic{background:var(--water-pale);color:var(--water);border-color:#CBE0E6}
+.tag.place{background:var(--prairie-pale);color:var(--prairie);border-color:#D3E3D4}
+.tag.star{background:#FBF3DC;color:#8A6714;border-color:#EDDFB8}
+
+/* -------------------------------------------------------- detail -- */
+.navrow{display:flex;gap:8px;align-items:center;margin:0 0 12px;flex-wrap:wrap}
+.navrow .spacer{flex:1}
+.kbd{font-size:11px;color:var(--ink-soft)}
+.detail{background:var(--card);border:1px solid var(--rule);border-radius:4px;padding:18px 20px}
+.detail h3{font-family:var(--serif);font-size:21px;margin:0 0 5px;line-height:1.24;max-width:40ch}
+.detail .where{color:var(--ink-soft);font-size:13px;margin-bottom:15px}
+.detail h4{font-size:12px;font-weight:600;color:var(--ink-soft);margin:22px 0 8px;
+  padding-top:12px;border-top:1px solid var(--rule-soft)}
+.readfirst{background:var(--water-pale);border:1px solid #CBE0E6;border-radius:4px;
+  padding:13px 15px;margin-bottom:4px}
+.readfirst p{margin:8px 0 0;font-size:12.5px;color:var(--ink-soft)}
+.codegrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(196px,1fr));gap:14px}
+.codegroup{font-size:11.5px;color:var(--ink-soft);font-weight:600;margin-bottom:5px}
+.code{display:flex;gap:7px;align-items:flex-start;padding:3px 0;font-size:13px;cursor:pointer}
+.code input{margin-top:3px;accent-color:var(--water)}
+.sugbox{background:var(--prairie-pale);border:1px solid #D3E3D4;border-radius:4px;
+  padding:10px 12px;margin-bottom:10px}
+.sugbox .code{padding:4px 0}
+details.allcodes>summary{cursor:pointer;font-size:12.5px;color:var(--water);padding:5px 0;
+  text-decoration:underline;text-underline-offset:2px}
+details.allcodes[open]>summary{margin-bottom:9px}
+textarea.note{width:100%;min-height:80px;border:1px solid var(--rule);border-radius:4px;
+  padding:8px 10px;font-family:var(--serif);font-size:14px;resize:vertical}
+
+/* ------------------------------------------------------- sidebar -- */
+.work{list-style:none;margin:0;padding:0}
+.work li{padding:8px 0;border-bottom:1px solid var(--rule-soft);font-size:13px;cursor:pointer}
+.work li:hover .wnm{text-decoration:underline}
+.wnm{font-family:var(--serif);font-weight:600;font-size:14px;line-height:1.25}
+.wmeta{font-size:11px;color:var(--ink-soft);margin-top:2px}
+.tally{list-style:none;margin:0;padding:0;font-size:12.5px}
+.tally li{display:flex;align-items:center;gap:7px;padding:2.5px 0}
+.tally .tbar{height:8px;background:var(--prairie);border-radius:1px;min-width:1px}
+.tally .tn{color:var(--ink-soft);font-size:11px;width:26px;text-align:right}
+.tally .tl{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* --------------------------------------------------- first screen -- */
+.opening{max-width:640px;margin:56px auto;padding:0 24px}
+.opening h2{font-family:var(--serif);font-size:25px;font-weight:600;margin:0 0 10px;line-height:1.22}
+.opening h3{font-family:var(--serif);font-size:17px;margin:26px 0 8px}
+.opening p{color:var(--ink-soft);font-size:15px;line-height:1.6;max-width:62ch}
+.steps{font-size:14px;color:var(--ink-soft);line-height:1.75;padding-left:20px;max-width:62ch}
+.steps b{color:var(--ink);font-weight:600}
+.quiet{color:var(--ink-soft);font-size:12.5px}
+.empty{color:var(--ink-soft);font-size:14px;font-family:var(--serif);padding:26px 0;max-width:48ch}
+
+@media (max-width:1040px){
+  .wrap{grid-template-columns:1fr;flex:none}
+  .rail,.side{border:0;border-bottom:1px solid var(--rule)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* comments are long, so the card carries an excerpt rather than a line */
+.cmt{background:var(--card);border:1px solid var(--rule-soft);border-left:3px solid var(--water);
+  border-radius:3px;padding:11px 13px;margin-bottom:7px;cursor:pointer}
+.cmt:hover{border-color:var(--rule)}
+.cmt.seen{border-left-color:var(--rule)}
+.cmt.gone{border-left-color:var(--rule-soft);background:#FCFDFC}
+.cmt .txt{font-family:var(--serif);font-size:15px;line-height:1.5;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cmt .src{font-size:11.5px;color:var(--ink-soft);margin-top:6px}
+.cmt.seen .txt{color:var(--ink-soft)}
+.cmt .rep{font-size:10.5px;color:var(--prairie);margin-right:6px}
+.full{font-family:var(--serif);font-size:16px;line-height:1.62;max-width:62ch;
+  white-space:pre-wrap;margin:0}
+.gonebox{background:var(--sand);border:1px solid var(--rule-soft);border-radius:4px;
+  padding:12px 14px;font-size:13px;color:var(--ink-soft)}
+</style>
+</head>
+<body>
+
+<div id="opening" class="opening">
+  <h2 id="opentitle">Loading</h2>
+  <div id="openbody"></div>
+</div>
+
+<header class="top" id="top" hidden>
+  <div class="mast">
+    <h1>What people say about data centers</h1>
+    <span class="sub" id="updated"></span>
+    <span class="spacer"></span>
+    <span class="counts" id="counts"></span>
+  </div>
+  <div class="strip" id="strip"></div>
+  <p class="striplab" id="striplab"></p>
+</header>
+
+<div class="wrap" id="wrap" hidden>
+  <div class="col rail">
+    <section>
+      <h2 class="sec">Search the comments</h2>
+      <input class="search" id="q" type="search" placeholder="e.g. property value, well water">
+    </section>
+    <section><h2 class="sec">State</h2><div id="statepick"></div>
+      <p class="quiet" id="statenote"></p></section>
+    <section><h2 class="sec">County</h2><div id="countypick"></div></section>
+    <section><h2 class="sec">Town</h2><div id="townpick"></div></section>
+    <section><h2 class="sec">Topic</h2><div id="topicpick"></div></section>
+    <section><h2 class="sec">Channel</h2><div id="chanpick"></div></section>
+    <section><h2 class="sec">Where you are</h2><div id="markpick"></div></section>
+    <section><h2 class="sec">Coverage from other states</h2>
+      <div id="elsewherepick"></div><p class="quiet" id="elsewherenote"></p></section>
+    <section><h2 class="sec">Comments YouTube no longer lets us store</h2>
+      <div id="gonepick"></div><p class="quiet" id="gonenote"></p></section>
+  </div>
+
+  <div class="col main">
+    <div id="active"></div>
+    <p class="hits" id="hits"></p>
+    <div id="list"></div>
+  </div>
+
+  <div class="col side">
+    <section><h2 class="sec">To follow up</h2>
+      <ul class="work" id="work"></ul><p class="quiet" id="worknote"></p></section>
+    <section style="margin-top:22px">
+      <h2 class="sec">Concerns in what you are looking at</h2>
+      <ul class="tally" id="tally"></ul><p class="quiet" id="tallynote"></p></section>
+    <section style="margin-top:22px">
+      <h2 class="sec">Take it with you</h2>
+      <button class="btn ghost wide" id="exCoded">Your coding, as a table</button>
+      <p class="exhint">One row per comment, one column per category, with the
+         comment text. Export before comments age out.</p>
+      <button class="btn ghost wide" id="exVideos">The videos</button>
+      <p class="exhint">One row per video, with its comment count and where it is.</p>
+      <button class="btn ghost wide" id="exSess">Back up your work</button>
+      <p class="exhint">Your codes and notes. They survive a comment aging out;
+         the text does not.</p>
+      <button class="btn ghost wide" id="imSess" style="margin-bottom:0">Restore a backup</button>
+      <input type="file" id="sessfile" accept=".json" hidden>
+    </section>
+    <section style="margin-top:22px">
+      <h2 class="sec">Last collection</h2><p class="quiet" id="runinfo"></p></section>
+  </div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>

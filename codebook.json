@@ -1,0 +1,947 @@
+{
+ "_comment": [
+  "The categories used to record what people object to, or support, when a",
+  "solar project is proposed near them. Read by both the crawler (to suggest)",
+  "and the page (to code against), so there is only one copy.",
+  "",
+  "id      goes into the exported column names. Changing one after coding has",
+  "        started orphans that column.",
+  "label   what appears in the interface.",
+  "hint    what counts, for whoever is coding.",
+  "cues    words that raise a suggestion. Suggestions are not codes.",
+  "",
+  "Add a category by copying a block. Nothing else needs to change."
+ ],
+ "groups": [
+  {
+   "id": "land",
+   "label": "Land and agriculture"
+  },
+  {
+   "id": "landscape",
+   "label": "Landscape and place"
+  },
+  {
+   "id": "economic",
+   "label": "Economic"
+  },
+  {
+   "id": "environment",
+   "label": "Environment and water"
+  },
+  {
+   "id": "safety",
+   "label": "Safety and health"
+  },
+  {
+   "id": "technology",
+   "label": "Specific to the technology"
+  },
+  {
+   "id": "demand",
+   "label": "Data centers and large loads"
+  },
+  {
+   "id": "process",
+   "label": "Process and trust"
+  },
+  {
+   "id": "cultural",
+   "label": "Cultural and tribal"
+  },
+  {
+   "id": "support",
+   "label": "Stated in support"
+  }
+ ],
+ "categories": [
+  {
+   "id": "farmland_loss",
+   "group": "land",
+   "label": "Loss of farmland",
+   "hint": "Productive or prime agricultural land taken out of farming.",
+   "cues": [
+    "farmland",
+    "prime farmland",
+    "agricultural land",
+    "cropland",
+    "farming",
+    "soil",
+    "pasture",
+    "ranchland",
+    "food production",
+    "farmers"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "forest_loss",
+   "group": "land",
+   "label": "Tree and forest clearing",
+   "hint": "Removing woodland, core forest, or protected individual trees.",
+   "cues": [
+    "core forest",
+    "tree removal",
+    "clearing trees",
+    "woodland",
+    "forested",
+    "oak",
+    "timber"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "land_use_conflict",
+   "group": "land",
+   "label": "Wrong land for it",
+   "hint": "The site is zoned for, or better suited to, some other use. Includes calls to build on industrial or already disturbed land instead.",
+   "cues": [
+    "zoning",
+    "rezoning",
+    "rezone",
+    "land use",
+    "industrial land",
+    "brownfield",
+    "overlay",
+    "special use permit",
+    "conditional use"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "visual",
+   "group": "landscape",
+   "label": "Views and visual impact",
+   "hint": "How it looks: sightlines, scenic vistas, panel glare, screening.",
+   "cues": [
+    "viewshed",
+    "visual impact",
+    "scenic",
+    "vista",
+    "eyesore",
+    "glare",
+    "aesthetic",
+    "screening",
+    "buffer"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "rural_character",
+   "group": "landscape",
+   "label": "Rural character",
+   "hint": "That an industrial facility does not belong in a rural or small-town place.",
+   "cues": [
+    "rural character",
+    "rural",
+    "industrial",
+    "quality of life",
+    "small town",
+    "way of life",
+    "character of"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "recreation_tourism",
+   "group": "landscape",
+   "label": "Recreation and tourism",
+   "hint": "Lost access to hunting, fishing, boating, trails, parks, or visitor economy. Common where panels go over water.",
+   "cues": [
+    "recreation",
+    "tourism",
+    "hunting",
+    "fishing",
+    "boating",
+    "trail",
+    "state park",
+    "lake access"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "property_values",
+   "group": "economic",
+   "label": "Property values",
+   "hint": "That nearby property will be worth less.",
+   "cues": [
+    "property value",
+    "property values",
+    "home values",
+    "devalue",
+    "resale",
+    "appraisal"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "benefits_doubt",
+   "group": "economic",
+   "label": "Doubt about promised benefits",
+   "hint": "That tax revenue, jobs or local power do not materialize, or go elsewhere. Includes the power leaving the county.",
+   "cues": [
+    "out-of-state",
+    "data center",
+    "no benefit",
+    "few jobs",
+    "temporary jobs",
+    "broken promise",
+    "not our power",
+    "elsewhere"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "decommissioning",
+   "group": "economic",
+   "label": "Decommissioning and end of life",
+   "hint": "Who removes the panels, whether a bond is posted, what happens to the equipment afterward.",
+   "cues": [
+    "decommission",
+    "decommissioning",
+    "removal bond",
+    "end of life",
+    "panel waste",
+    "disposal",
+    "reclamation",
+    "abandoned"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "wildlife",
+   "group": "environment",
+   "label": "Wildlife and habitat",
+   "hint": "Animals, birds, pollinators, migration corridors, habitat connectivity.",
+   "cues": [
+    "wildlife",
+    "habitat",
+    "birds",
+    "pollinator",
+    "migration",
+    "endangered",
+    "species",
+    "deer",
+    "ecosystem"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "water_quality",
+   "group": "environment",
+   "label": "Water quality and supply",
+   "hint": "Wells, aquifers, groundwater, runoff reaching drinking water, water the project uses. Central to canal and reservoir siting.",
+   "cues": [
+    "well water",
+    "groundwater",
+    "aquifer",
+    "water supply",
+    "water quality",
+    "drinking water",
+    "runoff",
+    "contaminate",
+    "evaporation"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "drainage_erosion",
+   "group": "environment",
+   "label": "Drainage, erosion, dust",
+   "hint": "Stormwater, flooding, soil erosion during construction, dust from grading.",
+   "cues": [
+    "stormwater",
+    "drainage",
+    "flooding",
+    "flood",
+    "erosion",
+    "dust",
+    "grading",
+    "sediment",
+    "wetland"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "heat",
+   "group": "environment",
+   "label": "Heat and microclimate",
+   "hint": "That a large array raises local temperature or changes local weather.",
+   "cues": [
+    "heat island",
+    "hotter",
+    "microclimate",
+    "temperature"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "fire_risk",
+   "group": "safety",
+   "label": "Fire risk",
+   "hint": "Ignition, spread, or difficulty fighting a fire at the site. Most common where batteries are included.",
+   "cues": [
+    "fire risk",
+    "wildfire",
+    "fire department",
+    "thermal runaway",
+    "battery fire",
+    "explosion"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "noise",
+   "group": "safety",
+   "label": "Noise",
+   "hint": "Sound from inverters, transformers, or construction.",
+   "cues": [
+    "noise",
+    "decibel",
+    "hum",
+    "sound"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "health",
+   "group": "safety",
+   "label": "Health effects",
+   "hint": "That the facility makes people sick. Includes claims with no scientific support, recorded as stated rather than endorsed.",
+   "cues": [
+    "health",
+    "toxic",
+    "leach",
+    "cadmium",
+    "chemicals",
+    "emf",
+    "cancer"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "traffic_roads",
+   "group": "safety",
+   "label": "Traffic and road damage",
+   "hint": "Construction traffic, heavy equipment, who pays to repair county roads.",
+   "cues": [
+    "county roads",
+    "road damage",
+    "traffic",
+    "trucks",
+    "haul route",
+    "road maintenance"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "notice_process",
+   "group": "process",
+   "label": "Notice and public process",
+   "hint": "Short notice, no hearing, rushed vote, records withheld, surveyors on private land.",
+   "cues": [
+    "public notice",
+    "public hearing",
+    "rushed",
+    "closed door",
+    "transparency",
+    "notification",
+    "without permission",
+    "open meetings"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "developer_trust",
+   "group": "process",
+   "label": "Distrust of the developer",
+   "hint": "Out-of-state ownership, changed plans, inconsistent filings, hidden funding behind the campaign on either side.",
+   "cues": [
+    "out-of-state developer",
+    "misleading",
+    "dark money",
+    "inconsistent",
+    "changed plans",
+    "lease terms",
+    "nondisclosure"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "local_control",
+   "group": "process",
+   "label": "Local control and preemption",
+   "hint": "A state agency or state law overriding the county or town.",
+   "cues": [
+    "preempt",
+    "override",
+    "state law",
+    "home rule",
+    "local control",
+    "corporation commission",
+    "bypass"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "fairness",
+   "group": "process",
+   "label": "Who benefits, who lives with it",
+   "hint": "Leasing landowners paid while neighbors carry the effects; absentee owners deciding for residents.",
+   "cues": [
+    "non-participating",
+    "neighbors",
+    "absentee",
+    "leaseholder",
+    "adjacent landowner",
+    "nearby residents"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "tribal",
+   "group": "cultural",
+   "label": "Tribal consultation and sovereignty",
+   "hint": "Raised by a tribe or nation, including inadequate consultation.",
+   "cues": [
+    "tribe",
+    "tribal",
+    "nation",
+    "consultation",
+    "sovereign",
+    "allotment"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "sacred_historic",
+   "group": "cultural",
+   "label": "Sacred and historic sites",
+   "hint": "Burial grounds, cultural landscapes, archaeological resources, historic districts.",
+   "cues": [
+    "sacred",
+    "burial",
+    "cultural resources",
+    "archaeological",
+    "historic",
+    "cemetery"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "support_revenue",
+   "group": "support",
+   "label": "Tax revenue and local funding",
+   "hint": "In favor: county revenue, school funding, lease payments, scholarships.",
+   "cues": [
+    "tax revenue",
+    "school funding",
+    "lease payments",
+    "revenue for",
+    "ad valorem"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "support_jobs",
+   "group": "support",
+   "label": "Jobs and construction work",
+   "hint": "In favor: construction jobs, long-term operations jobs.",
+   "cues": [
+    "jobs",
+    "employment",
+    "hiring",
+    "workforce",
+    "construction jobs"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "support_energy",
+   "group": "support",
+   "label": "Local or clean energy supply",
+   "hint": "In favor: more locally produced power, climate benefit, grid reliability.",
+   "cues": [
+    "clean energy",
+    "reliability",
+    "grid",
+    "climate",
+    "powers homes",
+    "energy independence"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "concessions",
+   "group": "support",
+   "label": "Concessions won by neighbors",
+   "hint": "Where objection produced setbacks, screening, fencing, conserved acreage, or a community benefit agreement.",
+   "cues": [
+    "setback",
+    "screening",
+    "fence",
+    "vegetative buffer",
+    "community benefit",
+    "agreement",
+    "conditions",
+    "mitigation"
+   ],
+   "applies": [
+    "all"
+   ]
+  },
+  {
+   "id": "shadow_flicker",
+   "group": "technology",
+   "label": "Shadow flicker",
+   "applies": [
+    "wind"
+   ],
+   "hint": "Rotating blades throwing moving shadows across houses and windows.",
+   "cues": [
+    "shadow flicker",
+    "flicker",
+    "strobe",
+    "shadows across"
+   ]
+  },
+  {
+   "id": "ice_throw",
+   "group": "technology",
+   "label": "Ice throw and blade failure",
+   "applies": [
+    "wind"
+   ],
+   "hint": "Ice shed from blades, or a blade breaking apart.",
+   "cues": [
+    "ice throw",
+    "thrown ice",
+    "blade failure",
+    "blade broke",
+    "debris"
+   ]
+  },
+  {
+   "id": "aviation_radar",
+   "group": "technology",
+   "label": "Aviation, radar and spraying",
+   "applies": [
+    "wind"
+   ],
+   "hint": "Interference with weather radar, military training routes, or crop dusting.",
+   "cues": [
+    "radar",
+    "aviation",
+    "air force",
+    "military training",
+    "crop dust",
+    "aerial applicator",
+    "flight path"
+   ]
+  },
+  {
+   "id": "thermal_runaway",
+   "group": "technology",
+   "label": "Battery fire and thermal runaway",
+   "applies": [
+    "storage",
+    "data_center"
+   ],
+   "hint": "Lithium battery fires: how they start, how long they burn, what a volunteer department can do.",
+   "cues": [
+    "thermal runaway",
+    "battery fire",
+    "lithium",
+    "reignite",
+    "toxic smoke",
+    "hazmat",
+    "volunteer fire"
+   ]
+  },
+  {
+   "id": "explosion_risk",
+   "group": "technology",
+   "label": "Explosion and leak risk",
+   "applies": [
+    "hydrogen",
+    "storage"
+   ],
+   "hint": "Hydrogen leaks, detonation, or pressure vessel failure.",
+   "cues": [
+    "explosion",
+    "explode",
+    "detonation",
+    "leak",
+    "blast radius",
+    "flammable"
+   ]
+  },
+  {
+   "id": "pipeline_rupture",
+   "group": "technology",
+   "label": "Pipeline rupture and CO2 plume",
+   "applies": [
+    "carbon_capture",
+    "hydrogen"
+   ],
+   "hint": "A CO2 pipeline failing: the plume is heavier than air, displaces oxygen, and stalls engines.",
+   "cues": [
+    "rupture",
+    "pipeline",
+    "plume",
+    "asphyxiat",
+    "denbury",
+    "satartia",
+    "odorless",
+    "heavier than air"
+   ]
+  },
+  {
+   "id": "eminent_domain",
+   "group": "technology",
+   "label": "Eminent domain and easements",
+   "applies": [
+    "carbon_capture",
+    "transmission",
+    "hydro",
+    "transmission"
+   ],
+   "hint": "Land taken or crossed against the owner's wishes, or the threat of it in negotiations.",
+   "cues": [
+    "eminent domain",
+    "condemnation",
+    "easement",
+    "right of way",
+    "forced",
+    "common carrier",
+    "survey crews"
+   ]
+  },
+  {
+   "id": "induced_seismicity",
+   "group": "technology",
+   "label": "Injection and earthquakes",
+   "applies": [
+    "carbon_capture",
+    "disposal",
+    "geothermal"
+   ],
+   "hint": "Injection triggering earthquakes. Oklahoma has direct experience with this from wastewater disposal.",
+   "cues": [
+    "earthquake",
+    "seismic",
+    "induced",
+    "injection well",
+    "fault",
+    "tremor",
+    "magnitude",
+    "disposal well",
+    "saltwater disposal",
+    "swarm"
+   ]
+  },
+  {
+   "id": "pore_space",
+   "group": "technology",
+   "label": "Pore space and mineral rights",
+   "applies": [
+    "carbon_capture"
+   ],
+   "hint": "Who owns the rock below: pore space ownership, unitization, severed minerals, long-term liability.",
+   "cues": [
+    "pore space",
+    "mineral rights",
+    "subsurface",
+    "unitization",
+    "class vi",
+    "liability",
+    "who owns"
+   ]
+  },
+  {
+   "id": "radioactive_waste",
+   "group": "technology",
+   "label": "Radioactive waste",
+   "applies": [
+    "nuclear"
+   ],
+   "hint": "Spent fuel storage, transport, and where it ends up.",
+   "cues": [
+    "spent fuel",
+    "radioactive waste",
+    "nuclear waste",
+    "storage casks",
+    "yucca",
+    "half-life"
+   ]
+  },
+  {
+   "id": "accident_evacuation",
+   "group": "technology",
+   "label": "Accident risk and evacuation",
+   "applies": [
+    "nuclear"
+   ],
+   "hint": "Meltdown or release, and whether a rural county could evacuate.",
+   "cues": [
+    "meltdown",
+    "chernobyl",
+    "fukushima",
+    "three mile",
+    "evacuation",
+    "radiation",
+    "emergency plan"
+   ]
+  },
+  {
+   "id": "water_use",
+   "group": "demand",
+   "label": "Water consumption",
+   "applies": [
+    "data_center",
+    "hydrogen",
+    "nuclear"
+   ],
+   "hint": "How much water the facility draws for cooling, and what that means in a dry county.",
+   "cues": [
+    "water use",
+    "gallons",
+    "cooling",
+    "aquifer",
+    "drought",
+    "water table",
+    "municipal water",
+    "evaporat"
+   ]
+  },
+  {
+   "id": "electricity_rates",
+   "group": "demand",
+   "label": "Electricity rates for everyone else",
+   "applies": [
+    "data_center"
+   ],
+   "hint": "That a large load raises bills for existing ratepayers, or that new generation gets built for it.",
+   "cues": [
+    "rate increase",
+    "electric bill",
+    "ratepayer",
+    "utility bill",
+    "cost shift",
+    "rates go up",
+    "tariff",
+    "large load"
+   ]
+  },
+  {
+   "id": "grid_strain",
+   "group": "demand",
+   "label": "Grid capacity and reliability",
+   "applies": [
+    "data_center"
+   ],
+   "hint": "Whether the grid can carry it, and what happens to everyone else in a peak.",
+   "cues": [
+    "grid",
+    "reliability",
+    "blackout",
+    "brownout",
+    "capacity",
+    "peak demand",
+    "interconnection",
+    "megawatt"
+   ]
+  },
+  {
+   "id": "constant_noise",
+   "group": "demand",
+   "label": "Constant noise from cooling",
+   "applies": [
+    "data_center"
+   ],
+   "hint": "Cooling equipment running around the clock, distinct from construction noise.",
+   "cues": [
+    "hum",
+    "constant noise",
+    "24/7",
+    "around the clock",
+    "chiller",
+    "cooling fans",
+    "never stops"
+   ]
+  },
+  {
+   "id": "few_jobs",
+   "group": "demand",
+   "label": "Land and power for very few jobs",
+   "applies": [
+    "data_center"
+   ],
+   "hint": "That the facility consumes enormous land, power and water while employing very few people.",
+   "cues": [
+    "few jobs",
+    "how many jobs",
+    "30 jobs",
+    "handful of jobs",
+    "no jobs",
+    "per acre",
+    "automated"
+   ]
+  },
+  {
+   "id": "tax_abatement",
+   "group": "demand",
+   "label": "Tax breaks and secrecy",
+   "applies": [
+    "data_center",
+    "all"
+   ],
+   "hint": "Abatements, incentives, NDAs, and project code names hiding who the developer is.",
+   "cues": [
+    "tax break",
+    "abatement",
+    "incentive",
+    "nondisclosure",
+    "nda",
+    "code name",
+    "project blue",
+    "secret",
+    "undisclosed"
+   ]
+  },
+  {
+   "id": "dam_safety",
+   "group": "technology",
+   "label": "Dam safety and flooding",
+   "applies": [
+    "hydro"
+   ],
+   "hint": "Water held back or released: chronic backwater flooding upstream, lake levels, spillway operations, and whether the structure itself is sound.",
+   "cues": [
+    "dam failure",
+    "spillway",
+    "backwater",
+    "flooded",
+    "lake level",
+    "water level",
+    "floodgate",
+    "inundat",
+    "levee",
+    "buyout"
+   ]
+  },
+  {
+   "id": "structural_damage",
+   "group": "technology",
+   "label": "Damage to houses and wells",
+   "applies": [
+    "disposal",
+    "geothermal"
+   ],
+   "hint": "Cracked walls and foundations, damaged wells, and whether anyone pays for it. Oklahoma homeowners have direct experience of this from the earthquake swarm.",
+   "cues": [
+    "cracked",
+    "foundation",
+    "crack in",
+    "damage to my",
+    "chimney",
+    "drywall",
+    "well casing",
+    "insurance",
+    "claim denied",
+    "deductible"
+   ]
+  },
+  {
+   "id": "odor",
+   "group": "technology",
+   "label": "Odor",
+   "applies": [
+    "biogas"
+   ],
+   "hint": "Smell carrying to neighboring property, and how often.",
+   "cues": [
+    "odor",
+    "smell",
+    "stink",
+    "stench",
+    "manure",
+    "litter",
+    "downwind"
+   ]
+  },
+  {
+   "id": "corridor_land",
+   "group": "technology",
+   "label": "Farming across a corridor",
+   "applies": [
+    "transmission",
+    "carbon_capture"
+   ],
+   "hint": "A line or pipeline crossing working ground: pivot irrigation, aerial spraying, field access, and what can be planted or built in the easement.",
+   "cues": [
+    "pivot",
+    "irrigation",
+    "aerial spray",
+    "crop dust",
+    "across my field",
+    "split the farm",
+    "easement width",
+    "can't build",
+    "access road"
+   ]
+  }
+ ]
+}
