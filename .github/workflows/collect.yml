@@ -1,0 +1,63 @@
+name: Collect comments
+
+# Tuesdays. The YouTube quota belongs to the Google Cloud project, not the
+# repository, and elsa_yt, datacenter_yt and ses_ok_yt share it. Each has
+# its own day so they do not exhaust it between them.
+
+on:
+  schedule:
+    - cron: '17 13 * * 2'
+  workflow_dispatch:
+    inputs:
+      counties:
+        description: 'Places, comma separated. Blank uses the built-in Oklahoma list.'
+        required: false
+        default: ''
+      days:
+        description: 'How far back to look for videos. Blank uses 1095 (three years).'
+        required: false
+        default: ''
+      topics:
+        description: 'Only data_center here. Leave blank.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-comments
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run the collector
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: |
+          python collect/collect.py \
+            ${{ inputs.counties && format('--counties "{0}"', inputs.counties) || '' }} \
+            ${{ inputs.days     && format('--days {0}',       inputs.days)     || '' }} \
+            ${{ inputs.topics   && format('--topics "{0}"',   inputs.topics)   || '' }}
+
+      - name: Save what it found
+        run: |
+          git config user.name  'comment collector'
+          git config user.email 'actions@github.com'
+          git add data/comments.json data/videos.json data/runs.json
+          if git diff --staged --quiet; then
+            echo "Nothing changed this time."
+          else
+            git commit -m "Collected comments, $(date -u +%Y-%m-%d)"
+            git push
+          fi
