@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-14T01:33:01+00:00",
- "tracked": 66,
+ "updated": "2026-09-14T21:01:20+00:00",
+ "tracked": 68,
  "videos": [
   {
    "id": "nmy-p85-wpk",
@@ -200,9 +200,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
-    "Ottawa County"
+    "Muskogee",
+    "Newcastle",
+    "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah"
    ],
    "score": 10,
    "first_seen": "2026-09-14",
@@ -232,13 +241,21 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
-    "Ottawa County"
+    "Muskogee",
+    "Newcastle",
+    "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs"
    ],
    "score": 9,
    "first_seen": "2026-09-14",
-   "comments": 27
+   "comments": 30
   },
   {
    "id": "t1sN-iANnTM",
@@ -372,9 +389,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 9,
@@ -404,9 +430,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
-    "Ottawa County"
+    "Muskogee",
+    "Newcastle",
+    "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah"
    ],
    "score": 8,
    "first_seen": "2026-09-14",
@@ -435,6 +470,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Tahlequah",
     "national"
    ],
    "score": 8,
@@ -462,9 +498,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 8,
@@ -522,6 +567,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Tahlequah",
     "national"
    ],
    "score": 8,
@@ -579,8 +625,16 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
     "national"
    ],
    "score": 8,
@@ -611,7 +665,13 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
-    "Major County"
+    "Beckham County",
+    "Duncan",
+    "Major County",
+    "Muskogee",
+    "Owasso",
+    "Pryor",
+    "Tahlequah"
    ],
    "score": 8,
    "first_seen": "2026-09-14",
@@ -667,7 +727,9 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Coweta",
     "Major County",
+    "Sand Springs",
     "national"
    ],
    "score": 7,
@@ -697,9 +759,17 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
-    "Ottawa County"
+    "Muskogee",
+    "Newcastle",
+    "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs"
    ],
    "score": 7,
    "first_seen": "2026-09-14",
@@ -726,9 +796,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
-    "Ottawa County"
+    "Muskogee",
+    "Newcastle",
+    "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah"
    ],
    "score": 7,
    "first_seen": "2026-09-14",
@@ -858,8 +937,16 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
-    "Ottawa County"
+    "Muskogee",
+    "Newcastle",
+    "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs"
    ],
    "score": 7,
    "first_seen": "2026-09-14",
@@ -1013,8 +1100,17 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 7,
@@ -1076,6 +1172,33 @@
    "comments": 2
   },
   {
+   "id": "FIq3iT9aVas",
+   "title": "Yukon land may shift from amphitheater plans to data center development",
+   "channel": "KOCO 5 News",
+   "published": "2025-08-22",
+   "url": "https://www.youtube.com/watch?v=FIq3iT9aVas",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [],
+   "towns": [
+    "Yukon"
+   ],
+   "local_because": [
+    "town named",
+    "broadcast call letters"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Tahlequah"
+   ],
+   "score": 7,
+   "first_seen": "2026-09-14",
+   "comments": 0,
+   "comments_off": true
+  },
+  {
    "id": "CzqgFhU0Pm4",
    "title": "Residents say data center construction is killing their pond",
    "channel": "KFOR Oklahoma's News 4",
@@ -1096,9 +1219,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 7,
@@ -1155,9 +1287,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
-    "Ottawa County"
+    "Muskogee",
+    "Newcastle",
+    "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah"
    ],
    "score": 6,
    "first_seen": "2026-09-14",
@@ -1211,9 +1352,18 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 6,
@@ -1240,8 +1390,16 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
     "national"
    ],
    "score": 6,
@@ -1269,9 +1427,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 6,
@@ -1300,9 +1467,18 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
-    "Ottawa County"
+    "Muskogee",
+    "Newcastle",
+    "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah"
    ],
    "score": 6,
    "first_seen": "2026-09-14",
@@ -1355,9 +1531,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 6,
@@ -1387,9 +1572,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 6,
@@ -1420,6 +1614,7 @@
    "found_by": [
     "Beaver County",
     "Major County",
+    "Tahlequah",
     "national"
    ],
    "score": 6,
@@ -1449,9 +1644,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 6,
@@ -1479,15 +1683,53 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 6,
    "first_seen": "2026-09-14",
    "comments": 0,
    "comments_off": true
+  },
+  {
+   "id": "tW2emLQO8z8",
+   "title": "Google invests $9 billion to expand Oklahoma data centers",
+   "channel": "Tulsa's News Pulse",
+   "published": "2025-08-15",
+   "url": "https://www.youtube.com/watch?v=tW2emLQO8z8",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Tulsa",
+    "Pryor"
+   ],
+   "local_because": [
+    "town named",
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Tahlequah"
+   ],
+   "score": 6,
+   "first_seen": "2026-09-14",
+   "comments": 0
   },
   {
    "id": "jMpyyUuU-j8",
@@ -1535,9 +1777,17 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
-    "Ottawa County"
+    "Muskogee",
+    "Newcastle",
+    "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs"
    ],
    "score": 5,
    "first_seen": "2026-09-14",
@@ -1613,6 +1863,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Newcastle",
     "national"
    ],
    "score": 5,
@@ -1686,7 +1937,8 @@
    ],
    "elsewhere": false,
    "found_by": [
-    "Beaver County"
+    "Beaver County",
+    "Newcastle"
    ],
    "score": 4,
    "first_seen": "2026-09-14",
@@ -1762,9 +2014,17 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
+    "Muskogee",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 4,
@@ -1791,9 +2051,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
+    "Muskogee",
+    "Newcastle",
     "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah",
     "national"
    ],
    "score": 4,
@@ -1820,9 +2089,18 @@
    "elsewhere": false,
    "found_by": [
     "Beaver County",
+    "Beckham County",
+    "Coweta",
+    "Duncan",
     "Love County",
     "Major County",
-    "Ottawa County"
+    "Muskogee",
+    "Newcastle",
+    "Ottawa County",
+    "Owasso",
+    "Pryor",
+    "Sand Springs",
+    "Tahlequah"
    ],
    "score": 4,
    "first_seen": "2026-09-14",

@@ -1,6 +1,48 @@
 {
  "runs": [
   {
+   "when": "2026-09-14T21:01:20+00:00",
+   "searches": 82,
+   "counties": 77,
+   "sweep_position": 13,
+   "sweep_total": 127,
+   "videos_seen": 225,
+   "videos_rejected": 1,
+   "new_videos": 2,
+   "tracked_videos": 68,
+   "new_comments": 5,
+   "refreshed_comments": 4126,
+   "expired_comments": 0,
+   "total_comments": 4133,
+   "problems": [
+    "search \"Oklahoma data center moratorium\" — 429 rateLimitExceeded",
+    "search \"Oklahoma data center opposition residents\" — 429 rateLimitExceeded",
+    "search \"Oklahoma City data center moratorium council\" — 429 rateLimitExceeded",
+    "search \"Oklahoma data center water use\" — 429 rateLimitExceeded",
+    "search \"Oklahoma data center electricity rates ratepayers\" — 429 rateLimitExceeded",
+    "search \"Oklahoma data center rezoning hearing\" — 429 rateLimitExceeded",
+    "search \"Norman Oklahoma data center city council\" — 429 rateLimitExceeded",
+    "search \"Stillwater Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"Tulsa Oklahoma data center residents\" — 429 rateLimitExceeded",
+    "search \"Oklahoma AI data center county commissioners\" — 429 rateLimitExceeded",
+    "search \"Cherokee Nation data center\" — 429 rateLimitExceeded",
+    "search \"Oklahoma data center tax incentives\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded",
+    "search \"{place} Oklahoma data center\" — 429 rateLimitExceeded"
+   ]
+  },
+  {
    "when": "2026-09-14T01:33:01+00:00",
    "searches": 82,
    "counties": 77,
@@ -43,5 +85,5 @@
    ]
   }
  ],
- "cursor": 70
+ "cursor": 140
 }
