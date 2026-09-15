@@ -1,6 +1,6 @@
 /* ------------------------------------------------------------------
    app.js — read and code what people wrote under local coverage of
-   solar projects.
+   data centers.
 
    Comments come from data/comments.json, which the weekly workflow
    writes. Your coding is kept in this browser and survives a comment
@@ -8,7 +8,12 @@
    you need it.
 ------------------------------------------------------------------ */
 
-const SAVE_KEY = 'solar_yt_codes_v1';
+// Every repo under hbedle-subsurface.github.io shares one browser storage
+// area, so each collector needs its own key. The old shared key is copied
+// (not moved) the first time, so nothing coded before this change is lost
+// and the other collectors keep their copy.
+const SAVE_KEY = 'datacenter_yt_codes_v1';
+const OLD_SAVE_KEY = 'solar_yt_codes_v1';
 
 let BOOK = null, ALL = [], VIDEOS = {}, RUNS = [], META = {};
 let CODES = loadCodes();
@@ -31,7 +36,14 @@ const esc4 = s => String(s == null ? '' : s)
   .replace(/"/g, '&quot;');
 
 function loadCodes() {
-  try { return JSON.parse(localStorage.getItem(SAVE_KEY)) || {}; }
+  try {
+    let raw = localStorage.getItem(SAVE_KEY);
+    if (raw == null) {
+      raw = localStorage.getItem(OLD_SAVE_KEY);
+      if (raw != null) localStorage.setItem(SAVE_KEY, raw);
+    }
+    return JSON.parse(raw) || {};
+  }
   catch (e) { return {}; }
 }
 function saveCodes() {
@@ -603,8 +615,9 @@ function exportCoded() {
                 'comment_url', 'video_title', 'channel', 'video_url', 'topics',
                 'counties', 'towns', 'state_in_video', 'local_because', 'found_by_search',
                 'text_aged_out',
-                'read', 'follow_up', 'n_codes', 'note']
-    .concat(BOOK.categories.map(c => 'code_' + c.id));
+                'read', 'follow_up', 'n_codes', 'note', 'n_suggested']
+    .concat(BOOK.categories.map(c => 'code_' + c.id))
+    .concat(BOOK.categories.map(c => 'suggested_' + c.id));
   const body = use.map(c => {
     const v = videoOf(c);
     const k = CODES[c.id] || { tags: [], note: '', star: false, read: false };
@@ -614,8 +627,10 @@ function exportCoded() {
             (v.states || []).join(';'),
             (v.local_because || []).join(';'), (v.found_by || []).join(';'),
             c.expired ? 1 : 0,
-            k.read ? 1 : 0, k.star ? 1 : 0, k.tags.length, k.note]
-      .concat(BOOK.categories.map(x => k.tags.includes(x.id) ? 1 : 0));
+            k.read ? 1 : 0, k.star ? 1 : 0, k.tags.length, k.note,
+            (c.cues || []).length]
+      .concat(BOOK.categories.map(x => k.tags.includes(x.id) ? 1 : 0))
+      .concat(BOOK.categories.map(x => (c.cues || []).includes(x.id) ? 1 : 0));
   });
   download('coded_comments_' + stamp() + '.csv',
     [head, ...body].map(r => r.map(csvCell).join(',')).join('\n'));

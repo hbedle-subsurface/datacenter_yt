@@ -195,7 +195,6 @@
    "hint": "That tax revenue, jobs or local power do not materialize, or go elsewhere. Includes the power leaving the county.",
    "cues": [
     "out-of-state",
-    "data center",
     "no benefit",
     "few jobs",
     "temporary jobs",
@@ -448,10 +447,17 @@
    "cues": [
     "tribe",
     "tribal",
-    "nation",
     "consultation",
     "sovereign",
-    "allotment"
+    "allotment",
+    "tribal nation",
+    "cherokee nation",
+    "chickasaw nation",
+    "choctaw nation",
+    "muscogee",
+    "seminole nation",
+    "osage nation",
+    "reservation"
    ],
    "applies": [
     "all"
@@ -623,7 +629,7 @@
     "explosion",
     "explode",
     "detonation",
-    "leak",
+    "gas leak",
     "blast radius",
     "flammable"
    ]

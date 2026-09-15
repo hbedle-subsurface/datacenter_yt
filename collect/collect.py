@@ -366,10 +366,25 @@ def judge(video, asked_topic, cfg, known_counties=(), cities=()):
             'elsewhere': elsewhere, 'missing': ''}
 
 
+_CUE_PATTERNS = {}
+
+
+def _cue_pattern(cat):
+    """Whole words only, with an optional plural ending. Plain substring
+    matching let 'hum' fire on 'human', 'nda' on 'Monday' and 'nation' on
+    'imagination'."""
+    key = (cat['id'], tuple(cat['cues']))
+    if key not in _CUE_PATTERNS:
+        alts = '|'.join(re.escape(q.lower()) for q in cat['cues'])
+        _CUE_PATTERNS[key] = re.compile(
+            r'(?<![a-z0-9])(?:' + alts + r')(?:s|es)?(?![a-z0-9])')
+    return _CUE_PATTERNS[key]
+
+
 def cues_in(text, codebook):
     low = (text or '').lower()
     return [c['id'] for c in codebook['categories']
-            if any(q in low for q in c['cues'])]
+            if c['cues'] and _cue_pattern(c).search(low)]
 
 
 # ------------------------------------------------------------- comments
