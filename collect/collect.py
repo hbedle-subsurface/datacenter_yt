@@ -370,14 +370,15 @@ _CUE_PATTERNS = {}
 
 
 def _cue_pattern(cat):
-    """Whole words only, with an optional plural ending. Plain substring
-    matching let 'hum' fire on 'human', 'nda' on 'Monday' and 'nation' on
-    'imagination'."""
+    """Whole words only, with an optional common ending (plural, past
+    tense, -ing, -ion, -ive, -ly), so 'flood' still finds 'flooding' and
+    'evaporat' finds 'evaporation'. Plain substring matching let 'hum' fire
+    on 'human', 'nda' on 'agenda' and 'nation' on 'imagination'."""
     key = (cat['id'], tuple(cat['cues']))
     if key not in _CUE_PATTERNS:
         alts = '|'.join(re.escape(q.lower()) for q in cat['cues'])
         _CUE_PATTERNS[key] = re.compile(
-            r'(?<![a-z0-9])(?:' + alts + r')(?:s|es)?(?![a-z0-9])')
+            r'(?<![a-z0-9])(?:' + alts + r')(?:e|s|es|d|ed|ing|ion|ions|ive|ly)?(?![a-z0-9])')
     return _CUE_PATTERNS[key]
 
 

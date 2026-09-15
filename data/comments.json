@@ -935,6 +935,7 @@
    "cues": [
     "farmland_loss",
     "decommissioning",
+    "drainage_erosion",
     "induced_seismicity",
     "dam_safety"
    ],
@@ -4585,7 +4586,9 @@
    "likes": 6,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=bhOHyNBPi_Q&lc=Ugz3lB7FtlbGnXGmKbV4AaABAg",
-   "cues": [],
+   "cues": [
+    "water_quality"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -5812,7 +5815,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=bhOHyNBPi_Q&lc=Ugwo0hamHWE8YFwPA-h4AaABAg",
-   "cues": [],
+   "cues": [
+    "tax_abatement"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -8923,7 +8928,9 @@
    "likes": 0,
    "reply_to": "Ugx_EQQ7Wj697vRBA2F4AaABAg",
    "url": "https://www.youtube.com/watch?v=bhOHyNBPi_Q&lc=Ugx_EQQ7Wj697vRBA2F4AaABAg.AOAV0eOrIecAaExS8DAFRR",
-   "cues": [],
+   "cues": [
+    "water_quality"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -9926,7 +9933,9 @@
    "likes": 1,
    "reply_to": "UgwFcqPJOhi2CKtEPFR4AaABAg",
    "url": "https://www.youtube.com/watch?v=iXWsSVzx3Mc&lc=UgwFcqPJOhi2CKtEPFR4AaABAg.AaDZj8mag2HAaDkJI1t9rO",
-   "cues": [],
+   "cues": [
+    "water_use"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -11305,7 +11314,8 @@
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=bhOHyNBPi_Q&lc=UgzayKku6bfaEP-PKvt4AaABAg",
    "cues": [
-    "grid_strain"
+    "grid_strain",
+    "odor"
    ],
    "refreshed": "2026-09-15",
    "expired": false,
@@ -11822,6 +11832,7 @@
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=uCGbjmHRS9I&lc=UgzobVhMhpHYzLZFZLt4AaABAg",
    "cues": [
+    "water_quality",
     "drainage_erosion",
     "health"
    ],
@@ -13620,7 +13631,9 @@
    "likes": 4,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=uCGbjmHRS9I&lc=UgzfLvIxUHOcUX0PLFB4AaABAg",
-   "cues": [],
+   "cues": [
+    "water_quality"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -17767,7 +17780,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=I0pN_HprBNY&lc=Ugzu4wCsNhhvwCAxj7R4AaABAg",
-   "cues": [],
+   "cues": [
+    "odor"
+   ],
    "refreshed": "2026-09-14",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -18045,7 +18060,8 @@
    "reply_to": "UgyW99Hpem5QB52Yi5d4AaABAg",
    "url": "https://www.youtube.com/watch?v=iJ6hu5WuoU8&lc=UgyW99Hpem5QB52Yi5d4AaABAg.Aa5uL-QzLBRAa6YObTww3s",
    "cues": [
-    "benefits_doubt"
+    "benefits_doubt",
+    "water_use"
    ],
    "refreshed": "2026-09-15",
    "expired": false,
@@ -18208,7 +18224,9 @@
    "likes": 30,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=MYOWy0ZX5rw&lc=Ugy-3HbPv772B0z_e3J4AaABAg",
-   "cues": [],
+   "cues": [
+    "concessions"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -22904,6 +22922,7 @@
    "reply_to": "Ugy_qVWwilTwFSWmnah4AaABAg",
    "url": "https://www.youtube.com/watch?v=I0pN_HprBNY&lc=Ugy_qVWwilTwFSWmnah4AaABAg.A_yVylwKEMDA_yk7q8sIKW",
    "cues": [
+    "water_use",
     "corridor_land"
    ],
    "refreshed": "2026-09-15",
@@ -24116,7 +24135,9 @@
    "likes": 1,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=5D-IAnObrsc&lc=Ugy-D9EtapreSOllByd4AaABAg",
-   "cues": [],
+   "cues": [
+    "noise"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -26555,7 +26576,8 @@
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=I0pN_HprBNY&lc=Ugye3kTHzP8g0PiyKGR4AaABAg",
    "cues": [
-    "notice_process"
+    "notice_process",
+    "tax_abatement"
    ],
    "refreshed": "2026-09-15",
    "expired": false,
@@ -27981,6 +28003,7 @@
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=gfJpi89nfTo&lc=UgzlJtMhKXrbmb09Pnd4AaABAg",
    "cues": [
+    "drainage_erosion",
     "health",
     "dam_safety"
    ],
@@ -38295,7 +38318,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=shT38RUbhmE&lc=Ugwn4Iihv29fLgF-e2V4AaABAg",
-   "cues": [],
+   "cues": [
+    "water_use"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -41649,7 +41674,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=shT38RUbhmE&lc=UgzUKmvRjWR6KVNfDft4AaABAg",
-   "cues": [],
+   "cues": [
+    "water_use"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -43064,7 +43091,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=DGjj7wDYaiI&lc=Ugwp4DZf1fc-LYhB9op4AaABAg",
-   "cues": [],
+   "cues": [
+    "property_values"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -43627,6 +43656,7 @@
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=PApPd6p6lX0&lc=UgxgbA1zBZIC8lGNTeF4AaABAg",
    "cues": [
+    "drainage_erosion",
     "dam_safety"
    ],
    "refreshed": "2026-09-15",
@@ -46236,7 +46266,9 @@
    "likes": 3,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=EYP9UfYo2WI&lc=UgwZK6rXv2grsYZumFB4AaABAg",
-   "cues": [],
+   "cues": [
+    "tax_abatement"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -53367,6 +53399,7 @@
    "reply_to": "UgxeuRGLU_sSPOv-6qd4AaABAg",
    "url": "https://www.youtube.com/watch?v=PApPd6p6lX0&lc=UgxeuRGLU_sSPOv-6qd4AaABAg.AZCw-9hjzCcAZDJgPg7mQf",
    "cues": [
+    "drainage_erosion",
     "eminent_domain",
     "dam_safety"
    ],
@@ -55121,7 +55154,9 @@
    "likes": 0,
    "reply_to": "UgzEZOb-_Y5F4RIn-4N4AaABAg",
    "url": "https://www.youtube.com/watch?v=PApPd6p6lX0&lc=UgzEZOb-_Y5F4RIn-4N4AaABAg.AZCup7NHjwyAZDEgG8An6k",
-   "cues": [],
+   "cues": [
+    "local_control"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -55495,7 +55530,8 @@
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=wLX_w0TtBpY&lc=Ugx2WvMLIVpHnsC_rTt4AaABAg",
    "cues": [
-    "support_jobs"
+    "support_jobs",
+    "water_use"
    ],
    "refreshed": "2026-09-15",
    "expired": false,
@@ -61472,7 +61508,8 @@
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=DGjj7wDYaiI&lc=UgyU__kKD7LYZVnbH-N4AaABAg",
    "cues": [
-    "noise"
+    "noise",
+    "tax_abatement"
    ],
    "refreshed": "2026-09-15",
    "expired": false,
@@ -61712,7 +61749,9 @@
    "likes": 13,
    "reply_to": "Ugx_EQQ7Wj697vRBA2F4AaABAg",
    "url": "https://www.youtube.com/watch?v=bhOHyNBPi_Q&lc=Ugx_EQQ7Wj697vRBA2F4AaABAg.AOAV0eOrIecAXwcWFzWw6z",
-   "cues": [],
+   "cues": [
+    "water_quality"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -63666,7 +63705,9 @@
    "likes": 1,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=DGjj7wDYaiI&lc=UgwhYW7pIM4s8_Y_GW54AaABAg",
-   "cues": [],
+   "cues": [
+    "tax_abatement"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -68542,7 +68583,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=PzrlOIk8Rig&lc=Ugzh4y8Rds3iEJ64qJl4AaABAg",
-   "cues": [],
+   "cues": [
+    "tax_abatement"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -76722,6 +76765,7 @@
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=D-3DWVvE9gk&lc=UgyTt0e4_w-nBCoLseV4AaABAg",
    "cues": [
+    "water_quality",
     "drainage_erosion"
    ],
    "refreshed": "2026-09-15",
@@ -77343,7 +77387,8 @@
    "reply_to": "UgxpCPnS9clTrAdi8Qh4AaABAg",
    "url": "https://www.youtube.com/watch?v=D-3DWVvE9gk&lc=UgxpCPnS9clTrAdi8Qh4AaABAg.AX5BAZovU-oAX8KoJ2qA4E",
    "cues": [
-    "water_quality"
+    "water_quality",
+    "local_control"
    ],
    "refreshed": "2026-09-15",
    "expired": false,
@@ -78442,7 +78487,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=T7L9lARyAy0&lc=UgyGVF3wWYyXC0SwP2l4AaABAg",
-   "cues": [],
+   "cues": [
+    "water_quality"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -79498,7 +79545,9 @@
    "likes": 1,
    "reply_to": "UgxajBQ67Ftvd_TCrYh4AaABAg",
    "url": "https://www.youtube.com/watch?v=D-3DWVvE9gk&lc=UgxajBQ67Ftvd_TCrYh4AaABAg.AX5bvKpAI-iAX6OFBBIaxv",
-   "cues": [],
+   "cues": [
+    "noise"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -79617,7 +79666,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=PzrlOIk8Rig&lc=Ugx-_3rDqJpYItSEAux4AaABAg",
-   "cues": [],
+   "cues": [
+    "noise"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -81018,7 +81069,9 @@
    "likes": 3,
    "reply_to": "UgwpzqhK7f5VYW6fiE14AaABAg",
    "url": "https://www.youtube.com/watch?v=lo4zAfNJgN0&lc=UgwpzqhK7f5VYW6fiE14AaABAg.AWcyHa9ld61AX3AYePZymO",
-   "cues": [],
+   "cues": [
+    "tax_abatement"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -86161,7 +86214,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=H_AGKcII2iQ&lc=UgyH1hjBnQDlMC-1bjt4AaABAg",
-   "cues": [],
+   "cues": [
+    "tax_abatement"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -94024,7 +94079,9 @@
    "likes": 8,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=lo4zAfNJgN0&lc=UgxkOlt64JezhKiu-mZ4AaABAg",
-   "cues": [],
+   "cues": [
+    "noise"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -97279,7 +97336,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=zxBNQgGTAyc&lc=Ugwy1Yfyb24kUgocIBt4AaABAg",
-   "cues": [],
+   "cues": [
+    "noise"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -98081,7 +98140,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=zxBNQgGTAyc&lc=Ugyu5xt2lau0rx7NEQR4AaABAg",
-   "cues": [],
+   "cues": [
+    "water_quality"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -99903,7 +99964,9 @@
    "likes": 53,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=zxBNQgGTAyc&lc=Ugx3tqvh2wAvn1lLCRl4AaABAg",
-   "cues": [],
+   "cues": [
+    "land_use_conflict"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -100716,7 +100779,9 @@
    "likes": 14,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=wLX_w0TtBpY&lc=UgxEfhs-dM3XUqKa7th4AaABAg",
-   "cues": [],
+   "cues": [
+    "water_use"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -101691,7 +101756,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=H_AGKcII2iQ&lc=Ugy-MghO-0PfTa1pmQl4AaABAg",
-   "cues": [],
+   "cues": [
+    "tax_abatement"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -102274,7 +102341,8 @@
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=lFFoQSfASto&lc=UgwcMKzkINd6MM-fHnF4AaABAg",
    "cues": [
-    "concessions"
+    "concessions",
+    "tax_abatement"
    ],
    "refreshed": "2026-09-15",
    "expired": false,
@@ -106066,7 +106134,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=PzrlOIk8Rig&lc=UgyGowG9B66-1yQaail4AaABAg",
-   "cues": [],
+   "cues": [
+    "noise"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -107305,7 +107375,9 @@
    "likes": 1,
    "reply_to": "UgzBZiDwcLzDvS6GqJN4AaABAg",
    "url": "https://www.youtube.com/watch?v=wLX_w0TtBpY&lc=UgzBZiDwcLzDvS6GqJN4AaABAg.ASFUCPrgZLsATUSYSUJBak",
-   "cues": [],
+   "cues": [
+    "odor"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -111552,7 +111624,9 @@
    "likes": 2,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=1wVKSdMm9fI&lc=UgwAQjFDpMI9G3UPyp94AaABAg",
-   "cues": [],
+   "cues": [
+    "tax_abatement"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -114864,7 +114938,9 @@
    "likes": 11,
    "reply_to": "UgxDjoF38HiNwirXfYV4AaABAg",
    "url": "https://www.youtube.com/watch?v=wLX_w0TtBpY&lc=UgxDjoF38HiNwirXfYV4AaABAg.ARmWOJCyx8MARnMFpUICe5",
-   "cues": [],
+   "cues": [
+    "water_use"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -115095,7 +115171,9 @@
    "likes": 7,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=I2cMiwjfRao&lc=Ugz9ePMZ3yO-MGq_ru94AaABAg",
-   "cues": [],
+   "cues": [
+    "water_use"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -115696,7 +115774,8 @@
    "reply_to": "UgwVO8eAC1ARLPEMVj14AaABAg",
    "url": "https://www.youtube.com/watch?v=wLX_w0TtBpY&lc=UgwVO8eAC1ARLPEMVj14AaABAg.ARlmJHIsPUvARnvxo5oYnn",
    "cues": [
-    "benefits_doubt"
+    "benefits_doubt",
+    "water_use"
    ],
    "refreshed": "2026-09-15",
    "expired": false,
@@ -120037,7 +120116,9 @@
    "likes": 7,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=Fa-NU5I2JVE&lc=Ugzq7_ubGlxnoB5YfKZ4AaABAg",
-   "cues": [],
+   "cues": [
+    "land_use_conflict"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-14"
@@ -122759,7 +122840,9 @@
    "likes": 22,
    "reply_to": "Ugz6gp2XbdRiF1JdLyB4AaABAg",
    "url": "https://www.youtube.com/watch?v=bhOHyNBPi_Q&lc=Ugz6gp2XbdRiF1JdLyB4AaABAg.ANVc9COnKtlANWiWEiWLbI",
-   "cues": [],
+   "cues": [
+    "water_use"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -124287,7 +124370,9 @@
    "likes": 23,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=bhOHyNBPi_Q&lc=UgwttDyUK_nvaIbtlg94AaABAg",
-   "cues": [],
+   "cues": [
+    "health"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -127499,7 +127584,9 @@
    "likes": 4,
    "reply_to": "Ugwn4ZxpcPYMPgdxZ8t4AaABAg",
    "url": "https://www.youtube.com/watch?v=H_AGKcII2iQ&lc=Ugwn4ZxpcPYMPgdxZ8t4AaABAg.AM6Eag-EhBvAMWpAIRmtWX",
-   "cues": [],
+   "cues": [
+    "tax_abatement"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -128344,7 +128431,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=H_AGKcII2iQ&lc=UgwVVbbWYl_h5PJ-3AB4AaABAg",
-   "cues": [],
+   "cues": [
+    "noise"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -131472,7 +131561,8 @@
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=H_AGKcII2iQ&lc=UgzyJkcHui0ZiyZoObp4AaABAg",
    "cues": [
-    "rural_character"
+    "rural_character",
+    "tax_abatement"
    ],
    "refreshed": "2026-09-15",
    "expired": false,
@@ -133108,7 +133198,9 @@
    "likes": 0,
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=H_AGKcII2iQ&lc=UgyWsvyTYp8_rwVKZ_94AaABAg",
-   "cues": [],
+   "cues": [
+    "tax_abatement"
+   ],
    "refreshed": "2026-09-15",
    "expired": false,
    "first_seen": "2026-09-15"
@@ -137214,6 +137306,7 @@
    "reply_to": null,
    "url": "https://www.youtube.com/watch?v=DGjj7wDYaiI&lc=UgySzWBfRRfI3ULDyeJ4AaABAg",
    "cues": [
+    "drainage_erosion",
     "dam_safety"
    ],
    "refreshed": "2026-09-15",
@@ -138329,6 +138422,7 @@
    "reply_to": "UgxwD1M9Qjs4Fb1ZTKd4AaABAg",
    "url": "https://www.youtube.com/watch?v=DGjj7wDYaiI&lc=UgxwD1M9Qjs4Fb1ZTKd4AaABAg.AGB0I8-lersAGEtX0cnleW",
    "cues": [
+    "water_quality",
     "concessions"
    ],
    "refreshed": "2026-09-15",
@@ -138359,6 +138453,7 @@
    "reply_to": "UgyU8Lxi6AKGLpmlgSp4AaABAg",
    "url": "https://www.youtube.com/watch?v=DGjj7wDYaiI&lc=UgyU8Lxi6AKGLpmlgSp4AaABAg.AGAu8gDMjGNAGErlWuGJu4",
    "cues": [
+    "water_quality",
     "induced_seismicity"
    ],
    "refreshed": "2026-09-15",
@@ -138465,6 +138560,7 @@
    "reply_to": "UgwkzZDUX_VLi2td6i54AaABAg",
    "url": "https://www.youtube.com/watch?v=DGjj7wDYaiI&lc=UgwkzZDUX_VLi2td6i54AaABAg.AGBMpsRIgD9AGFpO6OvOsf",
    "cues": [
+    "drainage_erosion",
     "dam_safety"
    ],
    "refreshed": "2026-09-15",
