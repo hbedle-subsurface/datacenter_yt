@@ -10,6 +10,71 @@
   "and compared directly. Keep them in sync."
  ],
  "home_state": "Oklahoma",
+ "_home_comment": [
+  "Used to fill in the home state when a video names no state at all.",
+  "Local stations rarely say 'Oklahoma' in a title, so a KOCO story about",
+  "Luther or a Stitt interview otherwise has no state and drops out of an",
+  "Oklahoma filter. Nothing is filled in when another state is named, and",
+  "local_because records which signal was used.",
+  "",
+  "home_stations      call letters and brand names, matched in the channel",
+  "home_channel_words place words, matched in the channel name only",
+  "ambiguous_towns    towns on the cities list that are common place names",
+  "                   elsewhere; on their own they do not set the state"
+ ],
+ "home_stations": [
+  "KOCO",
+  "KFOR",
+  "KOKH",
+  "KWTV",
+  "KOTV",
+  "KJRH",
+  "KTUL",
+  "KOKI",
+  "KSWO",
+  "KSBI",
+  "KAUT",
+  "KXII",
+  "KTEN",
+  "FOX23",
+  "FOX 25",
+  "News 9",
+  "News On 6"
+ ],
+ "home_channel_words": [
+  "Oklahoma",
+  "OKC",
+  "Tulsa",
+  "Oklahoman",
+  "tulsaworld",
+  "Tulsa World"
+ ],
+ "ambiguous_towns": [
+  "Norman",
+  "Moore",
+  "Miami",
+  "Ada",
+  "Mustang",
+  "Choctaw",
+  "Newcastle",
+  "Bethany",
+  "Shawnee",
+  "Duncan",
+  "Weatherford",
+  "Stillwater",
+  "Collinsville",
+  "Guthrie",
+  "Yukon",
+  "Durant",
+  "Woodward",
+  "Lawton",
+  "Edmond",
+  "Piedmont",
+  "Luther",
+  "Wagoner",
+  "Blanchard",
+  "Jenks"
+ ],
  "county_source": {
   "_comment": [
    "Counties come from the news crawler, which pulls them out of",
@@ -286,7 +351,10 @@
   "Catoosa",
   "Wagoner",
   "Collinsville",
-  "Skiatook"
+  "Skiatook",
+  "Luther",
+  "Piedmont",
+  "Okmulgee"
  ],
  "_cities_comment": [
   "Oklahoma counties mostly do not zone; municipalities do. A data center or",

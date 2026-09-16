@@ -20,8 +20,8 @@
    ],
    "local_because": [
     "town named",
-    "state named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -106,9 +106,8 @@
     "Oklahoma City"
    ],
    "local_because": [
-    "town named",
-    "state named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -164,9 +163,8 @@
     "Oklahoma City"
    ],
    "local_because": [
-    "town named",
-    "state named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -316,8 +314,8 @@
    ],
    "local_because": [
     "town named",
-    "state named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -329,7 +327,7 @@
   },
   {
    "id": "q43N1kLHy7U",
-   "title": "Fire Marshal&#39;s report reveals problems at Bitcoin mining data center site",
+   "title": "Fire Marshal's report reveals problems at Bitcoin mining data center site",
    "channel": "KFOR Oklahoma's News 4",
    "published": "2026-09-08",
    "url": "https://www.youtube.com/watch?v=q43N1kLHy7U",
@@ -344,7 +342,6 @@
     "El Reno"
    ],
    "local_because": [
-    "town named",
     "state named",
     "broadcast call letters"
    ],
@@ -418,8 +415,8 @@
    ],
    "local_because": [
     "town named",
-    "state named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -447,8 +444,8 @@
    ],
    "local_because": [
     "town named",
-    "state named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -485,13 +482,13 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
-   "towns": [
-    "Tulsa"
+   "states": [
+    "Oklahoma"
    ],
+   "towns": [],
    "local_because": [
-    "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -511,13 +508,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Edmond"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -537,13 +537,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Edmond"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -563,13 +566,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Edmond"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -597,8 +603,8 @@
    ],
    "local_because": [
     "town named",
-    "state named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -732,7 +738,7 @@
   },
   {
    "id": "l1N7g3su__Y",
-   "title": "&#39;Save our sunsets&#39; town hall meeting takes aim at data centers in Stillwater",
+   "title": "'Save our sunsets' town hall meeting takes aim at data centers in Stillwater",
    "channel": "KOKH - FOX 25",
    "published": "2025-11-15",
    "url": "https://www.youtube.com/watch?v=l1N7g3su__Y",
@@ -740,13 +746,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Stillwater"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -866,11 +875,8 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [
-    "Tulsa"
-   ],
+   "towns": [],
    "local_because": [
-    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -899,8 +905,8 @@
    ],
    "local_because": [
     "town named",
-    "state named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -927,7 +933,6 @@
     "El Reno"
    ],
    "local_because": [
-    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -1044,10 +1049,13 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Piedmont"
+   ],
    "local_because": [
-    "state named",
-    "broadcast call letters"
+    "town named",
+    "broadcast call letters",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1131,7 +1139,7 @@
   },
   {
    "id": "EhP0wYiljxU",
-   "title": "Inside OKC metro&#39;s largest data center as Oklahoma cities weigh moratoriums",
+   "title": "Inside OKC metro's largest data center as Oklahoma cities weigh moratoriums",
    "channel": "KOCO 5 News",
    "published": "2026-06-09",
    "url": "https://www.youtube.com/watch?v=EhP0wYiljxU",
@@ -1290,7 +1298,6 @@
     "Oklahoma"
    ],
    "towns": [
-    "Tulsa",
     "Edmond"
    ],
    "local_because": [
@@ -1315,13 +1322,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Edmond"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1341,13 +1351,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Yukon"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1408,7 +1421,6 @@
     "Oklahoma City"
    ],
    "local_because": [
-    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -1421,7 +1433,7 @@
   },
   {
    "id": "iFy03hKYz2c",
-   "title": "Claremore&#39;s Project Mustang moves forward, residents split on data center development",
+   "title": "Claremore's Project Mustang moves forward, residents split on data center development",
    "channel": "KJRH -TV | Tulsa | Channel 2",
    "published": "2026-05-19",
    "url": "https://www.youtube.com/watch?v=iFy03hKYz2c",
@@ -1429,15 +1441,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
-    "Mustang",
     "Claremore"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1558,11 +1571,8 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [
-    "Tulsa"
-   ],
+   "towns": [],
    "local_because": [
-    "town named",
     "state named",
     "broadcast call letters"
    ],
@@ -1647,13 +1657,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Stillwater"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1673,13 +1686,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Yukon"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1709,7 +1725,6 @@
     "Pryor"
    ],
    "local_because": [
-    "town named",
     "state named",
     "broadcast call letters"
    ],
@@ -1731,15 +1746,17 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
     "Stillwater",
     "Pryor"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1759,13 +1776,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Muskogee"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1787,14 +1807,16 @@
    "counties": [
     "Tulsa County"
    ],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Tulsa"
    ],
    "local_because": [
     "county named",
-    "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1814,13 +1836,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Stillwater"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1841,13 +1866,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Stillwater"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1860,7 +1888,7 @@
   },
   {
    "id": "VBa2uX8qwVI",
-   "title": "&#39;Project Anthem&#39;: Future of $800M Tulsa data center relies on tax incentive",
+   "title": "'Project Anthem': Future of $800M Tulsa data center relies on tax incentive",
    "channel": "KJRH -TV | Tulsa | Channel 2",
    "published": "2024-04-17",
    "url": "https://www.youtube.com/watch?v=VBa2uX8qwVI",
@@ -1868,13 +1896,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Tulsa"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1894,13 +1925,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Enid"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1920,13 +1954,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Enid"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2066,7 +2103,6 @@
     "El Reno"
    ],
    "local_because": [
-    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -2284,10 +2320,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
-   "towns": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Piedmont"
+   ],
    "local_because": [
-    "broadcast call letters"
+    "town named",
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2307,13 +2349,13 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
-   "towns": [
-    "Tulsa"
+   "states": [
+    "Oklahoma"
    ],
+   "towns": [],
    "local_because": [
-    "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2418,12 +2460,9 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [
-    "Tulsa"
-   ],
+   "towns": [],
    "local_because": [
     "county named",
-    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -2490,7 +2529,7 @@
   },
   {
    "id": "cJg2swT9l6U",
-   "title": "Stillwater Oklahoma new Google data center It&#39;s being built heres update June 2026",
+   "title": "Stillwater Oklahoma new Google data center It's being built heres update June 2026",
    "channel": "Stillwater L.N.C.O.W.A.F",
    "published": "2026-06-22",
    "url": "https://www.youtube.com/watch?v=cJg2swT9l6U",
@@ -2526,10 +2565,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
-   "towns": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Luther"
+   ],
    "local_because": [
-    "broadcast call letters"
+    "town named",
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2549,10 +2594,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
-   "towns": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Luther"
+   ],
    "local_because": [
-    "broadcast call letters"
+    "town named",
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2572,10 +2623,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
-   "towns": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Luther"
+   ],
    "local_because": [
-    "broadcast call letters"
+    "town named",
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2595,13 +2652,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
     "Broken Arrow"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2624,10 +2683,13 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Luther"
+   ],
    "local_because": [
-    "state named",
-    "broadcast call letters"
+    "town named",
+    "broadcast call letters",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2658,10 +2720,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
-   "towns": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Luther"
+   ],
    "local_because": [
-    "broadcast call letters"
+    "town named",
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2684,8 +2752,11 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Piedmont"
+   ],
    "local_because": [
+    "town named",
     "state named",
     "broadcast call letters"
    ],
@@ -2707,10 +2778,13 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [],
    "local_because": [
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2730,14 +2804,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
-    "Mustang",
-    "Claremore"
+    "Claremore",
+    "Mustang"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2762,8 +2838,8 @@
    ],
    "towns": [],
    "local_because": [
-    "state named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2829,7 +2905,7 @@
   },
   {
    "id": "5SkNGSmWpfg",
-   "title": "&#39;Project Emerald&#39;: AI data center plan in Pittsburg County moving forward",
+   "title": "'Project Emerald': AI data center plan in Pittsburg County moving forward",
    "channel": "KJRH -TV | Tulsa | Channel 2",
    "published": "2026-04-21",
    "url": "https://www.youtube.com/watch?v=5SkNGSmWpfg",
@@ -2839,14 +2915,14 @@
    "counties": [
     "Pittsburg County"
    ],
-   "states": [],
-   "towns": [
-    "Tulsa"
+   "states": [
+    "Oklahoma"
    ],
+   "towns": [],
    "local_because": [
     "county named",
-    "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2869,8 +2945,11 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Luther"
+   ],
    "local_because": [
+    "town named",
     "state named",
     "broadcast call letters"
    ],
@@ -2892,12 +2971,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Tulsa"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from channel name"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2917,13 +2999,13 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
-   "towns": [
-    "Tulsa"
+   "states": [
+    "Oklahoma"
    ],
+   "towns": [],
    "local_because": [
-    "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2969,12 +3051,8 @@
    ],
    "counties": [],
    "states": [],
-   "towns": [
-    "Lawton"
-   ],
-   "local_because": [
-    "town named"
-   ],
+   "towns": [],
+   "local_because": [],
    "elsewhere": false,
    "found_by": [
     "national"
@@ -2993,12 +3071,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Tulsa"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from channel name"
    ],
    "elsewhere": false,
    "found_by": [
@@ -3021,11 +3102,8 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [
-    "Tulsa"
-   ],
+   "towns": [],
    "local_because": [
-    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -3133,7 +3211,6 @@
     "Oklahoma"
    ],
    "towns": [
-    "Tulsa",
     "Sand Springs",
     "Claremore",
     "Coweta"
@@ -3160,13 +3237,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
     "Sand Springs"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from channel name"
    ],
    "elsewhere": false,
    "found_by": [
@@ -3186,13 +3265,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
     "Coweta"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from channel name"
    ],
    "elsewhere": false,
    "found_by": [
@@ -3231,7 +3312,7 @@
   },
   {
    "id": "f-yI2CQhk-U",
-   "title": "&#39;Not a fan&#39;: Coweta announces proposal to bring in data center",
+   "title": "'Not a fan': Coweta announces proposal to bring in data center",
    "channel": "KJRH -TV | Tulsa | Channel 2",
    "published": "2025-10-25",
    "url": "https://www.youtube.com/watch?v=f-yI2CQhk-U",
@@ -3239,14 +3320,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
     "Coweta"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -3266,13 +3349,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Yukon"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -3557,11 +3643,8 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [
-    "Tulsa"
-   ],
+   "towns": [],
    "local_because": [
-    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -3667,7 +3750,7 @@
   },
   {
    "id": "IaE6xzuAALE",
-   "title": "Who&#39;s Really Behind the Okmulgee Data Center?",
+   "title": "Who's Really Behind the Okmulgee Data Center?",
    "channel": "OKC, Tulsa & Statewide News: Oklahoma Memo",
    "published": "2026-07-25",
    "url": "https://www.youtube.com/watch?v=IaE6xzuAALE",
@@ -3679,7 +3762,7 @@
     "Oklahoma"
    ],
    "towns": [
-    "Tulsa"
+    "Okmulgee"
    ],
    "local_because": [
     "town named",
@@ -3719,12 +3802,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa"
+    "Okmulgee"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -3762,7 +3848,7 @@
   },
   {
    "id": "8D41smJUl_w",
-   "title": "Researcher explains data centers&#39; water and power demands",
+   "title": "Researcher explains data centers' water and power demands",
    "channel": "WTVR CBS 6",
    "published": "2026-07-13",
    "url": "https://www.youtube.com/watch?v=8D41smJUl_w",
@@ -3908,7 +3994,6 @@
     "Oklahoma"
    ],
    "towns": [
-    "Oklahoma City",
     "Yukon"
    ],
    "local_because": [
@@ -3936,8 +4021,11 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Piedmont"
+   ],
    "local_because": [
+    "town named",
     "state named",
     "broadcast call letters"
    ],
@@ -4025,10 +4113,13 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [],
    "local_because": [
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -4055,7 +4146,6 @@
    ],
    "towns": [],
    "local_because": [
-    "county named elsewhere",
     "state named"
    ],
    "elsewhere": true,
@@ -4223,14 +4313,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
-    "Mustang",
     "Claremore"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -4253,11 +4344,8 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [
-    "Tulsa"
-   ],
+   "towns": [],
    "local_because": [
-    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -4283,11 +4371,8 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [
-    "Tulsa"
-   ],
+   "towns": [],
    "local_because": [
-    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -4410,7 +4495,7 @@
   },
   {
    "id": "mt220dDkYN4",
-   "title": "Google describes &#39;golden ticket&#39; data center for Sand Springs, residents push back",
+   "title": "Google describes 'golden ticket' data center for Sand Springs, residents push back",
    "channel": "Tulsa's News Pulse",
    "published": "2026-01-21",
    "url": "https://www.youtube.com/watch?v=mt220dDkYN4",
@@ -4418,13 +4503,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
     "Sand Springs"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from channel name"
    ],
    "elsewhere": false,
    "found_by": [
@@ -4470,14 +4557,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
-    "Mustang",
     "Claremore"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from channel name"
    ],
    "elsewhere": false,
    "found_by": [
@@ -4497,13 +4585,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
     "Coweta"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from channel name"
    ],
    "elsewhere": false,
    "found_by": [
@@ -4645,11 +4735,8 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [
-    "Tulsa"
-   ],
+   "towns": [],
    "local_because": [
-    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -4763,12 +4850,12 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
-   "towns": [
-    "Tulsa"
+   "states": [
+    "Oklahoma"
    ],
+   "towns": [],
    "local_because": [
-    "town named"
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5077,11 +5164,9 @@
     "Oklahoma"
    ],
    "towns": [
-    "Tulsa",
     "Pryor"
    ],
    "local_because": [
-    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -5109,13 +5194,14 @@
    "counties": [
     "Tulsa County"
    ],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Tulsa"
    ],
    "local_because": [
-    "county named",
-    "town named"
+    "state inferred from channel name"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5127,7 +5213,7 @@
   },
   {
    "id": "-xxhwM6bc5k",
-   "title": "&#39;An enormous concern&#39;: Luther residents concerned over potential data center in their town",
+   "title": "'An enormous concern': Luther residents concerned over potential data center in their town",
    "channel": "KOKH - FOX 25",
    "published": "2025-06-03",
    "url": "https://www.youtube.com/watch?v=-xxhwM6bc5k",
@@ -5135,10 +5221,16 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
-   "towns": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Luther"
+   ],
    "local_because": [
-    "broadcast call letters"
+    "town named",
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5175,7 +5267,7 @@
   },
   {
    "id": "gwxzqAFlBxU",
-   "title": "20241010 Brady Moore &amp; Kimberlee Adams - Data Center Project",
+   "title": "20241010 Brady Moore & Kimberlee Adams - Data Center Project",
    "channel": "Stillwater Frontier Rotary Club",
    "published": "2024-10-10",
    "url": "https://www.youtube.com/watch?v=gwxzqAFlBxU",
@@ -5185,8 +5277,7 @@
    "counties": [],
    "states": [],
    "towns": [
-    "Moore",
-    "Stillwater"
+    "Moore"
    ],
    "local_because": [
     "town named"
@@ -5264,12 +5355,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Tulsa"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state inferred from channel name"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5306,7 +5400,7 @@
   },
   {
    "id": "vfUbtqhG_gE",
-   "title": "Utah Just Forced Kevin O&#39;Leary&#39;s Data Center to Shrink 75%",
+   "title": "Utah Just Forced Kevin O'Leary's Data Center to Shrink 75%",
    "channel": "US Data Centers -- Land4DataCenter",
    "published": "2026-06-12",
    "url": "https://www.youtube.com/watch?v=vfUbtqhG_gE",
@@ -5339,10 +5433,13 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [],
    "local_because": [
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5362,10 +5459,13 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [],
    "local_because": [
-    "broadcast call letters"
+    "broadcast call letters",
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5502,7 +5602,7 @@
   },
   {
    "id": "7AvwQUvYEHk",
-   "title": "Bernie Sanders Calls For &#39;Moratorium On Data Centers&#39; At AI-Focused Town Hall",
+   "title": "Bernie Sanders Calls For 'Moratorium On Data Centers' At AI-Focused Town Hall",
    "channel": "Forbes Breaking News",
    "published": "2026-02-23",
    "url": "https://www.youtube.com/watch?v=7AvwQUvYEHk",
@@ -5628,14 +5728,15 @@
    "counties": [
     "Muskogee County"
    ],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
     "Muskogee"
    ],
    "local_because": [
     "county named",
-    "town named"
+    "state inferred from station"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5658,14 +5759,15 @@
    "counties": [
     "Muskogee County"
    ],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
-    "Tulsa",
     "Muskogee"
    ],
    "local_because": [
     "county named",
-    "town named"
+    "state inferred from channel name"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5794,7 +5896,7 @@
   },
   {
    "id": "Txl-o8qr9dA",
-   "title": "Fluidstack Data Center in Okmulgee, Oklahoma | Site Plan &amp; Development Discussion",
+   "title": "Fluidstack Data Center in Okmulgee, Oklahoma | Site Plan & Development Discussion",
    "channel": "Community Watch",
    "published": "2026-07-21",
    "url": "https://www.youtube.com/watch?v=Txl-o8qr9dA",
@@ -5805,8 +5907,11 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Okmulgee"
+   ],
    "local_because": [
+    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -6172,7 +6277,7 @@
   },
   {
    "id": "IBuRIw4Yt3A",
-   "title": "Data Centers in Oklahoma: Promises &amp; Pitfalls",
+   "title": "Data Centers in Oklahoma: Promises & Pitfalls",
    "channel": "Tri-City Collective",
    "published": "2026-01-18",
    "url": "https://www.youtube.com/watch?v=IBuRIw4Yt3A",
@@ -6383,7 +6488,7 @@
   },
   {
    "id": "VfnGZQdFpTQ",
-   "title": "Google&#39;s $9 Billion Oklahoma Investment! Massive AI Data Centers &amp; Free University Training (2025)",
+   "title": "Google's $9 Billion Oklahoma Investment! Massive AI Data Centers & Free University Training (2025)",
    "channel": "The AI Report",
    "published": "2025-08-16",
    "url": "https://www.youtube.com/watch?v=VfnGZQdFpTQ",
@@ -6460,7 +6565,7 @@
   },
   {
    "id": "PApPd6p6lX0",
-   "title": "Georgia families face losing their homes to make way for AI data centers: &quot;It&#39;s theft&quot;",
+   "title": "Georgia families face losing their homes to make way for AI data centers: \"It's theft\"",
    "channel": "CBS News",
    "published": "2026-07-13",
    "url": "https://www.youtube.com/watch?v=PApPd6p6lX0",

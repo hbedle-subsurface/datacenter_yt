@@ -27,10 +27,12 @@ Needs one secret, YOUTUBE_API_KEY. Standard library only.
 """
 
 import argparse
+import html
 import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -122,6 +124,19 @@ class QuotaExhausted(Exception):
 
 
 def api(endpoint, **params):
+    """One API call. A 429 rateLimitExceeded is a short-term burst limit,
+    not the daily quota, so it is waited out and retried twice before
+    being reported. Every search in the 2026-09-14 and 2026-09-15 runs
+    after the first few failed this way."""
+    for wait in (8, 30, None):
+        data, err = _api_once(endpoint, **params)
+        if err and 'rateLimitExceeded' in err and wait:
+            time.sleep(wait)
+            continue
+        return data, err
+
+
+def _api_once(endpoint, **params):
     params['key'] = KEY
     url = API + endpoint + '?' + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={'Accept': 'application/json'})
@@ -226,7 +241,8 @@ def build_searches(cfg, places, cursor):
             tmpl = topic.get('county_template')
             if tmpl:
                 pairs.append({'topic': topic['id'], 'county': bare,
-                              'q': tmpl.replace('{county}', bare)})
+                              'q': tmpl.replace('{county}', bare)
+                                       .replace('{place}', bare)})
 
     block = min(cfg.get('county_block', 45),
                 max(0, cfg.get('searches_per_run', 85) - len(statewide)))
@@ -248,9 +264,13 @@ def search_videos(q, days, per_search):
     out = []
     for item in data.get('items', []):
         sn = item['snippet']
-        out.append({'id': item['id']['videoId'], 'title': sn.get('title', ''),
-                    'channel': sn.get('channelTitle', ''),
-                    'description': sn.get('description', ''),
+        # The API returns titles HTML-escaped (&#39;, &amp;). Unescape once
+        # here so the stored title reads correctly and place names inside
+        # it match.
+        out.append({'id': item['id']['videoId'],
+                    'title': html.unescape(sn.get('title', '')),
+                    'channel': html.unescape(sn.get('channelTitle', '')),
+                    'description': html.unescape(sn.get('description', '')),
                     'published': (sn.get('publishedAt') or '')[:10]})
     return out, None
 
@@ -275,11 +295,21 @@ def best_topic(text, cfg, asked):
 def cities_named(text, cities):
     """Towns mentioned. Matched on word boundaries because several
     Oklahoma town names sit inside ordinary words — Ada in Canada,
-    Moore in a surname, Miami in the Florida one."""
+    Moore in a surname, Miami in the Florida one.
+
+    Two uses of a town name are not the town. "Project Mustang" is a data
+    center code name in Claremore, not Mustang, and "Coweta County" is a
+    county (in Georgia as well as Oklahoma), which find_counties handles."""
     out = []
     for city in cities:
-        if re.search(r'\b' + re.escape(city.lower()) + r'\b', text):
+        pat = re.compile(r'\b' + re.escape(city.lower()) + r'\b')
+        for m in pat.finditer(text):
+            if text[max(0, m.start() - 8):m.start()].endswith('project '):
+                continue
+            if re.match(r'\s+(county|parish|borough)\b', text[m.end():m.end() + 9]):
+                continue
             out.append(city)
+            break
     return out
 
 
@@ -299,22 +329,34 @@ def states_named(text):
     return out
 
 
-def judge(video, asked_topic, cfg, known_counties=(), cities=()):
-    """Two tests, then points.
+def place_of(video, cfg, known_counties=(), cities=()):
+    """Where a video is, from what it says.
 
-    Subject: does it mention a solar phrase at all.
-    Local:   is it tied to a place in the United States.
+    Counties and towns are read from the title and description only. The
+    channel name used to be included, so every clip from "FOX23 News
+    Tulsa" was tagged Tulsa, including stories about Okmulgee and
+    Muskogee County.
 
-    Both must pass. The points that follow only order what survives —
-    they cannot let anything in on their own, which is the mistake that
-    filled the first version with global explainer videos."""
-    blob = ' '.join([video['title'], video['channel'], video['description']])
-    text = blob.lower()
-    chan = video['channel']
+    States are read from the title, description and channel, since a
+    channel such as "Oklahoma's Own" does say where it is.
 
-    spec = best_topic(text, cfg, asked_topic)
+    When no state is named at all, the home state is filled in from a
+    signal that belongs to it: a station on the home_stations list, a
+    channel name containing one of home_channel_words, a county from the
+    configured list, or a town from the configured list that is not also
+    a common place name elsewhere (ambiguous_towns). Without this, a KOCO
+    story about Luther or a Stitt interview never said "Oklahoma" and fell
+    out of any Oklahoma filter. An inferred state is marked in
+    local_because so it can be told apart from a named one. Nothing is
+    inferred when another state is named."""
+    title = html.unescape(video.get('title', ''))
+    desc = html.unescape(video.get('description', ''))
+    chan = html.unescape(video.get('channel', ''))
+    place_blob = title + ' ' + desc
+    place_text = place_blob.lower()
+    text = (place_blob + ' ' + chan).lower()
 
-    counties = find_counties(blob, known_counties)
+    counties = find_counties(place_blob, known_counties)
     states = states_named(text)
     call = bool(CALL_LETTERS.search(chan))
     gov = any(h in chan.lower() for h in cfg.get('gov_channel_hints', []))
@@ -324,10 +366,10 @@ def judge(video, asked_topic, cfg, known_counties=(), cities=()):
     # "Nyeri County" alone. A county from the configured list is proof on
     # its own; any other county name needs a US state or a US broadcaster
     # alongside it.
-    known_hit = [c for c in counties if c in set(known_counties)
-                 or c.rsplit(' ', 1)[0] in set(known_counties)]
-    towns = cities_named(text, cities)
-    local = bool(known_hit or towns or states or call or gov)
+    known_set = set(known_counties)
+    known_hit = [c for c in counties if c in known_set
+                 or c.rsplit(' ', 1)[0] in known_set]
+    towns = cities_named(place_text, cities)
 
     why = []
     if known_hit:
@@ -344,7 +386,47 @@ def judge(video, asked_topic, cfg, known_counties=(), cities=()):
         why.append('government channel')
 
     home = cfg.get('home_state')
+    if home and not states:
+        chan_low = chan.lower()
+        stations = [x for x in cfg.get('home_stations', []) if not x.startswith('_comment')]
+        words = [x for x in cfg.get('home_channel_words', []) if not x.startswith('_comment')]
+        vague = {x.lower() for x in cfg.get('ambiguous_towns', []) if not x.startswith('_comment')}
+        if any(re.search(r'\b' + re.escape(x.lower()) + r'\b', chan_low) for x in stations):
+            states = [home]
+            why.append('state inferred from station')
+        elif any(re.search(r'\b' + re.escape(x.lower()) + r'\b', chan_low) for x in words):
+            states = [home]
+            why.append('state inferred from channel name')
+        elif known_hit:
+            states = [home]
+            why.append('state inferred from county')
+        elif [t for t in towns if t.lower() not in vague]:
+            states = [home]
+            why.append('state inferred from town')
+
+    local = bool(known_hit or towns or states or call or gov)
     elsewhere = bool(home and states and home not in states)
+    return {'counties': counties, 'states': states, 'towns': towns,
+            'local_because': why, 'elsewhere': elsewhere, 'local': local,
+            'call': call, 'gov': gov}
+
+
+def judge(video, asked_topic, cfg, known_counties=(), cities=()):
+    """Two tests, then points.
+
+    Subject: does it mention a solar phrase at all.
+    Local:   is it tied to a place in the United States.
+
+    Both must pass. The points that follow only order what survives —
+    they cannot let anything in on their own, which is the mistake that
+    filled the first version with global explainer videos."""
+    text = ' '.join([video['title'], video['channel'], video['description']]).lower()
+    spec = best_topic(text, cfg, asked_topic)
+
+    where = place_of(video, cfg, known_counties, cities)
+    counties, states, towns = where['counties'], where['states'], where['towns']
+    why, elsewhere, local = where['local_because'], where['elsewhere'], where['local']
+    call, gov = where['call'], where['gov']
 
     if spec is None or not local:
         return {'keep': False, 'score': 0, 'topic': asked_topic,
@@ -424,6 +506,72 @@ def one_comment(raw, video_id, parent):
 
 # ----------------------------------------------------------------- main
 
+def fill_descriptions(videos, problems):
+    """Descriptions for stored videos that were saved without one. The
+    videos endpoint takes 50 ids a call at one quota unit a call, so this
+    costs a few units, against 100 for a single search."""
+    missing = [v for v in videos if 'description' not in v]
+    filled = 0
+    for i in range(0, len(missing), 50):
+        batch = {v['id']: v for v in missing[i:i + 50]}
+        data, err = api('videos', part='snippet', id=','.join(batch), maxResults=50)
+        if err:
+            problems.append('video descriptions — %s' % err)
+            break
+        for item in data.get('items', []):
+            rec = batch.get(item.get('id'))
+            if rec is not None:
+                rec['description'] = html.unescape(item['snippet'].get('description', ''))
+                filled += 1
+    return filled
+
+
+def retag(videos, cfg, county_names, cities):
+    """Re-read the location of every stored video with the current rules
+    and place lists. Videos are found once and kept, so without this a
+    fix to the rules or a town added to the list would only reach videos
+    found afterward. Costs no API quota.
+
+    A video stored before descriptions were kept can only be re-read from
+    its title, which would throw away places that were found in the
+    description (the El Reno leak coverage names Oklahoma only there). So
+    for those, what was found before is kept alongside the new reading,
+    minus towns that came from the channel name or a "Project" code name.
+    Once fill_descriptions or a search supplies the description, the
+    reading is made from scratch."""
+    changed = 0
+    for rec in videos:
+        rec['title'] = html.unescape(rec.get('title', ''))
+        rec['channel'] = html.unescape(rec.get('channel', ''))
+        where = place_of(rec, cfg, county_names, cities)
+        new = {k: where[k] for k in ('counties', 'states', 'towns',
+                                     'local_because', 'elsewhere')}
+        if 'description' not in rec:
+            title_low, chan_low = rec['title'].lower(), rec['channel'].lower()
+            keep_towns = [t for t in rec.get('towns', [])
+                          if not (re.search(r'\b' + re.escape(t.lower()) + r'\b', chan_low)
+                                  and t.lower() not in title_low)
+                          and ('project ' + t.lower()) not in title_low]
+            new['towns'] = new['towns'] + [t for t in keep_towns if t not in new['towns']]
+            new['counties'] = new['counties'] + [c for c in rec.get('counties', [])
+                                                 if c not in new['counties']]
+            old_states = [x for x in rec.get('states', [])]
+            if old_states:
+                inferred = [w for w in new['local_because'] if w.startswith('state inferred')]
+                named = [x for x in new['states'] if x not in old_states] if not inferred else []
+                new['states'] = old_states + named
+                new['local_because'] = [w for w in new['local_because']
+                                        if not w.startswith('state inferred')]
+                if 'state named' not in new['local_because']:
+                    new['local_because'].append('state named')
+            home = cfg.get('home_state')
+            new['elsewhere'] = bool(home and new['states'] and home not in new['states'])
+        if any(rec.get(k) != v for k, v in new.items()):
+            changed += 1
+        rec.update(new)
+    return changed
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument('--counties', default='', help='comma separated; skips the feed')
@@ -431,6 +579,8 @@ def main():
     ap.add_argument('--topics', default='')
     ap.add_argument('--per-search', type=int, default=25)
     ap.add_argument('--dry-run', action='store_true')
+    ap.add_argument('--retag-only', action='store_true',
+                    help='re-read the location of stored videos and exit; no API calls')
     args = ap.parse_args()
 
     cfg = load_json(os.path.join(HERE, 'queries.json'))
@@ -466,6 +616,14 @@ def main():
     places = counties + [c for c in cities if c not in counties]
     county_names = [c.split(',')[0].strip() for c in counties]
 
+    if args.retag_only:
+        store_v = load_json(VIDEOS, {'videos': []})
+        n = retag(store_v['videos'], cfg, county_names, cities)
+        save_json(VIDEOS, store_v)
+        print('%d of %d stored videos had their location updated'
+              % (n, len(store_v['videos'])))
+        return
+
     runs = load_json(RUNS, {'runs': [], 'cursor': 0})
     cursor = runs.get('cursor', 0)
     searches, next_cursor = build_searches(cfg, places, cursor)
@@ -496,13 +654,29 @@ def main():
     new_videos = 0
     seen = rejected = 0
 
+    # The sweep position only moves past places that were actually searched.
+    # It used to advance by the whole block even when every search failed,
+    # so places were skipped for a full cycle.
+    first_failed_pair = None
+    pair_index = -1
+    limited = 0
     try:
         for i, s in enumerate(searches, 1):
+            if s['county']:
+                pair_index += 1
             vids, err = search_videos(s['q'], days, args.per_search)
             if err:
                 problems.append('search "%s" — %s' % (s['q'], err))
                 print('  %2d/%d  %-44s failed' % (i, len(searches), s['q'][:44]))
+                if s['county'] and first_failed_pair is None:
+                    first_failed_pair = pair_index
+                limited = limited + 1 if 'rateLimitExceeded' in err else 0
+                if limited >= 3:
+                    if first_failed_pair is None:
+                        first_failed_pair = pair_index + 1
+                    raise QuotaExhausted('rateLimitExceeded')
                 continue
+            limited = 0
             kept = 0
             for v in vids:
                 seen += 1
@@ -513,6 +687,9 @@ def main():
                 kept += 1
                 if v['id'] in known:
                     rec = known[v['id']]
+                    rec['title'] = v['title']
+                    if v.get('description'):
+                        rec['description'] = v['description']
                     rec['topics'] = sorted(set(rec.get('topics', []) + [m['topic']]))
                     rec['found_by'] = sorted(set(rec.get('found_by', [])
                                                  + [s['county'] or 'national']))
@@ -520,6 +697,7 @@ def main():
                     continue
                 known[v['id']] = {
                     'id': v['id'], 'title': v['title'], 'channel': v['channel'],
+                    'description': v.get('description', ''),
                     'published': v['published'],
                     'url': 'https://www.youtube.com/watch?v=' + v['id'],
                     'topics': [m['topic']], 'counties': m['counties'],
@@ -533,9 +711,20 @@ def main():
             print('  %2d/%d  %-44s %2d of %2d kept'
                   % (i, len(searches), s['q'][:44], kept, len(vids)))
     except QuotaExhausted:
-        problems.append('search quota exhausted; remaining searches skipped. '
-                        'It resets at midnight Pacific.')
+        problems.append('search quota or rate limit reached; remaining searches '
+                        'skipped. The daily quota resets at midnight Pacific.')
         print('  search quota exhausted, moving on to comments')
+        if first_failed_pair is None:
+            first_failed_pair = max(pair_index, 0)
+    if first_failed_pair is not None:
+        next_cursor = cursor + first_failed_pair
+
+    try:
+        fill_descriptions(list(known.values()), problems)
+    except QuotaExhausted:
+        problems.append('quota exhausted before stored video descriptions were '
+                        'filled; locations were re-read from titles')
+    retag(known.values(), cfg, county_names, cities)
 
     videos = sorted(known.values(),
                     key=lambda v: (v.get('score', 0), v.get('published', '')),
