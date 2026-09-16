@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T22:05:40+00:00",
+ "updated": "2026-09-16T01:33:16+00:00",
  "tracked": 158,
  "videos": [
   {
@@ -20,8 +20,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state named"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -29,7 +29,8 @@
    ],
    "score": 10,
    "first_seen": "2026-09-14",
-   "comments": 1
+   "comments": 1,
+   "description": "Edmond City Council unanimously approves 6-month moratorium on data centers\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "Mjz8Ci1hxvc",
@@ -58,7 +59,8 @@
    ],
    "score": 10,
    "first_seen": "2026-09-14",
-   "comments": 1
+   "comments": 1,
+   "description": "The debate over new data centers in Oklahoma City intensified as the City Council voted to narrow a temporary moratorium and clarify which projects must follow the restrictions. Read more: https://bit.ly/4fxqeHu"
   },
   {
    "id": "-o7w54Hgfuo",
@@ -66,6 +68,37 @@
    "channel": "KOKH - FOX 25",
    "published": "2026-05-20",
    "url": "https://www.youtube.com/watch?v=-o7w54Hgfuo",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Oklahoma City",
+    "Piedmont"
+   ],
+   "local_because": [
+    "town named",
+    "state named",
+    "broadcast call letters"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 10,
+   "first_seen": "2026-09-14",
+   "comments": 0,
+   "description": "The debate over new data centers in Oklahoma City intensified as the City Council voted to narrow a temporary moratorium and clarify which projects must follow the restrictions.\n\nCouncil members spent hours debating how far the moratorium should go before approving a more limited version.\n\nCouncilman Matt Hinkle of Ward 5 said the city is not trying to stop development, saying, “We’re not killing data centers. We’re being a worthy investigative body on how they will affect our city.”\n\nHinkle also said he sees the issue as one of governance and oversight, not opposition to the industry. “If they don't build it here, they're going to build it in Piedmont or Hydro or or or or or. And so I'm not against data centers, but I'm not for data centers. I'm for good governments in Oklahoma City,” he said.\n\nWard 2 Councilman James Cooper raised concerns about exemptions and said he has heard worries from students, including about artificial intelligence.\n\n“I hear regularly from my students existential concerns. About their water supply, their electric supply, but almost above and beyond that, artificial intelligence, AI. They're concerned about when they graduate right now. Will their jobs be there?” Cooper said.\n\nSome council members, including Hinkle, supported what was described as “Option 2,” which addressed concerns about water usage. Hinkle said, “There's not a single bit of water that comes out of Oklahoma City's water supply that's going to be spent cooling any of those systems, which is responsible operations as far as i'm concerned.”\n\nWard 7 Councilmember Camal Pennington said he supported the approach because it still requires projects to go through the city’s standard review steps.\n\n“I'm comforted by the fact that it doesn't exempt these data centers from having to come back before us for review, for zoning, or for permitting. So the fact that we're just saying you're just going to have to go through the regular process which allows the public to be heard is a comfort to me in this,” Pennington said.\n\nThe council voted 7-2 for Option 2. The temporary moratorium remains in place but will apply only to large-scale data centers, with other projects and sites exempted.\n\nUnder the revised approach, the moratorium will now impact data centers using more than 75 megawatts of net electrical load.\n\nThe two largest proposed data center projects were also deferred, meaning they will return to the council for another discussion and vote.\n\nRead more: https://okcfox.com/news/local/oklahoma-city-leaders-narrow-data-center-moratorium-after-debate\n___________\nFollow KOKH on social media:\n\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
+  },
+  {
+   "id": "tSpM6CeZnXg",
+   "title": "OKC leaders narrow data center moratorium",
+   "channel": "KOKH - FOX 25",
+   "published": "2026-05-19",
+   "url": "https://www.youtube.com/watch?v=tSpM6CeZnXg",
    "topics": [
     "data_center"
    ],
@@ -87,35 +120,8 @@
    ],
    "score": 10,
    "first_seen": "2026-09-14",
-   "comments": 0
-  },
-  {
-   "id": "tSpM6CeZnXg",
-   "title": "OKC leaders narrow data center moratorium",
-   "channel": "KOKH - FOX 25",
-   "published": "2026-05-19",
-   "url": "https://www.youtube.com/watch?v=tSpM6CeZnXg",
-   "topics": [
-    "data_center"
-   ],
-   "counties": [],
-   "states": [
-    "Oklahoma"
-   ],
-   "towns": [
-    "Oklahoma City"
-   ],
-   "local_because": [
-    "broadcast call letters",
-    "state named"
-   ],
-   "elsewhere": false,
-   "found_by": [
-    "national"
-   ],
-   "score": 10,
-   "first_seen": "2026-09-14",
-   "comments": 1
+   "comments": 1,
+   "description": "The debate over new data centers in Oklahoma City intensified as the City Council voted to narrow a temporary moratorium and clarify which projects must follow the restrictions. Read More: https://okcfox.com/news/local/oklahoma-city-leaders-narrow-data-center-moratorium-after-debate"
   },
   {
    "id": "AYUUrWI5WtY",
@@ -144,7 +150,8 @@
    ],
    "score": 10,
    "first_seen": "2026-09-14",
-   "comments": 1
+   "comments": 1,
+   "description": "Oklahoma City leaders say they need more time before allowing new data centers to be built within city limits.\n\nOn Tuesday, the Oklahoma City Council approved a temporary moratorium on new data centers within city limits.\n\nOfficials say the moratorium prevents the acceptance of new applications, the processing of, and the issuance of rezoning requests and permits related to the construction or expansion of data centers.\n\n“The temporary pause on new data centers will give the City more time to understand how they affect our community's resources such as energy use, water demand and land use,” City Manager Craig Freeman said. “This brief pause ensures we move forward strategically, so future projects align with our community’s needs and support sustainable, long-term growth.”\n\nThe moratorium takes effect immediately and will remain in place until either Dec. 31, 2026, or earlier if amendments to the city's zoning code regarding data centers are approved by the city council.\n\nDuring the moratorium, the city council will evaluate the potential impacts of data centers and determine what regulatory framework should guide future developments.\n\nOfficials say the moratorium exempts two specific pending rezoning cases.\n___________\nFollow KOKH on social media:\n\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
   },
   {
    "id": "kh41T1lafjI",
@@ -163,8 +170,9 @@
     "Oklahoma City"
    ],
    "local_because": [
-    "broadcast call letters",
-    "state named"
+    "town named",
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -172,7 +180,8 @@
    ],
    "score": 10,
    "first_seen": "2026-09-14",
-   "comments": 0
+   "comments": 0,
+   "description": "The Oklahoma City City Council is putting a moratorium on data centers until the end of of the year. Leaders say they need more time before allowing new centers to be built here."
   },
   {
    "id": "7mrTo_jIwzw",
@@ -294,7 +303,8 @@
    ],
    "score": 10,
    "first_seen": "2026-09-14",
-   "comments": 2
+   "comments": 2,
+   "description": "Oklahoma City approves moratorium on new data center projects\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "qaXEjdaEgU4",
@@ -314,8 +324,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state named"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -323,7 +333,8 @@
    ],
    "score": 10,
    "first_seen": "2026-09-15",
-   "comments": 7
+   "comments": 7,
+   "description": "Yukon residents raise concerns over proposed data center and water use\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "q43N1kLHy7U",
@@ -342,6 +353,7 @@
     "El Reno"
    ],
    "local_because": [
+    "town named",
     "state named",
     "broadcast call letters"
    ],
@@ -395,7 +407,8 @@
    ],
    "score": 9,
    "first_seen": "2026-09-14",
-   "comments": 31
+   "comments": 32,
+   "description": "More is coming to light about what was found at a Bitcoin mining data center in El Reno following the huge water leak last month.\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/\nhttps://www.tiktok.com/@_kfor4"
   },
   {
    "id": "iJ6hu5WuoU8",
@@ -415,8 +428,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state named"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -424,7 +437,8 @@
    ],
    "score": 9,
    "first_seen": "2026-09-15",
-   "comments": 37
+   "comments": 37,
+   "description": "El Reno data center water line leak wastes over 3 million gallons, city issues violations\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "t1sN-iANnTM",
@@ -444,8 +458,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state named"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -470,7 +484,8 @@
    ],
    "score": 9,
    "first_seen": "2026-09-14",
-   "comments": 16
+   "comments": 16,
+   "description": "El Reno data center cited for safety violations after water leak\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "arApyMA4bvg",
@@ -496,7 +511,8 @@
    ],
    "score": 9,
    "first_seen": "2026-09-15",
-   "comments": 2
+   "comments": 2,
+   "description": "Commissioners put brakes on incentives for hyperscale data center"
   },
   {
    "id": "MGMXQg4bC74",
@@ -512,12 +528,13 @@
     "Oklahoma"
    ],
    "towns": [
-    "Edmond"
+    "Edmond",
+    "Moore"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -525,7 +542,8 @@
    ],
    "score": 9,
    "first_seen": "2026-09-14",
-   "comments": 1
+   "comments": 1,
+   "description": "Edmond leaders hit pause on new data center proposals, approving a temporary moratorium as the city studies how the facilities could affect the community.\n\nThe Edmond City Council voted unanimously to approve a moratorium on allowing applications for land or building permits for data centers.\n\nThe moratorium runs through Dec. 31, 2026, and includes an emergency clause allowing the ordinance to take effect immediately.\n\nThe issue returned to Edmond City Hall after the last meeting at the end of May, with city leaders saying they do not want to permanently block business but want time to research different types of data centers and their potential impacts. “I’ve seen what it's done to communities. It's torn them apart. It's divided them. Anger, and I don't want that happening in Edmond.\" Edmond Vice Mayor Barry Moore said.\n\nCity leaders outlined a research timeline tied to the moratorium.\n\nResearch is expected over the next two months on the impacts of data centers and the different types.\n\nIn three months, a draft will be presented to the council, and in five months, a final draft will be presented.\n\nDuring the meeting, a member of an OSU data center research committee offered to research 117 questions about water and energy usage.\n\n“It’ll be titled, Considerations for Communities Evaluating Data Centers,” said Ander Fleet of the OSU Data Center Research Committee.\n\nNot everyone who spoke was opposed to data centers.\n\nJeff Stokes, who spoke in favor of data centers, said, “We’re running into budget problems; this is a way for us to have some type of tax revenue.\"\n\nOne council member said Edmond is not in a position to house a hyperscale data center but does not want to close the door on smaller ones, citing a belief that businesses with up to 500 employees will all want one within five years.\n\nWard 4 Councilman Phil Fraim urged a data-driven approach, saying, “Let's make policy out of information and knowledge, not out of fear.”\n\nNear the end of the public discussion, residents raised concerns including water consumption, privacy, eminent domain, and pollution.\n\nWendy Dial, who spoke against data centers, said, \" Forever chemicals, once you get them in the water supply, you cannot get them out.”\n\nMayor Nash said he has been attending meetings with other mayors across the country for six months to discuss the impacts of data centers.\n\nHe said the community will have additional chances to share concerns during four more Edmond Matters sessions.\n\nRead more: https://okcfox.com/news/local/edmond-city-council-approves-data-center-permit-moratorium-through-december\n___________\nFollow KOKH on social media:\n\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
   },
   {
    "id": "UWc3aL3gur0",
@@ -554,7 +572,8 @@
    ],
    "score": 9,
    "first_seen": "2026-09-14",
-   "comments": 3
+   "comments": 3,
+   "description": "Edmond leaders hit pause on new data center proposals, approving a temporary moratorium as the city studies how the facilities could affect the community. Read more here: https://bit.ly/4vAqslX"
   },
   {
    "id": "13yU63O0qLo",
@@ -583,7 +602,8 @@
    ],
    "score": 9,
    "first_seen": "2026-09-14",
-   "comments": 0
+   "comments": 0,
+   "description": "FOX 25's Rob Hagan is in Edmond, where city leaders are coming together Monday to discuss a moratorium on data centers until the last day of 2026."
   },
   {
    "id": "kTFy37b0Zf8",
@@ -603,8 +623,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state named"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -612,7 +632,8 @@
    ],
    "score": 9,
    "first_seen": "2026-09-15",
-   "comments": 13
+   "comments": 13,
+   "description": "Yukon residents seek recall of mayor and vice mayor over data center concerns\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "zxBNQgGTAyc",
@@ -734,7 +755,8 @@
    ],
    "score": 9,
    "first_seen": "2026-09-14",
-   "comments": 398
+   "comments": 398,
+   "description": "A community meeting hosted by a company behind a controversial data center proposal in Yukon and other Oklahoma cities ended early Wednesday, after the company denied News 4 entry, and attendees started asking questions.\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/\nhttps://www.tiktok.com/@_kfor4"
   },
   {
    "id": "l1N7g3su__Y",
@@ -754,8 +776,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -763,7 +785,8 @@
    ],
    "score": 9,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "Water and electricity. That's what takes to power a top notch data center, which has residents in Stillwater worried.\n\nRead the story: https://okcfox.com/news/local/save-our-sunsets-town-hall-meeting-takes-aim-at-data-centers-in-stillwater\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
   },
   {
    "id": "CPSOQj96_Tk",
@@ -793,7 +816,8 @@
    "score": 9,
    "first_seen": "2026-09-15",
    "comments": 0,
-   "comments_off": true
+   "comments_off": true,
+   "description": "Planned data center in Yukon raises concerns for water and electricity needs\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/"
   },
   {
    "id": "uAkW6AwurBs",
@@ -823,7 +847,8 @@
    "score": 9,
    "first_seen": "2026-09-15",
    "comments": 0,
-   "comments_off": true
+   "comments_off": true,
+   "description": "Construction of Google data center disrupts Stillwater pond\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/"
   },
   {
    "id": "Kozj2v6wNI8",
@@ -860,7 +885,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 6
+   "comments": 6,
+   "description": "1.700 Acre data center being proposed for Enid\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/\nhttps://www.tiktok.com/@_kfor4"
   },
   {
    "id": "hTgCRKyi2Tw",
@@ -885,7 +911,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 1
+   "comments": 1,
+   "description": "Data centers have faced intense opposition in Oklahoma over their demand for electricity and water, limited transparency and uncertain benefits for surrounding communities.\n\nBut could these massive projects ultimately lower property taxes, strengthen local tax bases and generate new economic opportunities?\n\nOklahoma Memo founder Ryan Welton talks with Pete Sepp, president of the National Taxpayers Union, about the potential financial benefits of data centers — and what communities should demand before welcoming one.\n\nThey discuss:\n\n• How data centers can affect residential property taxes\n• Whether developers should pay for electrical-grid upgrades\n• Why communities need more transparency before projects are approved\n• The controversy surrounding tax incentives\n• Water use and closed-loop cooling systems\n• The number and types of jobs data centers create\n• How local governments can negotiate community investments\n• Why residents still have the power to say no\n\nSepp argues that communities shouldn’t automatically accept — or reject — a data center. Instead, residents should demand the facts, scrutinize the costs and determine whether a proposed project genuinely benefits local taxpayers.\n\nSubscribe to Oklahoma Memo, your daily Oklahoma news briefing:\nhttps://oklahomamemo.com/subscribe\n\nLearn more about the National Taxpayers Union:\nhttps://www.ntu.org/"
   },
   {
    "id": "ZAWQ_Su69JY",
@@ -905,8 +932,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state named"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -914,7 +941,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 36
+   "comments": 36,
+   "description": "El Reno condemns data center as officials say it was never supposed to open\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "uCGbjmHRS9I",
@@ -933,6 +961,7 @@
     "El Reno"
    ],
    "local_because": [
+    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -1034,7 +1063,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-14",
-   "comments": 350
+   "comments": 350,
+   "description": "A water line leak this week in El Reno, Oklahoma, which has cost residents more than three million gallons of water, has been traced to a data center, according to local reports."
   },
   {
    "id": "x-jwEElVSWY",
@@ -1054,8 +1084,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state named"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1068,7 +1098,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 3
+   "comments": 3,
+   "description": "Future of proposed massive data center in Piedmont up for city council vote\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "yXdmc48CTOY",
@@ -1094,7 +1125,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 4
+   "comments": 4,
+   "description": "Oklahoma farmer, data center CEO back bills signed by Gov. Stitt to protect ratepayers, water supply\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "fVRrhH_wvcM",
@@ -1135,7 +1167,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-14",
-   "comments": 24
+   "comments": 24,
+   "description": "Data centers have become a big topic of conversation, and a project in Yukon has drawn no shortage of attention and criticism.\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "EhP0wYiljxU",
@@ -1254,7 +1287,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-14",
-   "comments": 6
+   "comments": 6,
+   "description": "Inside OKC metro's largest data center as Oklahoma cities weigh moratoriums\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "l1cdz1IJhdk",
@@ -1270,7 +1304,8 @@
     "Oklahoma"
    ],
    "towns": [
-    "Edmond"
+    "Edmond",
+    "Pryor"
    ],
    "local_because": [
     "town named",
@@ -1282,7 +1317,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-14",
-   "comments": 10
+   "comments": 10,
+   "description": "Edmond's city council approved a new data center moratorium on June 8 that would last until the end of 2026, drawing support from Edmond mayor Mark Nash.\n\nRead more:\nhttps://www.oklahoman.com/story/news/local/edmond/2026/06/09/edmond-oklahoma-passes-moratorium-on-data-centers-for-study-until-end-of-year-google-meta-pryor/90462279007/"
   },
   {
    "id": "pSAdyNxNT2I",
@@ -1310,7 +1346,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 4
+   "comments": 4,
+   "description": "🚨 From @koco5news: Edmond unanimously passes 6-month moratorium on data center applications. I’ll a bit of context to this breaking news, plus evidence that the market for data centers in Oklahoma is shrinking by the day. #oklahoma #news #politics #datacenter"
   },
   {
    "id": "4KCjcVgoKzE",
@@ -1330,8 +1367,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1339,7 +1376,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 8
+   "comments": 8,
+   "description": "Data centers debate makes way to Edmond as City Council discusses possible pause on future projects\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "paYS2cTlkXk",
@@ -1368,7 +1406,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 4
+   "comments": 4,
+   "description": "Residents in Yukon are working to recall Mayor Brian Pillmore and Vice Mayor Jeff Wooten, citing concerns about transparency and the potential impact of a proposed data center. Learn more here: https://tinyurl.com/3fmmvs5b"
   },
   {
    "id": "qlb0PrXJlC8",
@@ -1402,7 +1441,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-14",
-   "comments": 5
+   "comments": 5,
+   "description": "Pryor mayor and expert talk data centers and AI in Oklahoma\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "I6Ye2yYGNwM",
@@ -1421,6 +1461,7 @@
     "Oklahoma City"
    ],
    "local_because": [
+    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -1429,7 +1470,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-14",
-   "comments": 7
+   "comments": 7,
+   "description": "Oklahoma City Council voted 7-2 to amend its data center moratorium, exempting facilities with electrical loads of 75 MW or less. About 150 data center supporters affiliated with Tailwind filled the council chambers ahead of the vote."
   },
   {
    "id": "iFy03hKYz2c",
@@ -1458,7 +1500,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 4
+   "comments": 4,
+   "description": "Claremore's Project Mustang moves forward, residents split on data center development"
   },
   {
    "id": "g5se17jgbLY",
@@ -1556,7 +1599,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-14",
-   "comments": 21
+   "comments": 21,
+   "description": "Oklahoma City leaders have approved a temporary pause on new data center developments, voting Tuesday to place a moratorium on new projects through the end of the year as they work to evaluate potential impacts and update city policies.\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/\nhttps://www.tiktok.com/@_kfor4"
   },
   {
    "id": "UwxMpqw1iiQ",
@@ -1645,7 +1689,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-14",
-   "comments": 2
+   "comments": 2,
+   "description": "Oklahoma lawmaker to host interim study on effects of data centers"
   },
   {
    "id": "v_AzE0t2RPI",
@@ -1665,8 +1710,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1674,7 +1719,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "A homeowners' association in Stillwater is suing Google over the proposed data center currently under construction right across from their neighborhood.\n\nRead the story: https://okcfox.com/news/local/stillwater-hoa-sues-google-over-data-center-citing-pond-pollution-and-wildlife-loss\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25 #stillwater #stillwateroklahoma #hoa #google #googledatacenter #googledatacenters"
   },
   {
    "id": "3i0aFZc4VSE",
@@ -1694,8 +1740,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1706,7 +1752,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 3
+   "comments": 3,
+   "description": "A new data center coming to Yukon means big bucks for the city, but it's also generating a ton of blowback from residents.\n\nRead the story: https://okcfox.com/news/project-oklahoma/new-data-center-coming-to-yukon-generating-contention#\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25 #yukon #yukonoklahoma #datacenter #okahomadatacenter #oklahomadatacenters #datascience"
   },
   {
    "id": "IzShPITZDbw",
@@ -1722,9 +1769,11 @@
     "Oklahoma"
    ],
    "towns": [
+    "Stillwater",
     "Pryor"
    ],
    "local_because": [
+    "town named",
     "state named",
     "broadcast call letters"
    ],
@@ -1734,7 +1783,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "Google officially announced a $9 billion investment to expand its existing data center in Pryor and build a brand-new facility in Stillwater.\n\nRead the story: https://okcfox.com/newsletter-daily/google-invests-9-billion-to-expand-oklahoma-data-centers\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25 #google #googledata #googleoklahoma #datacenter #googleanalytics #stillwater #pryor"
   },
   {
    "id": "6h5PDB_KFPw",
@@ -1764,7 +1814,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 1
+   "comments": 1,
+   "description": "Google announces new data center in Stillwater, expansion in Pryor"
   },
   {
    "id": "pqNSYZBW0Fo",
@@ -1784,8 +1835,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1793,7 +1844,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "Polaris Technologies is suing the city of Muskogee after the city council voted on Monday to annex the company’s data center into the city.\n\nThe lawsuit is claiming a lack of notice and unfair treatment from the City of Muskogee.\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
   },
   {
    "id": "Saa67QojPa8",
@@ -1810,9 +1862,7 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [
-    "Tulsa"
-   ],
+   "towns": [],
    "local_because": [
     "county named",
     "broadcast call letters",
@@ -1824,7 +1874,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 3
+   "comments": 3,
+   "description": "Tulsa County residents concerned about plans for data center"
   },
   {
    "id": "F0k6M6RBTHw",
@@ -1840,12 +1891,13 @@
     "Oklahoma"
    ],
    "towns": [
+    "Oklahoma City",
     "Stillwater"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1854,7 +1906,8 @@
    "score": 8,
    "first_seen": "2026-09-15",
    "comments": 0,
-   "comments_off": true
+   "comments_off": true,
+   "description": "Gov. Kevin Stitt praises future Stillwater Google data center\n\nSubscribe to KOCO on YouTube now for more: http://bit.ly/1lGfjIl\n\nGet more Oklahoma City news: http://www.koco.com\nLike us: http://facebook.com/koco5\nFollow us: http://twitter.com/koconews\nInstagram: https://www.instagram.com/koco5news/"
   },
   {
    "id": "_uj95WEzI_E",
@@ -1870,12 +1923,13 @@
     "Oklahoma"
    ],
    "towns": [
+    "Oklahoma City",
     "Stillwater"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1884,7 +1938,8 @@
    "score": 8,
    "first_seen": "2026-09-15",
    "comments": 0,
-   "comments_off": true
+   "comments_off": true,
+   "description": "Google acquires land in Stillwater for future development of data centers\n\nSubscribe to KOCO on YouTube now for more: http://bit.ly/1lGfjIl\n\nGet more Oklahoma City news: http://www.koco.com\nLike us: http://facebook.com/koco5\nFollow us: http://twitter.com/koconews\nInstagram: https://www.instagram.com/koco5news/"
   },
   {
    "id": "VBa2uX8qwVI",
@@ -1904,8 +1959,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1913,7 +1968,8 @@
    ],
    "score": 8,
    "first_seen": "2026-09-15",
-   "comments": 8
+   "comments": 8,
+   "description": "An $800 million data center could be coming to east Tulsa if city councilors approve a tax incentive district.\n\nThis comes at a time when Oklahoma is seeing more data centers popping up in different communities.\n\nWhen business tycoon Kevin O'Leary visited Gov. Stitt in January, they discussed Oklahoma's potential to be a hub for data centers.\n\n2 News' Justin Ayer reports. \n\nRead more at kjrh.com: https://www.kjrh.com/news/local-news/project-anthem-future-of-800m-tulsa-data-center-relies-on-tax-incentive\n\n#datacenters #oklahoma #tulsa"
   },
   {
    "id": "LNEtaVrtMRU",
@@ -1933,8 +1989,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1942,7 +1998,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 7
+   "comments": 7,
+   "description": "Enid developers promise local control over massive data center project. Not everyone is convinced\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "euWVCYMqj-8",
@@ -1962,8 +2019,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -1975,7 +2032,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 3
+   "comments": 3,
+   "description": "Enid developers promise local control over massive data center project. Not everyone is convinced\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "iXWsSVzx3Mc",
@@ -2084,7 +2142,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 10
+   "comments": 10,
+   "description": "Google invests $30M in Oklahoma water conservation as data centers raise concerns\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "vXalHNVFEFk",
@@ -2103,6 +2162,7 @@
     "El Reno"
    ],
    "local_because": [
+    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -2194,7 +2254,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 0
+   "comments": 0,
+   "description": "Many community members in El Reno said they're concerned about the impact it could have on their water service."
   },
   {
    "id": "MYOWy0ZX5rw",
@@ -2308,7 +2369,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 130
+   "comments": 130,
+   "description": "Bitcoin mining data centers on property where water leak was found\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/\nhttps://www.tiktok.com/@_kfor4"
   },
   {
    "id": "adeAr-Ilh4s",
@@ -2337,7 +2399,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 5
+   "comments": 5,
+   "description": "Piedmont residents made a final push Thursday to gather signatures against a proposed large-scale data center ahead of a City Council meeting Monday. Read more here: https://bit.ly/4wK1T6q"
   },
   {
    "id": "1-9_E8hoLMs",
@@ -2363,7 +2426,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 2
+   "comments": 2,
+   "description": "Cherokee Nation bans hyperscale data centers on tribally owned and trust land"
   },
   {
    "id": "TynI3qT7ujA",
@@ -2389,7 +2453,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 28
+   "comments": 28,
+   "description": "Oklahoma Gov. Kevin Stitt signs bills to address data center energy and water concerns\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "sGCTj94hx6A",
@@ -2400,12 +2465,16 @@
    "topics": [
     "data_center"
    ],
-   "counties": [],
+   "counties": [
+    "Bexar County"
+   ],
    "states": [
-    "Texas"
+    "Texas",
+    "Virginia"
    ],
    "towns": [],
    "local_because": [
+    "county named elsewhere",
     "state named",
     "broadcast call letters"
    ],
@@ -2415,7 +2484,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 253
+   "comments": 253,
+   "description": "Data centers are going up all over Texas. But two data centers being built on San Antonio’s far west side are meeting with resistance from homeowners and environmental groups because they're both constructing natural gas power plants and setting up dozens of diesel generators right next to neighborhoods.\n\nThe News 4 I-Team investigated allegations that the state is allowing the data centers to side-step pollution safeguards.\n\nEnvironmental groups claim the state allowed the data centers to use a permitting loophole so they could avoid strict pollution controls and build power plants on-site without notifying nearby homeowners.\n\n“At first I thought it was a medical center, maybe a university building,\" said homeowner David Thompson.\n\nThompson says he found out a couple of weeks ago the towering structure being built across the road from his home is a natural gas plant that will provide power for a massive data center owned by a company called Vantage.\n\n“I'm just concerned about the local environmental impact. Were they following regulations? Is it going to be safe for my family, my daughter, who was just born last year?\" Thompson said.\n\nVantage is building two data center complexes.\n\nThe one on Omicron Drive next to Thompson’s neighborhood will have two data center buildings, a natural gas power plant, and 86 diesel generators.\n\nA second data center between Rogers Road and Highway 151 will have a similar layout.\n\nEnvironmental groups say the two sites will produce enough energy to power a city the size of Richmond, Virginia.\n\n“We believe that these are major sources of air pollution and should be appropriately permitted as such,\" said Kathryn Guerra with Public Citizen, who used to work at the Texas Commission on Environmental Quality.\n\nGuerra says the plants should be treated as major sources of air pollution, which must install stringent pollution controls before building, and engage with nearby residents.\n\nInstead, Public Citizen says Vantage received a minor pollution source permit from the state, the type commonly given to dry cleaners, gas stations and auto body shops..\n\n“San Antonio and Bexar County already have bad air quality that fails to meet the national ambient air quality standards and so this pollution is only going to make it worse for those communities,\" Guerra said.\n\nGovernor Greg Abbott has called for data centers to build their own power plants rather than put a strain on the Texas power grid.\n\n“Any AI data center even thinking about coming here, they got to bring their own money, bring their own power,\" Abbott said.\n\nThe news organization Floodlight shot thermal imaging drone video of a data center in Abilene, which has a natural gas power plant built under a minor pollution source permit.\n\nEnvironmental groups claim these emissions shown in the thermal image video can contribute to ground-level ozone pollution and contain formaldehyde which can cause cancer.\n\nPublic Citizen and the Sierra Club have threatened to sue the Vantage data centers in San Antonio and its partner in building the power plants VoltaGrid. Neither company responded to our requests for comment and so far, TCEQ hasn’t either.\n\n“Companies need to ensure that what they're doing isn't adversely affecting the neighborhoods they're putting themselves into,\" Thompson said as he held his young daughter in his front yard looking across at the power plant.\n\nResidents will finally get a chance to give their input next month at a hearing as Vantage tries to get its final, Federal Operating Permit.\n\nEnvironmental groups claim at that point in the process it's often too late to change anything.\n\n_______________\nStay up to date with our social media:\n\nWOAI on Instagram: https://www.instagram.com/news4sa/\nWOAI on Facebook: https://www.facebook.com/News4SA\nWOAI on Twitter: https://twitter.com/news4sa\nSubscribe to WOAI on YouTube: https://www.youtube.com/channel/UCpsuSNiFkl4T4owtIb8QqWQ/?sub_confirmation=1\n\nDaily News Playlist:  \nhttps://www.youtube.com/playlist?list=PLyFwDPyddKc7LjpC-mcnv_GVlPbuj84-M\n\nFor more information, visit https://news4sanantonio.com/\n\n\nHave a news tip? Send it directly to us: \n\nEmail us: NewsDesk@news4sanantonio.com\nCall the Newsroom: 210.442-6397 \n\nWOAI is a TX based station and an NBC Television affiliate owned and operated by Sinclair Broadcast Group, Inc. Sinclair Broadcast Group, Inc. is one of the largest and most diversified television broadcasting companies in the country today.\n\n#WOAI #NEWS4SA #NEWS4SanAntonio #WOAI4 #SanAntonio"
   },
   {
    "id": "2s1OMBF0If4",
@@ -2443,7 +2513,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "On Aug. 2, Green Country residents will have a chance to ask questions and voice their opinions on AI data centers in Oklahoma.\n\n#AI #datacenter #Oklahoma #Tulsa \n\nStay caught up with the latest news, weather, and sports in the Tulsa metro and Northeast Oklahoma with News On 6!\n\nLatest: https://www.newson6.com\nFacebook:   / newson6   \nX: https://x.com/NewsOn6 \nInstagram:   / newson6kotv  \nDownload the News On 6 app from the Apple Store: https://apple.co/3FFuuF1 \nDownload the News On 6 app from the Google Play Store: https://bit.ly/43Tx4kK"
   },
   {
    "id": "SUXzsWEF3lo",
@@ -2471,7 +2542,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 1
+   "comments": 1,
+   "description": "Data centers remain a growing topic of conversation across Oklahoma, and Monday night dozens of residents gathered in Mayes County to learn more about multiple projects proposed for the area and discuss how they can respond."
   },
   {
    "id": "cuyVhg0Enoo",
@@ -2499,7 +2571,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 4
+   "comments": 4,
+   "description": "In a Q&A meeting, Loudoun County Board of Supervisors Chair Phyllis Randall explained the framework that made Loudoun the data center capital of the world. News4’s Jackie Bensen reports.\n_______\n\nNBC4 Washington / WRC-TV is the No. 1 broadcast television station and the home of the most-watched local news in Washington, D.C. The station leads the market in providing timely and breaking news and information in text, video and graphics across more than 15 platforms including NBCWashington.com, the NBC4 app, NBC4 streaming news channel, newsletters, and social media.\n\nFOLLOW & STREAM NBC4 WASHINGTON\n\nNBC4 News Streaming channel: https://www.nbcwashington.com/watch/\nXumo Play: https://play.xumo.com/live-guide/nbc-washington-dc-news\nRoku: https://therokuchannel.roku.com/watch/021707311e0b595597f97a389e0051e6/nbc-washington-dc-news\nAlso available on Pluto TV, Freevee, Google TV, TCL, Local Now, and Samsung TV Plus.\n\nMore here: https://www.nbcwashington.com/watchlive/\nInstagram: http://nbc4dc.com/3HxYkYH\nThreads: http://nbc4dc.com/ZYZAAHJ\nFacebook: http://nbc4dc.com/iD1GvRQ\nX: http://nbc4dc.com/APF7vQM\nTikTok: http://nbc4dc.com/pg5Nx67\nVISIT OUR SITE: https://www.nbcwashington.com/\nDOWNLOAD OUR FREE APPS: https://www.nbcwashington.com/products/\nWATCH NBC4 LIVE ON AMAZON FIRE TV: https://www.nbcwashington.com/firetv/\nWATCH NBC4 LIVE ON ROKU: https://www.nbcwashington.com/roku/d"
   },
   {
    "id": "pidM7OhuiQE",
@@ -2514,8 +2587,11 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Oklahoma City"
+   ],
    "local_because": [
+    "town named",
     "state named",
     "broadcast call letters"
    ],
@@ -2525,7 +2601,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "Oklahoma’s demand for water is expected to rise over the next 50 years.\n\nStill, a new statewide forecast does not account for what officials and experts say could become one of the biggest unknowns: large data centers.\n\nThe report projects total water demand will increase from 1.96 million acre-feet per year in 2020 to 2.22 million acre-feet by 2075, a 13% increase.\n\nAgriculture remains the state’s biggest water user.\n\nCrop irrigation accounts for more than half of Oklahoma’s water demand and is projected to increase 14% by 2075.\n\nThe second-largest increase comes from public supply.\n\nAs Oklahoma’s population grows from about 3.96 million people to 4.76 million, water demand is expected to increase 18%.\n\nSelf-supplied domestic use is projected to increase 17%. Industrial demand is projected to increase 10%.\n\nThe forecast projects that livestock water demand will drop by 5%, while thermoelectric power demand is projected to drop by 12%.\n\nOil and gas demand is flat.\n\nHowever, the Oklahoma Water Resources Board said the projections did not include future demand from new facilities such as data centers.\n\nMatt Cogburn of the Oklahoma Water Resources Board said, “Our projections did not look at what people call hyperscale, larger data centers.”\n\nThe Oklahoma Water Resources Board said the state’s water forecast did not include future demand from new facilities that secured water permits because there was no reliable information to estimate their water use.\n\nThe report notes 20 industries holding 23 industrial water use permits reported qualifying data to the Oklahoma Water Resources Board and are included in the forecast’s industrial sector, but the water-user data was not included to protect privacy.\n\nTravis Roach, an economics professor at the University of Central Oklahoma, criticized the omission. Roach said, “At the time of this report’s writing, there was already well-reported information of our government trying to extend tax benefits to these data centers entering the state. So, this was either an egregious error to omit this, or it was purposeful.” He added, “I cannot imagine a scenario in which you do not include data center demand in a state’s water comprehensive plan. It’s wild.”\n\nAsked whether people should worry about turning on their faucet and water not coming out in the next 50 years, Cogburn said, “I think it depends on how that data center plans to use water. Again, how that project is designed and how the community’s supplying them with water, looking into the future needs and taking that into account.”\n\nRoach pointed to a potential example in Oklahoma City, saying, “Oklahoma City is considering a data project, and I think it would include about a new 5 million gallons per day water draw. That’s about 5% of our total city delivery. So, any given day the city is providing 100 million gallons per day. So, this is equivalent to taking water away from 75,000 people for a single data center.”\n___________\nFollow KOKH on social media:\n\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
   },
   {
    "id": "cJg2swT9l6U",
@@ -2553,7 +2630,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": ""
   },
   {
    "id": "7m-JaqpLHzI",
@@ -2582,7 +2660,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 7
+   "comments": 7,
+   "description": "The Luther City Council passed a moratorium on data centers until Dec. 31, 2026."
   },
   {
    "id": "M5xamzknNrU",
@@ -2602,8 +2681,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2611,7 +2690,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 4
+   "comments": 4,
+   "description": "Huge crowd forces Luther meeting outdoors as town passes moratorium on data centers\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "m7SptoZ2Uss",
@@ -2627,12 +2707,13 @@
     "Oklahoma"
    ],
    "towns": [
+    "Oklahoma City",
     "Luther"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2640,7 +2721,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "A week after a packed town hall meeting on a proposed data center was postponed because there wasn’t enough room for everyone, Luther residents gathered again — this time outdoors on Main Street — to weigh in on a plan that has sparked strong opposition.\n\nThe earlier meeting was postponed after former lawyer and self-proclaimed journalist Ron Durbin threatened town officials with a citizen’s arrest for violating the Open Meeting Act because not everyone could fit inside the small town hall.\n\nThat meeting had more than four hours of speakers, with each person limited to two minutes.\n\nTown Manager, Rian Harkins says the council decided to postpone the meeting because they were at capacity and did not have time to move everyone outside.\n\nA week later, town leaders moved the discussion outside and blocked off Main Street.\n\nThe meeting covered a rezoning request, a specific use permit, an infrastructure agreement, and a proposed moratorium related to the data center.\n\nLuther residents June Yarberry-Valuikas and Tony Valuikas sent a letter days ahead of Wednesday's meeting protesting the proposal to the governor and other news stations.\n\nFox 25 reporter Rob Hagan asked who had reached out. Tony Valuikas said, “Just you.\"\n\nJune Yarberry-Valuikas said she moved her family to Luther because she says her daughter was being bullied at an Oklahoma City school.\n\nShe said her daughter has autism and that the community embraced her. “The town of Luther welcomed her. They even made her basketball queen,” June Yarberry-Valuikas said.\n\nHer daughter, Kara Patterson, said she has sensory issues and is afraid of the noise she believes could come with a data center. “I’ll be on overload,” Patterson said.\n\nTony Valuikas said he spent days researching potential impacts and focused on the area he believes would be affected within a square-mile radius. “It’s 293 properties,” he said.\n\nWhen asked what Yarberry-Valuikas thinks of when she hears \"data center,\" she said, \"Heartbreaking.”\n\nWhen asked what she thinks of when she hears “data center,” Patterson responded, “We don’t need it. I want Luther just the way it is.”\n\nAfter the meeting, the City Council passed a moratorium on the data center until Dec. 31, 2026.\n\nThe council also decided to take no action on the specific use permit.\n\nThe meeting adjourned at 9:50 PM.\n\nHarking said there will be another opportunity for Luther residents to discuss the data center proposal when the moratorium expires next year, but did not specify a date.\n___________\nFollow KOKH on social media:\n\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
   },
   {
    "id": "52ieIqA-43c",
@@ -2668,7 +2750,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 4
+   "comments": 4,
+   "description": "The Broken Arrow City Council will consider a six-month moratorium on new data center proposals during its meeting Monday evening."
   },
   {
    "id": "IBzLFY2pvl0",
@@ -2688,8 +2771,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state named"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2708,7 +2791,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 12
+   "comments": 12,
+   "description": "Luther postpones data center meeting after large crowd packs City Hall\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "iEvukZaBY_k",
@@ -2724,12 +2808,16 @@
     "Oklahoma"
    ],
    "towns": [
-    "Luther"
+    "Norman",
+    "Edmond",
+    "Yukon",
+    "Luther",
+    "Piedmont"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2737,7 +2825,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "More than 100 people packed into Luther City Hall to weigh in on a proposed data center development, but never got the chance to speak after the city council meeting was postponed because the room was overcrowded.\n\nResidents had signed up to address the council over a proposed data center from Beltline Energy.\n\nThe company has been proposing data centers across Oklahoma, including in Piedmont and Yukon, and now in Luther.\n\nThe meeting’s maximum occupancy is 128, and it was postponed after the crowd exceeded capacity.\n\nOutside, residents shared concerns about the project and how it has been handled so far.\n\nLuther resident Jamie Warner directed a message at the company, saying, “You chose the wrong town, you chose the wrong state.”\n\nBeltline Energy is seeking land for a data center east of the Redbud Power Plant.\n\nFox 25 obtained a non-disclosure agreement limiting what information has been publicly available about the project’s finances, timing, and plans.\n\nThe NDA was signed by the mayor at the end of May a year ago.\n\nSome residents said they are upset they learned about the project after the NDA was signed, including those who recently moved to the area.\n\nProperty owner Michelle Mills said, “I’m a brand-new property owner, we haven’t even built our house yet.”\n\nLuther resident Destiny Mowers said, “Anytime you see a data center on the agenda, emotions get high.”\n\nMowers, who moved to the area two years ago to raise her five kids, said she would be about 300 feet from the proposed data center on 400 acres. “It’s heartbreaking,” she said.\n\nMowers said she is concerned about environmental impacts and about bright lights from the facility affecting the night sky. “I don’t think we’re going to be able to see the stars anymore,” she said.\n\nJenni White, who lives 1 mile from the Redbud Power Plant, said she has been fighting a massive transmission line from the substation.\n\nThe substation is crucial to help supply power to the data center, and now she is also fighting the data center itself. “Why are the people not being protected? Why is the land not being protected?” White said.\n\nShe also suggested a different location for the data center, “What about Tinker Air Force Base? There’s a lot of power, water, and cement.”\n\nTown officials said the NDA requires ratification by the board of trustees.\n\nThe dispute resolution states that any dispute must be resolved in writing to Beltline executives at a higher position than the contract signee.\n\nIt's unclear what happens next, but residents said they expect another large turnout when the issue returns to the agenda. Mills said, “This is way too important.”\n\nThe next city council meeting is scheduled for Wednesday, June 17.\n\nRead more: https://okcfox.com/news/local/luther-city-council-meeting-on-proposed-data-center-postponed-due-to-overcrowding-beltline-energy-non-disclosure-agreement-moratorium-emergency-ordinance-norman-edmond-piedmont-yukon-ai-internet-cooling-servers-water-consumption-energy-usage-redbud-plant\n___________\nFollow KOKH on social media:\n\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
   },
   {
    "id": "cTMq1ooiVsU",
@@ -2766,7 +2855,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 2
+   "comments": 2,
+   "description": "Piedmont residents express concerns over proposed data centers\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/\nhttps://www.tiktok.com/@_kfor4"
   },
   {
    "id": "plKnW_qXPw4",
@@ -2783,8 +2873,8 @@
    ],
    "towns": [],
    "local_because": [
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2792,7 +2882,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 14
+   "comments": 14,
+   "description": "OKC City Council allows some data center projects to move forward despite moratorium\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "jsfuqo-yB-g",
@@ -2808,8 +2899,7 @@
     "Oklahoma"
    ],
    "towns": [
-    "Claremore",
-    "Mustang"
+    "Claremore"
    ],
    "local_because": [
     "town named",
@@ -2821,7 +2911,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 5
+   "comments": 5,
+   "description": "The City of Claremore approved a tax incentive district for a proposed data center known as Project Mustang."
   },
   {
    "id": "mxE25zhU0UE",
@@ -2838,8 +2929,8 @@
    ],
    "towns": [],
    "local_because": [
-    "broadcast call letters",
-    "state named"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2847,7 +2938,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 1
+   "comments": 1,
+   "description": "A new measure that was signed into law aims to prevent high energy costs tied to data centers from being passed onto Oklahoma families and small businesses. LEARN MORE: https://bit.ly/4nrsT7L"
   },
   {
    "id": "T7L9lARyAy0",
@@ -2875,7 +2967,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 603
+   "comments": 603,
+   "description": "On Tuesday, a day after the three commissioners approved a pair of measures allowing a controversial data center project proposal to move forward, Box Elder Commissioner Lee Perry said deciding what to do was a gut-wrenching process.\n \n\"I'm not allowed to put locks on the door and tell people 'You can't come to Box Elder County.' It's just outside my wheelhouse,\" Parry said in an interview with KSL. \"We're not kings, we're not rulers, dictators. We're just trying to serve the people and do our job.\"\n \nOn top of that, he and the other commissioners have received death threats and been targets of false accusations. The proposal has sparked demonstrations and intense backlash from opponents who worry about the potential environmental impacts of the project, notably on availability of water and the already-low water levels at the Great Salt Lake.\n\nRead more: https://www.ksl.com/article/51493679\n----\n\nSocials for KSL TV: \nhttps://twitter.com/KSL5TV\nhttps://www.facebook.com/ksltv\nhttps://www.instagram.com/kslnews/\n\nSocials for KSL NewsRadio: \nhttps://twitter.com/kslnewsradio\nhttps://www.facebook.com/KSLNewsradio/\nhttps://www.instagram.com/ksl_newsradio/"
   },
   {
    "id": "YPt52L-dQQQ",
@@ -2901,7 +2994,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 53
+   "comments": 53,
+   "description": "Bill to protect ratepayers from data center utility costs hits snag\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/\nhttps://www.tiktok.com/@_kfor4"
   },
   {
    "id": "5SkNGSmWpfg",
@@ -2930,7 +3024,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 5
+   "comments": 5,
+   "description": "'Project Emerald': AI data center plan in Pittsburg County moving forward"
   },
   {
    "id": "lFFoQSfASto",
@@ -2959,7 +3054,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 17
+   "comments": 17,
+   "description": "Proposed data center trip leads to tense moments at Luther meeting\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/\nhttps://www.tiktok.com/@_kfor4"
   },
   {
    "id": "rpqz7iqYA6c",
@@ -2979,7 +3075,7 @@
    ],
    "local_because": [
     "town named",
-    "state inferred from channel name"
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -2987,7 +3083,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 4
+   "comments": 4,
+   "description": "The Tulsa City Council is reviewing a proposed ordinance that would place a temporary moratorium on new data center developments in the city.\n\nRead story: https://ktul.com/news/local/tulsa-city-council-considers-365-day-moratorium-on-new-data-centers-citywide\n\nKTUL: http://www.ktul.com\nFacebook: https://www.facebook.com/NewsChannel8Tulsa\nTwitter: https://twitter.com/KTULNews \nInstagram: https://www.instagram.com/newschannel8tulsa/ \nTikTok: https://www.tiktok.com/@newschannel8tulsa \n\niOS KTUL App: https://apps.apple.com/us/app/tulsas-channel-8/id392330857?platform=iphone  \nAndroid KTUL App: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.ktul \n\niOS Weather App: https://apps.apple.com/us/app/ktul-wx/id489182496 \nAndroid Weather App: https://play.google.com/store/apps/details?id=com.ktul.android.weather&hl=en_US&gl=US \n\nHave a news tip? Email us at news@ktul.com \n\nHave a video or photo you want to share? Upload it to https://ktul.com/chimein\n\n#Tulsa #oklahoma #abc #news"
   },
   {
    "id": "HEa9HPNygNE",
@@ -3013,7 +3110,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 0
+   "comments": 0,
+   "description": "Cherokee Nation creates data center task force"
   },
   {
    "id": "2U12r9wl_R4",
@@ -3025,12 +3123,15 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
+   "states": [
+    "Oklahoma"
+   ],
    "towns": [
     "Lawton"
    ],
    "local_because": [
-    "town named"
+    "town named",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -3038,7 +3139,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "Public Comments: Lawton City Council Data Center Discussion (Feb 24, 2026)\n\nLawton Town Crier presents the full public comments from the February 24, 2026 Lawton City Council meeting regarding proposed zoning changes and data center development in the I-1 Restricted Manufacturing & Warehouse zoning.\n\nThis video contains unedited public comments from citizens who spoke at the podium, presented without commentary so viewers can hear directly from the people who participated in the public hearing.\n\nSpeakers raised a range of issues including:\n • Water use and infrastructure\n • Electrical demand\n • Noise and neighborhood impacts\n • Environmental concerns\n • Economic development questions\n • Alternative site proposals including FISTA\n\nThis recording is part of the public record and is provided to improve public access to local government proceedings.\n\n⸻\n\nAgenda Reference\n\nCity Council Meeting — February 24, 2026\nAgenda Item 24 – Data Centers / Zoning \n\nThe ordinance — amended to allow data centers up to 2 megawatts instead of 5 megawatts — passed 5–3.\n\nVote\n\nYes: Hooten, Brown, Epps, Williams, Warren\nNo: Hampton, Dimery, Weger\n\n⸻\n\nDate / Timestamp Note\n\nNote: The City camera overlay appears to display an incorrect date.\nThe time-of-day is correct, but the on-screen date may reflect the camera system processing date rather than the meeting date.\n\nThis recording is from the February 24, 2026 City Council meeting.\n\n⸻\n\nChapters\n\n00:00 Introduction – Public Comments on Data Centers\n00:57 Speaker 1 – Data mining concerns and resource usage\n03:22 Speaker 2 – Environmental and infrastructure impacts\n05:34 Speaker 3 – Public trust and FISTA proposal\n07:42 Speaker 4 – Water use and noise concerns\n10:00 Speaker 5 – Zoning and regulatory concerns\n12:17 Speaker 6 – Environmental and community impacts\n\nABOUT LAWTON TOWN CRIER\n\nTeacher by day, Town Crier by night.\n\nLawton Town Crier provides independent, on-the-record coverage of local government, city council meetings, economic development, public safety, and community events across Lawton–Fort Sill and southwest Oklahoma.\n\n👇 STAY CONNECTED\n📘 Facebook:   http://www.facebook.com/lawtontowncrier  \n🌐 Website: https://www.lawtontowncrier.com\n☕ Support on Ko-fi: https://ko-fi.com/lawtontowncrier\n📩 Email: newsroom@lawtontowncrier.com\n🐦 X (Twitter): https://x.com/lawtoncrier\n\n⸻"
   },
   {
    "id": "UhvPs29YOrU",
@@ -3050,16 +3152,24 @@
     "data_center"
    ],
    "counties": [],
-   "states": [],
-   "towns": [],
-   "local_because": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Lawton"
+   ],
+   "local_because": [
+    "town named",
+    "state named"
+   ],
    "elsewhere": false,
    "found_by": [
     "national"
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "#Lawton #CityCouncil #DataCenters #Zoning #LocalNews\n\nPacked and tense public hearing tonight at Lawton City Council on Item 24 (data centers / zoning). Six citizens spoke with concerns about noise, power demand, and long-term impacts in the I-1 Restricted Manufacturing & Warehouse zone. The mayor said staff is expected to return with recommendations giving the City more control/oversight, and at one point gaveled down an audience member who continued speaking in protest.\n\nCouncil ultimately amended the proposal to tighten the allowance from 5 megawatts down to 2 megawatts for data centers in the I-1 zone, then passed the ordinance 5–3.\n\nVote: Yes — Hooten, Brown, Epps, Williams, Warren | No — Hampton, Dimery, Weger.\n\nFollow Lawton Town Crier for verified local updates.\n\nWe’ll continue to share verified updates as they are released.\n2/24/2026 23:06\n2/24/2026 23:06\n\nCorrection / Clarification: A previous version of this report used the term “I-1 district.” I-1 refers to a zoning classification (zone) — specifically the City’s I-1 Restricted Manufacturing & Warehouse designation. This clarification does not change the substance of the report, including the amendment from 5 megawatts to 2 megawatts or the 5–3 vote.\n\nCity Council Data Center Vote\nA correction to last night’s reporting on the City Council vote regarding data center zoning in the I-1 district:\nCouncilmember Alan Hampton voted NO, and Councilmember Tarron Epps voted YES.\nThe ordinance — amended to allow data centers up to 2 megawatts instead of 5 megawatts — passed 5–3.\nWe regret the earlier voting error and appreciate those who helped verify the record.\nThe Lawton Town Crier apologizes for the error and is issuing this correction to ensure the record is accurate.\nhttps://lawtontowncrier.com/2026/02/breaking-lawton-city-council-voted-tuesday-night-on-the-data-center-zoning-ordinance-and-the-proposal-was-tightened-on-the-floor-after-a-packed-tense-public-hearing/\n\n#LawtonOK #ComancheCounty #LawtonPublicSchools #WinterWeather #LPD #LawtonTownCrier\nRecorded in Lawton, Oklahoma.\n\nLawton Town Crier is independent and non-partisan. This interview is presented for the public record.\n\n👇 STAY CONNECTED\n📘 Facebook: http://www.facebook.com/lawtontowncrier\n🌐 Website: https://www.lawtontowncrier.com\n☕ Support on Ko-fi: https://ko-fi.com/lawtontowncrier\n📩 Email: newsroom@lawtontowncrier.com\n🐦 X (Twitter): https://x.com/lawtoncrier\n\n⸻\n\nABOUT LAWTON TOWN CRIER\n\nTeacher by day, Town Crier by night.\n\nLawton Town Crier provides independent, on-the-record coverage of local government, city council meetings, economic development, public safety, and community events across Lawton–Fort Sill and southwest Oklahoma.\n\n⸻"
   },
   {
    "id": "eLd5so1UiYI",
@@ -3079,7 +3189,7 @@
    ],
    "local_because": [
     "town named",
-    "state inferred from channel name"
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -3087,7 +3197,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 2
+   "comments": 2,
+   "description": "The Tulsa City Council has approved the initiation of a zoning code reevaluation that could change how data centers are regulated within city limits.\n\nThe move comes amid growing concerns from council members about the potential off-site impacts of large-scale data center developments, including noise, water usage, and electrical demand.\n\nCurrently, Tulsa’s zoning code classifies data centers under “ Industrial Light” or “Low-Impact Industrial,” a designation that assumes little to no impact on surrounding properties. Councilor Laura Bellis (District 4), who brought the item forward, argues that classification may no longer reflect the reality of modern facilities.\n\n“Right now they’re defined as having low or light industrial impact, which means they have no off-site impacts for people or businesses nearby,” Bellis said during the council meeting. “But we’ve learned a lot more in recent years about what these facilities can generate.”\n\nBellis pointed to instances where companies seeking to build data centers in Tulsa have requested changes to the city’s noise ordinance, something she says indicates developers recognize potential sound impacts.\n\nTulsa’s current noise ordinance is broadly written, relying in part on what a “reasonable person” would consider a nuisance affecting their wellbeing. Bellis said the concern goes beyond decibel levels and may also include vibration and other operational effects.\n\nTo some council members, the rapid growth of the data center industry adds urgency to the review.\n\n“The industry is moving fast,” Bellis said. “If we don’t pause and make sure our zoning code reflects today’s realities, there could be unintended consequences for people who live nearby.”\n\nPublic concerns raised during council meeting included questions about long-term water consumption, strain on electrical infrastructure, and the placement of facilities near residential neighborhoods.\n\nLarge-scale projects continue to surface across the Tulsa Region. One of the most notable proposals is Project Anthem, an estimated $800 million data center campus planned for east Tulsa.\n\nALSO: Excitement builds for Project Anthem in East Tulsa\n\nThe project remains pending final approval following delays related to zoning considerations and environmental review.\n\nCity officials said the current action does not change any rules immediately. Instead, it authorizes the city’s planning office to research potential updates to the zoning code. That process will likely involve reviewing how data centers of varying sizes are categorized and whether larger facilities should be considered “Industrial Moderate” rather than “Industrial Light”\n\nA change in classification could affect where future data centers are allowed to locate, particularly in areas near residential development.\n\nCouncil members say public engagement will take place once planning staff present draft recommendations. Potential town halls and public hearings are expected before any final amendments are adopted.\n\nTulsa currently has multiple data centers operating within city limits, most of them smaller facilities. However, officials acknowledge that larger-scale proposals have prompted a reassessment of whether existing regulations adequately address their potential community impacts.\n\nThe zoning reevaluation is now in the research phase, with recommendations expected to return to the council in months for further discussion and public input.\n\nRead story: https://ktul.com/news/local/tulsa-council-launches-zoning-code-review-that-could-reshape-rules-for-data-centers-city-limits-surrounding-properties-reasonable-nuisance-concern-levels-decibel-vibration-operational-effects\n\nKTUL: http://www.ktul.com\nFacebook: https://www.facebook.com/NewsChannel8Tulsa\nTwitter: https://twitter.com/KTULNews \nInstagram: https://www.instagram.com/newschannel8tulsa/ \nTikTok: https://www.tiktok.com/@newschannel8tulsa \n\niOS KTUL App: https://apps.apple.com/us/app/tulsas-channel-8/id392330857?platform=iphone  \nAndroid KTUL App: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.ktul \n\niOS Weather App: https://apps.apple.com/us/app/ktul-wx/id489182496 \nAndroid Weather App: https://play.google.com/store/apps/details?id=com.ktul.android.weather&hl=en_US&gl=US \n\nHave a news tip? Email us at news@ktul.com \n\nHave a video or photo you want to share? Upload it to https://ktul.com/chimein\n\n#Tulsa #oklahoma #abc #news #zoning #datacenter #regulation #resources"
   },
   {
    "id": "I2cMiwjfRao",
@@ -3195,7 +3306,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 44
+   "comments": 44,
+   "description": "Residents living near proposed data centers across Oklahoma are raising concerns about how the massive facilities could impact utility rates, water resources and local infrastructure."
   },
   {
    "id": "-hiq-mE1cdg",
@@ -3211,6 +3323,7 @@
     "Oklahoma"
    ],
    "towns": [
+    "Tulsa",
     "Sand Springs",
     "Claremore",
     "Coweta"
@@ -3225,7 +3338,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 3
+   "comments": 3,
+   "description": "When it comes to data center resistance, Oklahoma is ground zero, from Claremore, to Coweta, to Sand Springs, the world is literally watching.\n\n\"I did a 40-minute interview with a news agency from France yesterday,\" said Kyle Schmidt. He's one of the driving forces behind Protect Sand Springs Alliance which yesterday filed a lawsuit against the city in hopes of stopping Project Spring. Their argument?\n\n\"The overall argument is that the city didn’t follow the proper Oklahoma statutes that are required to meet contiguity requirements in order to annex that parcel into the city limits,\" he said.\n\nThe city told News Channel 8 in part, \"we are very confident in the process that has been done to annex the property of the proposed project. We intend to move forward with the zoning process and look forward to a speedy resolution to the meritless claims .“\n\nSchmidt says the attitude of city leaders...\n\n\"Has been very abrasive and just non-caring. Their mind was made up a long time ago,\" he said.\n\nThrough an open records request Schmidt found out that city officials were working on the initiative long before the public became aware of it.\n\n\"They started talking about this data center back on March 19th is the earliest we can find and the community didn’t find out about it until early part of November,\" he said.\n\nWith news of the lawsuit he says, donations have started rolling in, as the group taps into a collective frustration many people feel towards the topic.\n\n\"Data centers in general right now have a really big problem with transparency and regulation and the lack of regulation that holds them accountable to the people who are going to have to live with the consequences,\" he said.\n\nFinding a way to fight back in Sand Springs, with residents sending a clear message of, you just kicked a hornet's nest.\n\n\"We’re not just a bunch of dumb hicks and ranchers and farmers, there’s a lot of very well-educated, well-connected people and a lot of resources up here that I don’t think they anticipated this level of fight,\" he said.\n\nThis is the statement provided on behalf of the City of Sand Springs from City Manager Mike Carter.\n\n\"The City of Sand Springs is still evaluating the claims made by the plaintiffs, but we are very confident in the process that has been done to annex the property of the proposed project. We intend to move forward with the zoning process and look forward to a speedy resolution to the meritless claims “.\n\nRead story: https://ktul.com/news/local/sand-springs-residents-sue-city-to-stop-annexation-for-data-center\n\nKTUL: http://www.ktul.com\nFacebook: https://www.facebook.com/NewsChannel8Tulsa\nTwitter: https://twitter.com/KTULNews \nInstagram: https://www.instagram.com/newschannel8tulsa/ \nTikTok: https://www.tiktok.com/@newschannel8tulsa \n\niOS KTUL App: https://apps.apple.com/us/app/tulsas-channel-8/id392330857?platform=iphone  \nAndroid KTUL App: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.ktul \n\niOS Weather App: https://apps.apple.com/us/app/ktul-wx/id489182496 \nAndroid Weather App: https://play.google.com/store/apps/details?id=com.ktul.android.weather&hl=en_US&gl=US \n\nHave a news tip? Email us at news@ktul.com \n\nHave a video or photo you want to share? Upload it to https://ktul.com/chimein\n\n#Tulsa #oklahoma #abc #news"
   },
   {
    "id": "Q9Br0l5UR_c",
@@ -3241,11 +3355,12 @@
     "Oklahoma"
    ],
    "towns": [
+    "Tulsa",
     "Sand Springs"
    ],
    "local_because": [
     "town named",
-    "state inferred from channel name"
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -3253,7 +3368,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 2
+   "comments": 2,
+   "description": "SAND SPRINGS, OKLA. (KTUL) — Residents in Sand Springs went door to door Friday with signs to warn neighbors about Project Spring, a proposed data center they believe could reshape their community.\n\nKyle Schmidt is the president of the newly formed Protect Sand Springs Alliance. He lives just about a mile from the proposed site and says many people still have no idea what's being planned.\n\n“We feel like a lot of the residents of Sand Springs don’t know what's going on or even anything about data centers,” Schmidt said.\n\nSchmidt says he and others are concerned about the environment and financial impacts, especially regarding water use and the massive power demand data centers require.\n\n“It will have a massive impact on the entire City of Sand Springs, it’s just a lot of people don't understand what that impact is as far as the millions of gallons of water used, massive power consumption that is going to drive up everybody’s electric bills,” Schmidt said.\n\nEarlier this month, a community meeting of about 400 people was held. Residents have also been vocal at city council meetings.\n\nSchmidt said that they recently scored a small win. According to the City of Sand Springs, the developer White Rose Partners has asked to postpone the Dec. 3 planning commission meeting to allow more time for community discussion.\n\nSchmidt runs the alliance's Facebook page and website, where he shares research on data centers, environmental concerns, and potential costs to PSO customers. He mentioned that cheap land and easy access to water are driving big tech companies to build data centers across Oklahoma.\n\n“Anywhere there is cheap land and availability of water, they are moving in, and they are moving in fast,” Schmidt said.\n\nLongtime residents like Lana Compton said they fear what the development could mean for Sand Springs' farming community. Her family has lived here for four generations.\n\n“I don’t want it to be run and lose our animals, our feeding programs, lose all farming,” Compton said.\n\nShe mentioned that many neighbors feel blindsided and hopes more people will speak up.\n\n“Please come out and support us. We were not aware of this happening; it was all done underhandedly, and that’s not correct,” Compton said.\n\nFor now, the community is using the delay to build support, pushing city and state leaders to be more transparent as the project moves forward.\n\nRead story: https://ktul.com/news/local/sand-springs-residents-rally-against-proposed-data-center-fearing-environmental-impact\n\nKTUL: http://www.ktul.com\nFacebook: https://www.facebook.com/NewsChannel8Tulsa\nTwitter: https://twitter.com/KTULNews \nInstagram: https://www.instagram.com/newschannel8tulsa/ \nTikTok: https://www.tiktok.com/@newschannel8tulsa \n\niOS KTUL App: https://apps.apple.com/us/app/tulsas-channel-8/id392330857?platform=iphone  \nAndroid KTUL App: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.ktul \n\niOS Weather App: https://apps.apple.com/us/app/ktul-wx/id489182496 \nAndroid Weather App: https://play.google.com/store/apps/details?id=com.ktul.android.weather&hl=en_US&gl=US \n\nHave a news tip? Email us at news@ktul.com \n\nHave a video or photo you want to share? Upload it to https://ktul.com/chimein\n\n#Tulsa #oklahoma #abc #news #sandsprings #datacenter #technology #economy #business #environment"
   },
   {
    "id": "Q8RqvFMe_B4",
@@ -3269,11 +3385,12 @@
     "Oklahoma"
    ],
    "towns": [
+    "Tulsa",
     "Coweta"
    ],
    "local_because": [
     "town named",
-    "state inferred from channel name"
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -3281,7 +3398,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-15",
-   "comments": 2
+   "comments": 2,
+   "description": "A full hour before the start of Monday's city council meeting in Coweta demonstrators began arriving with their signs in opposition to the data center, one of them so large, it was pulled on a trailer by longtime Coweta resident Allen Prather.\n\n\"My family goes back in Coweta for five generations,\" he said.\n\nHis concerns run down the laundry list of worries about data centers, there's water.\n\n\"Coweta has had bad water quality since the 90’s and if this data center gets put in that will not improve,\" he said.\n\nThere's the concern about a spike in electric bills.\n\nRead story: https://ktul.com/news/local/concern-over-data-center-spurs-coweta-residents-to-pack-city-council-meeting\n\nKTUL: http://www.ktul.com\nFacebook: https://www.facebook.com/NewsChannel8Tulsa\nTwitter: https://twitter.com/KTULNews \nInstagram: https://www.instagram.com/newschannel8tulsa/ \nTikTok: https://www.tiktok.com/@newschannel8tulsa \n\niOS KTUL App: https://apps.apple.com/us/app/tulsas-channel-8/id392330857?platform=iphone  \nAndroid KTUL App: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.ktul \n\niOS Weather App: https://apps.apple.com/us/app/ktul-wx/id489182496 \nAndroid Weather App: https://play.google.com/store/apps/details?id=com.ktul.android.weather&hl=en_US&gl=US \n\nHave a news tip? Email us at news@ktul.com \n\nHave a video or photo you want to share? Upload it to https://ktul.com/chimein\n\n#Tulsa #oklahoma #abc #news"
   },
   {
    "id": "xXE-s2Rre9w",
@@ -3308,7 +3426,8 @@
    "score": 7,
    "first_seen": "2026-09-14",
    "comments": 0,
-   "comments_off": true
+   "comments_off": true,
+   "description": "County commissioner raises more concerns about planned data center\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/"
   },
   {
    "id": "f-yI2CQhk-U",
@@ -3337,7 +3456,8 @@
    ],
    "score": 7,
    "first_seen": "2026-09-14",
-   "comments": 2
+   "comments": 2,
+   "description": "'Not a fan': Coweta announces proposal to bring in data center"
   },
   {
    "id": "FIq3iT9aVas",
@@ -3353,12 +3473,13 @@
     "Oklahoma"
    ],
    "towns": [
+    "Oklahoma City",
     "Yukon"
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -3371,7 +3492,8 @@
    "score": 7,
    "first_seen": "2026-09-14",
    "comments": 0,
-   "comments_off": true
+   "comments_off": true,
+   "description": "Yukon land may shift from amphitheater plans to data center development\n\nSubscribe to KOCO on YouTube now for more: http://bit.ly/1lGfjIl\n\nGet more Oklahoma City news: http://www.koco.com\nLike us: http://facebook.com/koco5\nFollow us: http://twitter.com/koconews\nInstagram: https://www.instagram.com/koco5news/"
   },
   {
    "id": "CzqgFhU0Pm4",
@@ -3491,7 +3613,8 @@
    "score": 7,
    "first_seen": "2026-09-14",
    "comments": 0,
-   "comments_off": true
+   "comments_off": true,
+   "description": "Residents say data center construction is killing their pond\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/"
   },
   {
    "id": "lSmIj9XTglI",
@@ -3519,7 +3642,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 5
+   "comments": 5,
+   "description": "A group of developers is proposing a massive, multi-campus data center development that could bring an estimated $35 billion investment to the city.\n\nProject Thunderbird would span nearly 1,750 acres across four proposed campuses, potentially creating up to 4,000 construction jobs and more than 600 permanent positions. Developers say the project would also bring new power, water and fiber infrastructure to the area, including backup power and secure fiber connections for nearby Vance Air Force Base.\n\nBut the proposal is still in its early stages, and some Enid residents are raising concerns about water use, noise, environmental impacts and how the development could affect the community.\n\nThe project has not yet been approved. City officials say it will go through the zoning and approval process, with opportunities for community input along the way. Learn more: https://bit.ly/4A0WPNT\n\n#oklahoma #localnews #news #enid #datacenter #datacenters  #news9 #okc #oklahomacity"
   },
   {
    "id": "EZgFxJdkRVw",
@@ -3545,7 +3669,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 22
+   "comments": 22,
+   "description": "Oklahoma governor defends data center developments as long as they follow the law\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "I0pN_HprBNY",
@@ -3574,7 +3699,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 658
+   "comments": 657,
+   "description": "They built their dream home on family property. Now, a massive data center could rise just 300 feet away—and they fear what it could mean for their future."
   },
   {
    "id": "h9uEu-rI8gM",
@@ -3600,7 +3726,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 51
+   "comments": 51,
+   "description": "A data center campus would mean millions for an Oklahoma town. One family faces the human cost\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "fAcVNM0hDhQ",
@@ -3612,23 +3739,33 @@
     "data_center"
    ],
    "counties": [
-    "This County"
+    "This County",
+    "Calvert County",
+    "Stokes County",
+    "Coweta County"
    ],
    "states": [
-    "Maryland"
+    "Georgia",
+    "Maryland",
+    "North Carolina",
+    "Oklahoma",
+    "Texas",
+    "Washington",
+    "Wisconsin"
    ],
    "towns": [],
    "local_because": [
     "county named elsewhere",
     "state named"
    ],
-   "elsewhere": true,
+   "elsewhere": false,
    "found_by": [
     "national"
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "Amazon abandoned plans for a data center campus on the grounds of a Maryland nuclear plant — and within days, the county commissioners who replaced the ones voters threw out passed a six-month freeze on every new data center project. A North Carolina planning board voted to kill a rezoning for the second time. A Wisconsin well-permit hearing ended with the chairman banging his gavel and threatening to clear the room. And new BloombergNEF numbers put the gas plants being built to feed AI data centers at 318 million tons of CO₂ a year. Here's what actually moved.\n\n🪧 COMMUNITY — The Calvert County, Maryland Board of Commissioners unanimously approved a six-month moratorium on new data center projects, days after Amazon abandoned plans for multiple campuses on the grounds of the Calvert Cliffs Nuclear Power Plant. The Amazon proposal covered three campuses across roughly 200 acres — eight data center buildings totaling about 2.4 million square feet with up to 500 MW supplied by Constellation Energy, which operates the plant. Residents first learned of the proposal in February. By the June primary it had become the defining local issue, and three incumbent commissioners who had opposed a moratorium were defeated. The pause gives leaders time to weigh zoning changes or an outright ban.\n\n⚖️ LEGAL — The Stokes County, North Carolina planning board voted 5–2 to recommend that commissioners deny the rezoning behind Project Delta, a large data center proposal near Walnut Cove. It is the second rejection at that stage. Commissioners approved the rezoning in January, but the approval was declared null and void in April after a lawsuit argued the public hearing notice failed to meet state requirements. Developer David Couch submitted a new rezoning application in July. Supporters cite a projected 250 to 500 permanent jobs. Commissioners had already rejected a proposed six-month moratorium on a 3–2 vote, leaving the rezoning as the decisive question.\n\n🪧 COMMUNITY — The Coweta County, Georgia Board of Commissioners unanimously adopted a 180-day moratorium on data center proposals — after having already approved two. The freeze halts acceptance of permit applications, land use amendments, rezonings, conditional use applications, variances and all data center public hearings while the county studies other jurisdictions and drafts a stronger ordinance. The trigger was Project Sail, a $17 billion campus pitched by Atlas Development that ranks among the largest server farms ever proposed in Georgia. Five proposals already filed retain vested rights under state law and are exempt from the pause.\n\n⚡ POWER — BloombergNEF counted 99 gas power projects planned specifically to serve data centers across 22 states, more than a third of them in Texas, representing about 126 gigawatts of on-site generation. Backers include Amazon, Microsoft, OpenAI, Anthropic and specialized data center operators. At an industry-standard 60% utilization the plants would emit roughly 318 million metric tons of carbon dioxide annually. The entire U.S. electric power industry emitted about 1,485 million metric tons last year, meaning this single slice of infrastructure could lift national power sector emissions by 20% — and by closer to a third if the plants run flat out.\n\n💧 WATER — The Port Washington, Wisconsin Board of Public Works delayed action on Vantage Data Centers' request to use three existing wells on its property during construction of its campus, after residents packed the meeting and demanded the request be denied. The meeting grew contentious enough that chairman Mike Gasper, a city alderman, banged the gavel, called for silence and at one point threatened to have members of the public removed. The board pushed the vote to its next meeting at 5:30 p.m. on August 25, and asked for a timeline and sunset date for well water use, metering information, assurance the well water will not feed the closed-loop cooling system, notification if the wells are modified, and a wastewater testing plan.\n\n🏛️ POLICY — Oklahoma lawmakers marked the signing of House Bill 2992, the Data Center Customer Ratepayer Protection Act of 2026, authored by Rep. Brad Boles, R-Marlow, and Sen. Grant Green, R-Wellston, and signed by Gov. Kevin Stitt. The law took effect July 1. It defines \"large load customers\" as new facilities adding 75 megawatts or more of demand — sweeping in data centers, AI facilities and cryptocurrency mining operations — and requires them to cover their share of electricity and infrastructure costs so families, small businesses and traditional industrial customers are not left carrying them. Developers must notify adjoining landowners, county commissioners and the Oklahoma Corporation Commission within 60 days of acquiring land for a qualifying project.\n\n🏗️ NEW BUILD — OpenAI's Project Camellia will place four hyperscale buildings on roughly 101 acres i"
   },
   {
    "id": "SQM9h-cTEho",
@@ -3643,8 +3780,12 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Piedmont",
+    "Okmulgee"
+   ],
    "local_because": [
+    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -3746,7 +3887,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 10
+   "comments": 10,
+   "description": "Oklahoma is quickly becoming one of America's hottest destinations for AI data centers.\n\nBut are these massive projects good for communities? Will they create jobs? Will they strain our electricity and water supplies? And why are companies so secretive during the planning process?\n\nIn this episode, I sit down with Hart Brown, Director of AI and Transformation at Saxum, to separate fact from fiction surrounding Oklahoma's growing AI infrastructure.\n\nWe discuss:\n\n• Why AI companies are flocking to Oklahoma\n• The truth about water and electricity usage\n• Whether data centers really create long-term jobs\n• Why communities like Okmulgee and Piedmont are pushing back\n• The future of AI in Oklahoma\n\nHart Brown is an executive strategist, ethical hacker, and futurist recognized for his thought leadership in AI, risk, and organizational transformation. He has advised clients across six continents, supporting modernization and resilience programs for governments, financial systems, and Fortune 500 companies. Brown is the author of Future Forecasting: Mitigating Risk and Increasing Profit in a Chaotic World.\n\nRyan Welton is the founder of Oklahoma Memo, a digital news and information platform. Sign up for the daily local news recap at OklahomaMemo.com/subscribe\n\n👍 Subscribe for more Oklahoma politics, business and technology coverage."
   },
   {
    "id": "IaE6xzuAALE",
@@ -3757,14 +3899,18 @@
    "topics": [
     "data_center"
    ],
-   "counties": [],
+   "counties": [
+    "Okmulgee County"
+   ],
    "states": [
     "Oklahoma"
    ],
    "towns": [
+    "Tulsa",
     "Okmulgee"
    ],
    "local_because": [
+    "county named",
     "town named",
     "state named"
    ],
@@ -3790,7 +3936,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 0
+   "comments": 0,
+   "description": "I downloaded a lot of land records in an attempt to put together a framework of who's behind the proposed data center in Okmulgee, Oklahoma. \n\nWe already knew that FluidStack is part of it. They're like the face of the operation, and they'll be operating the data center. We also know that Jane Street is the first client for this data center. Okmulgee is about 30-40 minutes south of Tulsa.\n\nBut who else? Who is Three Rivers Manufacturing LLC, and who is the billionaire investor whose signature shows up in Okmulgee County land records!?\n\nIf you enjoyed this video, subscribe for me — and sign up for my daily local news recap at OklahomaMemo.com/subscribe.\n\n#oklahoma #news #datacenter"
   },
   {
    "id": "z9U_EEA8hCc",
@@ -3818,7 +3965,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 5
+   "comments": 5,
+   "description": "Residents voiced their concerns about a proposed data center during at a community open house put on by the developers Fluidstack. They had questions ranging from property values and water use to potential health impacts and electricity."
   },
   {
    "id": "GVIPfKTrmBU",
@@ -3833,8 +3981,11 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Blanchard"
+   ],
    "local_because": [
+    "town named",
     "state named",
     "broadcast call letters"
    ],
@@ -3844,7 +3995,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "An Oklahoma State Senator has proposed an interim study to take a closer look at the impact data centers could have on the state of Oklahoma.\n\nInterim studies provide lawmakers an opportunity to study issues outside of the legislative session.\n\nState Sen. Kendal Sacchieri (R-Blanchard) ran a bill last legislative session to put a moratorium on the construction of new data centers in Oklahoma until November of 2029.\n\nThat legislation did not make it across the finish line. Sacchieri told FOX 25 she felt an interim study might be the best way to bring more attention to the issue to then get better a better piece of legislation ready for next session.\n\n\"Data Centers and what all they mean for our state\" is the title of the interim study Sacchieri has proposed.\n\n\"I'm open to both sides coming. We have had a few interim studies. Most of them I would say has been a one-sided bringing in the industry and talking about just... being a large load consumer and talking on the energy side,\" Sacchieri said.\n\nSacchieri told FOX 25 she would like to bring in industrial hygienists for the study.\n\n\"I would like to bring those kinds of professionals in and then if it would be best to have them and then the other side there with them to hash it out, I'm fine with that,\" she said. \"I just want to make sure that we're bringing in not just the industry anymore. We want to bring in those that are professionally been through chemistry and understand what is going into our water system and how these closed loop systems work, etc.\"\n\nThe State Senator said the concerns she is hearing about data centers go even beyond water and energy.\n\n\"Citizens' concerns are just what's this going to do to my livelihood? So a lot of it is property value. We have not had these things around homes long enough,\" Sacchieri said. \"People are concerned for their livestock, expecting mothers, noise pollution, noise, you know, what is this noise doing alone to my livelihood? And then of course it comes down to the water. Is this water still, you know, perfectly fine to drink and take and use once it's dumped into wastewater somewhere else down the road wherever, you know, these data centers are putting them, lakes, waters, creeks, whatever.\"\n\nSacchieri said she may even bring in the Oklahoma Corporation Commission to ask them some questions.\n\n\"How much have you really monitored these data centers since they've been here? 'Cause we've had some here for a very long time. How much wastewater is Google dumping daily? Are you monitoring what is in this wastewater,\" Sacchieri said.\n\nSacchieri could use the interim study to see what potential legislation needs to be considered during the next legislative session.\n\n\"Maybe we need to look at within a radius, if we can monitor their water usage and there is chemicals in these water when they're putting it back into the system, just the water system itself, they may have to chime in and help these local jurisdictions that currently don't have a proper waste management system, don't have the way to get these PFAS back out of the water whenever they have to treat it,\" she said.\n\nThe Senate Pro Tem has approved this interim study. The Agriculture and Wildlife Committee Chairman will also have to consider it and then schedule it.\n\nInterim studies must be completed by October 30.\n___________\nFollow KOKH on social media:\n\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
   },
   {
    "id": "8D41smJUl_w",
@@ -3867,7 +4019,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 9
+   "comments": 9,
+   "description": "Researcher explains data centers' water and power demands"
   },
   {
    "id": "Zw0Kb2nr9pE",
@@ -3978,7 +4131,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 9
+   "comments": 9,
+   "description": "Growing number of Oklahoma towns move to halt new data center developments\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "-RknzXzVDFQ",
@@ -3989,14 +4143,18 @@
    "topics": [
     "data_center"
    ],
-   "counties": [],
+   "counties": [
+    "Canadian County"
+   ],
    "states": [
     "Oklahoma"
    ],
    "towns": [
+    "Oklahoma City",
     "Yukon"
    ],
    "local_because": [
+    "county named",
     "town named",
     "state named"
    ],
@@ -4006,7 +4164,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 6
+   "comments": 6,
+   "description": "OKLAHOMA CITY METRO BREAKING REAL ESTATE & DEVELOPMENT NEWS! 🚨\n\nYukon politics just descended into absolute chaos, and it all boils down to a multi-million dollar tech deal that locals are trying to kill! 📉🔥\n\nIf you haven’t been tracking this, residents have been absolutely furious over a massive data center deal proposed near Highway 66 and Frisco Road. Because of that intense backlash, Yukon’s Vice Mayor, Jeff Wooten, has officially resigned from the city council effective immediately. 🏢⚠️\n\nHere is the real problem: Data centers require an astronomical amount of water and electricity to keep their servers cool. Neighbors packed recent council meetings, demanding to know how a massive tech facility like this would impact the local infrastructure in Canadian County, which is one of the fastest-growing counties in Oklahoma. 💧⚡\n\nThe controversy got so intense that a grassroots petition was launched to officially recall both the Mayor and the Vice Mayor. Instead of fighting that recall, Wooten completely stepped down, leaving a massive empty seat on the council and throwing the future of this multi-million-dollar development into total chaos. 🏛️🔍\n\nThis is the ultimate battle between massive commercial growth and protecting local resources. What do you think? Should cities prioritize big tech investments, or protect local infrastructure first? Let’s talk in the comments! 💬👇\n\nHey, I am Denise, your resource for all things OKC and real estate. Follow or subscribe for more updates!\n\n#OKCRealEstate #OklahomaCity #YukonOK #OKCDevelopment #CanadianCountyOK"
   },
   {
    "id": "AhR21iEUvTY",
@@ -4101,7 +4260,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 13
+   "comments": 14,
+   "description": "Data centers up for debate in Piedmont\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/\nhttps://www.tiktok.com/@_kfor4"
   },
   {
    "id": "FVNXHrE9Y-U",
@@ -4118,8 +4278,8 @@
    ],
    "towns": [],
    "local_because": [
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -4127,7 +4287,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "You'll probably still hear the noise some data centers make, but your pocketbook might not take a hit from them.\n\nThat's if House Bill 2992, now law, is successful. It aims to prevent high energy costs tied to data centers from being passed onto Oklahoma families and small businesses.\n\n\"The demand for electricity on our grid continues to grow. Our goal in the legislature is to put some guardrails in place and state law, that way we put some ratepayer protections in place,\" said State Rep. Brad Boles, the law's author.\n\nRep. Boles told FOX 25 his constituents have been very vocal and very concerned about data centers, but how exactly will the legislation make sure that Oklahoma ratepayers don't bare the brunt of these data centers? Boles said the Oklahoma Corporation Commission is a key piece to all of this.\n\n\"What the Corporation Commission does is reviews those costs and make sure that its fair and reasonable and just, and in this situation, we're going to make sure that, at least state law will direct the commission to basically say 'If it's a large load user, we got to make sure that they pay for all their cost,'\" he said.\n\nRep. Boles said this applies to new data centers and wouldn't impact ones that are already up and running. The law also requires a 10 year service commitment and regulates 75 megawatt centers.\n\nFOX 25 asked if there's any way companies could dance around that requirement.\n\n\"Yeah, could they try to build multiple locations of 70 megawatt? Potentially. But it would end up costing more doing that than just paying for the infrastructure cost,\" he said.\n\nRep. Boles said the law will go into effect July 1st, now that Governor Stitt has signed off on it.\n___________\nFollow KOKH on social media:\n\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
   },
   {
    "id": "lo4zAfNJgN0",
@@ -4146,6 +4307,7 @@
    ],
    "towns": [],
    "local_because": [
+    "county named elsewhere",
     "state named"
    ],
    "elsewhere": true,
@@ -4154,7 +4316,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 857
+   "comments": 856,
+   "description": "Utah’s sprawling “hyperscale” data center is a go.\n\nAfter delaying its decision by a week, the three-member Box Elder County Commission voted unanimously Monday to approve the massive energy and data campus backed by Utah’s Military Installation Development Authority and celebrity investor Kevin O’Leary.\n\nMIDA approved the project late last month. The commission’s vote allows MIDA to create the project area — which is mostly made up of privately owned, unincorporated land within the county — where it can offer an array of incentives to the developer.\n\n“We need to realize and remember that everybody has property rights,” Commissioner Tyler Vincent said, “and that they can do what they would like to do with their property.”\n\nReporting: Samantha Moilanen & Leia Larsen\nVideo: Trevor Christensen\nThe Salt Lake Tribune"
   },
   {
    "id": "eI_CjjCqfzY",
@@ -4182,7 +4345,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 1
+   "comments": 1,
+   "description": "A new Meta data center is coming to Tulsa, Oklahoma. Despite promises from Oklahoma leaders and the Meta company to not raise taxes for residents and setting a goal of net zero water usage, some residents aren't convinced. #datacenter #meta #ai #technology #tulsa #oklahoma #news #community #east #viral"
   },
   {
    "id": "OcTsIzVzsPY",
@@ -4301,7 +4465,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 83
+   "comments": 83,
+   "description": "Time is ticking to partially halt data centers\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/\nhttps://www.tiktok.com/@_kfor4"
   },
   {
    "id": "Mb6bd-4h30c",
@@ -4329,7 +4494,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "Residents in Claremore are voicing concerns about a proposed data center that could be built in their community."
   },
   {
    "id": "bHiyUXr2xPk",
@@ -4356,7 +4522,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 5
+   "comments": 5,
+   "description": "The Oklahoma Legislature is taking aim at data centers with two different approaches, as lawmakers respond to constituent concerns about rising energy costs and infrastructure strain."
   },
   {
    "id": "pQD8VTdSDYw",
@@ -4371,8 +4538,11 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Tulsa"
+   ],
    "local_because": [
+    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -4466,7 +4636,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 6
+   "comments": 6,
+   "description": "As data centers and other large industrial users seek more electricity in Oklahoma, a new bill at the state Capitol is taking aim at a key question: Who should pay to upgrade the power grid?\n\nRead story: https://ktul.com/news/local/oklahoma-bill-targets-who-pays-for-grid-upgrades-as-data-centers-drive-demand\n\nKTUL: http://www.ktul.com\nFacebook: https://www.facebook.com/NewsChannel8Tulsa\nTwitter: https://twitter.com/KTULNews \nInstagram: https://www.instagram.com/newschannel8tulsa/ \nTikTok: https://www.tiktok.com/@newschannel8tulsa \n\niOS KTUL App: https://apps.apple.com/us/app/tulsas-channel-8/id392330857?platform=iphone  \nAndroid KTUL App: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.ktul \n\niOS Weather App: https://apps.apple.com/us/app/ktul-wx/id489182496 \nAndroid Weather App: https://play.google.com/store/apps/details?id=com.ktul.android.weather&hl=en_US&gl=US \n\nHave a news tip? Email us at news@ktul.com \n\nHave a video or photo you want to share? Upload it to https://ktul.com/chimein\n\n#Tulsa #oklahoma #abc #news"
   },
   {
    "id": "yzG1UetO6ww",
@@ -4491,7 +4662,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": ""
   },
   {
    "id": "mt220dDkYN4",
@@ -4502,16 +4674,20 @@
    "topics": [
     "data_center"
    ],
-   "counties": [],
+   "counties": [
+    "Osage County"
+   ],
    "states": [
     "Oklahoma"
    ],
    "towns": [
+    "Tulsa",
     "Sand Springs"
    ],
    "local_because": [
+    "county named",
     "town named",
-    "state inferred from channel name"
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -4519,7 +4695,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "SAND SPRINGS, OKLA. (KTUL) — The cafeteria at Charles Page High School was packed. On the menu, a four-course meal of the benefits that having a data center would bring to the community.\n\n\"I really think that data centers are a golden ticket for communities across America,\" said Kate Franko from Google. She said Project Spring would create about a thousand construction jobs at peak.\n\n\"If this project moves forward the city of Sand Springs, Osage County, Sand Springs Public Schools and Tulsa Tech will receive significant financial support to the tune of millions of dollars per year,\" she said.\n\nMoney the school superintendent said would help with infrastructure.\n\n\"Bringing Google here will glean at least $1.1 million in our building fund every single year,\" said Sherry Durkee.\n\nMoney the city manager said would give the city some flexibility.\n\n\"It would also let us do things that we could do that we want to do that the public has asked us to do like, a public swimming pool. We haven’t done that before because of the ongoing cost of that,\" said Mike Carter.\n\nBut money at what cost said residents.\n\n\"Money is the root of all evil. There's other ways to grow Sand Springs, there’s other ways,\" said Charlie Pearson, who had strong support from the crowd with his assertion that something like this just isn't a good fit for Sand Springs.\n\n\"You’re not listening to the people, because we’ve tried to tell you, this is not going to work, not for us. But you all will not listen,\" he said.\n\nA common theme from many of the speakers, we like our quality of life just the way it is, and you need to listen to us, before one day you have to listen to someone else.\n\n\"I ask you to remember that one day we will all stand in front of the judgment seat. Will you be known for protecting the least of these and hear the words, 'Well done, my good and faithful servant,' or will you choose a different path out of a love for money and hear, 'I know you not, depart from me,'\" said one resident.\n\nRead story: https://ktul.com/news/local/google-describes-golden-ticket-data-center-for-sand-springs-residents-push-back\n\nKTUL: http://www.ktul.com\nFacebook: https://www.facebook.com/NewsChannel8Tulsa\nTwitter: https://twitter.com/KTULNews \nInstagram: https://www.instagram.com/newschannel8tulsa/ \nTikTok: https://www.tiktok.com/@newschannel8tulsa \n\niOS KTUL App: https://apps.apple.com/us/app/tulsas-channel-8/id392330857?platform=iphone  \nAndroid KTUL App: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.ktul \n\niOS Weather App: https://apps.apple.com/us/app/ktul-wx/id489182496 \nAndroid Weather App: https://play.google.com/store/apps/details?id=com.ktul.android.weather&hl=en_US&gl=US \n\nHave a news tip? Email us at news@ktul.com \n\nHave a video or photo you want to share? Upload it to https://ktul.com/chimein\n\n#Tulsa #oklahoma #abc #news #google #sandsprings #datacenter #jobs #business #technology #economy #infrastructure #growth"
   },
   {
    "id": "Fa-NU5I2JVE",
@@ -4530,12 +4707,22 @@
    "topics": [
     "data_center"
    ],
-   "counties": [],
+   "counties": [
+    "Muskogee County",
+    "Tulsa County"
+   ],
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Tulsa",
+    "Sand Springs",
+    "Claremore",
+    "Coweta"
+   ],
    "local_because": [
+    "county named",
+    "town named",
     "state named",
     "broadcast call letters"
    ],
@@ -4545,7 +4732,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 16
+   "comments": 16,
+   "description": "What do new data centers coming to Green Country mean for northeast Oklahoma?\n\nThree data centers are expected to be built in Green Country over the next several years— two in Muskogee County and one in Tulsa County— and now Coweta, Sand Springs and Claremore are considering requests to add data centers there.\n\nSupporters point to billions of dollars in investment, new jobs, and long-term tax revenue as key benefits for local communities. But some residents are raising concerns about water usage and energy demands, questioning how these facilities could impact natural resources and infrastructure.\n\nNews On 6's Chloe Abbott breaks it down.\n\n#tulsa #oklahoma #newson6 #localnews #tulsaok\n\nStay caught up with the latest news, weather, and sports in the Tulsa metro and Northeast Oklahoma with News On 6!\nLatest: https://www.newson6.com\nFacebook: https://www.facebook.com/NewsOn6 \nX: https://x.com/NewsOn6 \nInstagram: https://www.instagram.com/newson6kotv\nDownload the News On 6 app from the Apple Store: https://apple.co/3FFuuF1 \nDownload the News On 6 app from the Google Play Store: https://bit.ly/43Tx4kK"
   },
   {
    "id": "1wVKSdMm9fI",
@@ -4556,16 +4744,22 @@
    "topics": [
     "data_center"
    ],
-   "counties": [],
+   "counties": [
+    "Rogers County"
+   ],
    "states": [
     "Oklahoma"
    ],
    "towns": [
-    "Claremore"
+    "Tulsa",
+    "Mustang",
+    "Claremore",
+    "Coweta"
    ],
    "local_because": [
+    "county named",
     "town named",
-    "state inferred from channel name"
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -4573,7 +4767,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 26
+   "comments": 26,
+   "description": "CLAREMORE, OKLA. (KTUL) — Claremore city officials have known about Project Mustang, a new data center, for the past several months, but residents just found out in the past few days.\n\n\"You’re not a good community partner by surprising everybody,\" said Kelly Boegemann, who has been so concerned about the spread of data centers that she started an online petition to keep them out of Rogers County before she even knew about Project Mustang.\n\n\"I saw what was happening in other counties and communities, and I didn’t want that to happen to us,\" she said.\n\nProject Mustang is being spearheaded by Beale, the same company behind Project Atlas in Coweta, which has seen a strong outpouring of public opposition.\n\n\"Citizens all around Oklahoma have said bluntly that we don’t want these data centers here. There’ve been protests, we’ve told elected officials over and over and over again, and it all comes down to money. They’re not listening to us, and that’s the problem,\" said Claremore resident Payton Pepin, who is running for state senate.\n\n\"We feel like this was not done in good faith, a lot of these have not been done in good faith, they’ve kept them secret, and we feel like they’ve tried to rip us off,\" he said.\n\nThe data center would be located at Claremore Industrial Park, with the first phase targeted for a 2028 completion. The city released a statement saying in part, “The City, in partnership with Claremore Economic Development, has an established history of advancing industrial projects in a manner that safeguards public interests and supports long-term community sustainability.”\n\n\"I’m against it,\" said Lane Brown, who is running for District 1 Rogers County commissioner.\n\n\"If it was truly economic development, we’d be open and transparent about this, we’d be like, 'Hey, let’s do this, this is good for the community,' but it’s not. They’re secretly doing this stuff,\" he said.\n\nA new year, a new controversy over data centers, but the message from some residents is a very familiar tune.\n\n\"I guess my point is, and what I’d really like the data centers to know is that we don’t want you here, please don’t come,\" said Pepin.\n\nFull Statement from City of Claremore\n\n\"The City of Claremore and Claremore Economic Development (CED) have taken a long-term, strategic approach to industrial planning, recognizing that large-scale infrastructure projects require extensive planning, coordination and foresight. Since 2013, CED has strategically acquired land in and around the Claremore Industrial Park to enable long-term planning, attract top employers and ensure projects align with zoning, land-use and fiscal standards.\n\n\"Over the past several months, the City and CED have been engaged in discussions regarding a potential large-scale economic development project, known as Project Mustang, within the Claremore Industrial Park. As with all industrial projects, rigorous site due diligence is required to determine feasibility before any commitments are made. As this due diligence phase nears completion, the project would move toward consideration of a Tax Increment District (TID) process prior to any land closing.\n\n\"The proposed project would be located on land already zoned for industrial use and would not increase existing local tax rates or utility rates. As an air-cooled facility, it would have limited impact on Claremore’s water supply and all required initial infrastructure upgrades would be paid for by the developer. The City and CED have been informed that the project owner/developer and end-user are domestically owned and publicly traded companies.\n\n\"The City, in partnership with Claremore Economic Development, has an established history of advancing industrial projects in a manner that safeguards public interests and supports long-term community sustainability,” said John Feary, Claremore City Manager. “All projects are governed by public oversight, enforceable contractual protections and strict adherence to all applicable local, state and federal regulations for the protection of residents, ratepayers and the community as a whole.\"\n\nRead story: https://ktul.com/news/local/claremore-residents-speak-out-against-project-mustang-data-center\n\nKTUL: http://www.ktul.com\nFacebook: https://www.facebook.com/NewsChannel8Tulsa\nTwitter: https://twitter.com/KTULNews \nInstagram: https://www.instagram.com/newschannel8tulsa/ \nTikTok: https://www.tiktok.com/@newschannel8tulsa \n\niOS KTUL App: https://apps.apple.com/us/app/tulsas-channel-8/id392330857?platform=iphone  \nAndroid KTUL App: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.ktul \n\niOS Weather App: https://apps.apple.com/us/app/ktul-wx/id489182496 \nAndroid Weather App: https://play.google.com/store/apps/details?id=com.ktul.android.weather&hl=en_US&gl=US \n\nHave a news tip? Email us at news@ktul.com \n\nHave a video or photo you want to share? Upload it to https://ktul.com/chimein\n\n#Tulsa #oklahoma #abc #news #claremore #data #datacenter #economy #money #business"
   },
   {
    "id": "y45sRgW_uE4",
@@ -4589,11 +4784,12 @@
     "Oklahoma"
    ],
    "towns": [
+    "Tulsa",
     "Coweta"
    ],
    "local_because": [
     "town named",
-    "state inferred from channel name"
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -4601,7 +4797,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 2
+   "comments": 2,
+   "description": "Decked out in holiday lights, the huge no data center sign clearly let folks known that the community meeting about the topic was being held at Our Finest Hour Church.\n\n\"There’s still a lot of people in town that are still finding out about the data center,\" said Allen Prather\n\nAnd Prather has been doing work to find out about the non-disclosure agreements city officials signed with the company last year.\n\n\"It really grinds my gears,\" he said.\n\nPrather is none too pleased that the NDAs were signed roughly a year and a half before residents were made aware of the project.\n\n\"I did an information request from city hall and found that this is the only NDA that city of Coweta has ever signed in its history of a town.\n\nNews Channel 8 reached out to both the developer of the data center and the city to see if any officials from either would be at tonight's meeting. The developer said no and the city said not to their knowledge.\n\n\"I'm not surprised. They just kind of want to stay out of the picture I guess, we hoped that they would come because people want answers, and it just make them feel like, you don’t really want our opinion,\" said resident Cathie Hogate.\n\nOne official who was here, State Rep. Mandy Clinton.\n\n\"I held an interim study in October at the legislature to examine data centers and their impact on our water and our power,\" she said.\n\nWhen it comes to power residents have expressed concern that the proliferation of data centers statewide will lead to rate increases for everyday consumers.\n\n\"I think that we will see rate increases if we continue to bring on large load customers like hyper scale data centers, that has happened in every state that has done this,\" she said.\n\nConcerns over the impact of data centers, with residents and lawmakers looking for more transparency.\n\nRead story: https://ktul.com/news/local/coweta-residents-meet-to-learn-about-data-centers\n\nKTUL: http://www.ktul.com\nFacebook: https://www.facebook.com/NewsChannel8Tulsa\nTwitter: https://twitter.com/KTULNews \nInstagram: https://www.instagram.com/newschannel8tulsa/ \nTikTok: https://www.tiktok.com/@newschannel8tulsa \n\niOS KTUL App: https://apps.apple.com/us/app/tulsas-channel-8/id392330857?platform=iphone  \nAndroid KTUL App: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.ktul \n\niOS Weather App: https://apps.apple.com/us/app/ktul-wx/id489182496 \nAndroid Weather App: https://play.google.com/store/apps/details?id=com.ktul.android.weather&hl=en_US&gl=US \n\nHave a news tip? Email us at news@ktul.com \n\nHave a video or photo you want to share? Upload it to https://ktul.com/chimein\n\n#Tulsa #oklahoma #abc #news"
   },
   {
    "id": "Pg_256Xo-Nk",
@@ -4720,7 +4917,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 5
+   "comments": 5,
+   "description": "Google to build two new data centers in eastern Oklahoma\n\nKOCO News 5 is your home for Oklahoma breaking news and weather. For your latest Oklahoma news and weather visit: https://www.koco.com/\n\nFor licensing inquiries: https://www.koco.com/licensing"
   },
   {
    "id": "12vtC6ARrtI",
@@ -4838,7 +5036,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 21
+   "comments": 21,
+   "description": "Data centers are rising across Oklahoma faster than ever before with over 36 already operating statewide and more on the way. With that rapid growth, many residents are asking two major questions: can the electrical grid handle it and will customer bills go up because of it?"
   },
   {
    "id": "wplhk9anP-c",
@@ -4863,7 +5062,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 6
+   "comments": 6,
+   "description": "Green Country residents are raising concerns and asking for more information as large-scale data centers begin moving into the region."
   },
   {
    "id": "aZ8G-zVbvjw",
@@ -4908,7 +5108,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 14
+   "comments": 14,
+   "description": "🏆 Looking for the best realtor in Oklahoma? 🏆\nI'm Tom O’Stasik and I run the Brightside Realty Group of Keller Williams Realty Preferred in Tulsa Oklahoma. We are the team for your Oklahoma real estate needs! Buying? Selling? Investing? Relocating? We got you! ✅\n\n💙Playlists to Watch💙 \n🌟 Living in Tulsa https://bit.ly/42PG6fV \n🏘 Tulsa Real Estate https://bit.ly/3LXQ5tB \n💲 Tulsa Real Estate Investing https://bit.ly/40GXb9L \n😵 My First BRRRR Investment Property https://bit.ly/3ZhfFg0 \n🩳 Shorts https://bit.ly/3TSbp5v \n\n💥Follow me on Social Media 💥\nFacebook ☞ https://bit.ly/3LYbcvO \nInstagram ☞ http://bit.ly/40JwdOH \nLinkedin    ☞ http://bit.ly/40G9Dqj \nTikTok       ☞ http://bit.ly/40eCRwJ \n\n📱 Connect Direct 📱\nTom O'Stasik - Real Estate Agent\nBrightside Realty Group - Keller Williams Realty Preferred\n918-417-2442\nTULSATOM@KW.COM\n🖥 Website: tulsatom.kw.com \n📲Use my house-finding APP no matter where you are:  https://app.kw.com/KWT0VQ"
   },
   {
    "id": "M6m1PgXwfN0",
@@ -5029,7 +5230,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 3
+   "comments": 3,
+   "description": "The Oklahoma News Report, hosted by Rich Lenz, is a weekly in-depth exploration of news and issues affecting all Oklahomans, featuring topical information and meaningful stories that provide context and meaning to educate and engage every citizen across the state. For more information about The Oklahoma News Report, visit https://www.OETA.tv/onr.\n\nFollow The Oklahoma News Report:\n• Facebook - @OETAONR (https://www.facebook.com/OETAONR)\n• Twitter - @OETAONR (https://twitter.com/OETAONR)\n\nSupport local, independent journalism. Become a member of OETA at https://www.oeta.tv/donate."
   },
   {
    "id": "07K9xU0iy10",
@@ -5148,7 +5350,8 @@
    "score": 6,
    "first_seen": "2026-09-14",
    "comments": 0,
-   "comments_off": true
+   "comments_off": true,
+   "description": "Tech giant Google expanding data centers in Oklahoma\n\nStay informed about Oklahoma news and weather! Follow KFOR News 4 on our website and social channels. \n\nhttps://kfor.com/\nhttps://www.youtube.com/c/kfor4news\nhttps://www.facebook.com/kfor4\nhttps://twitter.com/kfor\nhttps://www.instagram.com/kfortv4/"
   },
   {
    "id": "tW2emLQO8z8",
@@ -5164,9 +5367,12 @@
     "Oklahoma"
    ],
    "towns": [
+    "Tulsa",
+    "Stillwater",
     "Pryor"
    ],
    "local_because": [
+    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -5180,7 +5386,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 0
+   "comments": 0,
+   "description": "Google on Wednesday officially announced a $9 billion investment to expand its existing data center in Pryor and build a brand-new facility in Stillwater.\n\nThe announcement has drawn praise from state and local leaders and raised questions about why Google chose Oklahoma for such a major expansion.\n\nRead story: https://ktul.com/news/local/google-invests-9-billion-to-expand-oklahoma-data-centers#\n\nKTUL: http://www.ktul.com\nFacebook: https://www.facebook.com/NewsChannel8Tulsa\nTwitter: https://twitter.com/KTULNews \nInstagram: https://www.instagram.com/newschannel8tulsa/ \nTikTok: https://www.tiktok.com/@newschannel8tulsa \n\niOS KTUL App: https://apps.apple.com/us/app/tulsas-channel-8/id392330857?platform=iphone  \nAndroid KTUL App: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.ktul \n\niOS Weather App: https://apps.apple.com/us/app/ktul-wx/id489182496 \nAndroid Weather App: https://play.google.com/store/apps/details?id=com.ktul.android.weather&hl=en_US&gl=US \n\nHave a news tip? Email us at news@ktul.com \n\nHave a video or photo you want to share? Upload it to https://ktul.com/chimein\n\n#Tulsa #oklahoma #abc #news #google #data #datacenter #stillwater #pryor #technology #jobs"
   },
   {
    "id": "jMpyyUuU-j8",
@@ -5201,6 +5408,8 @@
     "Tulsa"
    ],
    "local_because": [
+    "county named",
+    "town named",
     "state inferred from channel name"
    ],
    "elsewhere": false,
@@ -5209,7 +5418,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 2
+   "comments": 2,
+   "description": "Cherokee Nation Tribal Councilor Joe Deere speaks at Tulsa County board of commissioners meeting on proposed data center in Tulsa, Okla. July 15, 2025."
   },
   {
    "id": "-xxhwM6bc5k",
@@ -5229,8 +5439,8 @@
    ],
    "local_because": [
     "town named",
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5238,7 +5448,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "Read the story: https://okcfox.com/news/local/an-enormous-concern-luther-residents-concerned-over-potential-data-center-in-their-town-ai\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
   },
   {
    "id": "yoLmoZ_34qI",
@@ -5263,7 +5474,8 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": ""
   },
   {
    "id": "gwxzqAFlBxU",
@@ -5289,7 +5501,8 @@
    "score": 6,
    "first_seen": "2026-09-15",
    "comments": 0,
-   "comments_off": true
+   "comments_off": true,
+   "description": "Interim City Manager Brady Moore and OG&E representative Kimberlee Adams talked about the pending data center project and the upcoming election that would grant OG&E a franchise to deliver electricity to the project site."
   },
   {
    "id": "1wl2WXV0KY8",
@@ -5318,7 +5531,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-15",
-   "comments": 22
+   "comments": 22,
+   "description": "​An illegal data center in Oklahoma just leaked 3 million gallons of municipal drinking water in the middle of a severe drought. As AI and compute demands skyrocket, local infrastructure is taking the hit. Here is what happened, the scale of the damage, and why this is becoming a massive problem for local water supplies.\n\n​Are tech companies moving too fast for local power grids and water supplies? Drop your thoughts below.\n\n​#DataCenter #Oklahoma #TechNews #Shorts #Infrastructure"
   },
   {
    "id": "5D-IAnObrsc",
@@ -5331,6 +5545,7 @@
    ],
    "counties": [],
    "states": [
+    "Nebraska",
     "Oklahoma"
    ],
    "towns": [],
@@ -5343,7 +5558,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-15",
-   "comments": 5
+   "comments": 5,
+   "description": "Google’s new Lincoln data center needs a staggering amount of electricity — including 423 megawatts of wind energy from Oklahoma.\n\nBut there’s more to the story.\n\nLincoln Electric System says Google is paying for the additional generation needed to serve the data center, rather than passing those costs along to ratepayers. And Google is expected to account for roughly 11% of LES retail revenue.\n\nSo the real question isn’t whether data centers are good or bad.\n\nIt’s this: How does Nebraska make the data center and AI boom work for all Nebraskans?\n\nNebraska is the only state in America served entirely by publicly owned electric utilities. As AI drives enormous new demand for electricity, that could give our state a unique economic advantage — if we get the deals right.\n\nWho pays for new generation and transmission? What happens to electric rates? And if Nebraska’s public power becomes increasingly valuable to companies like Google, how do Nebraska ratepayers benefit?\n\nThat’s Why It Matters.\n\nSubscribe to The Dan Parsons Show for more Nebraska politics, policy and news beyond the headlines.\n\n#Nebraska #LincolnNE #Google #DataCenters #ArtificialIntelligence #PublicPower #Energy #WhyItMatters"
   },
   {
    "id": "gfJpi89nfTo",
@@ -5363,7 +5579,7 @@
    ],
    "local_because": [
     "town named",
-    "state inferred from channel name"
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5371,7 +5587,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-15",
-   "comments": 35
+   "comments": 35,
+   "description": "Tulsa data centers are changing the local real estate landscape. Learn how this shift impacts neighborhood development and power grid demands.\n\nCommercial real estate in Tulsa is seeing a distinct pivot. While traditional retail and residential projects have long driven local growth, new buyers are focusing on large-scale infrastructure projects. This video explains why Tulsa data centers have become a focal point for developers and how these facilities function as a new asset class in the region.\n\nWe examine the controversy surrounding these projects, specifically regarding the heavy data center power requirements necessary to support them. If you are tracking Tulsa development or interested in how industrial zoning impacts city planning, this analysis provides clarity on the current market shifts. Understanding the trade-offs between neighborhood preservation and infrastructure needs is essential for anyone following local economic changes.\n\nSubscribe for weekly real estate and development breakdowns, and let me know in the comments if you think Tulsa should prioritize data centers or traditional housing.\n\n📱 Connect Direct 📱\n'Tulsa Tom' O'Stasik - Realtor\nKeller Williams Realty Preferred\n918-417-2442\nTULSATOM@KW.COM\n🖥 Website: ostasik.kw.com \n📲Use my house-finding APP no matter where you are:  https://app.kw.com/KWT0VQK\n\n📆 Book a Private 1 on 1 Call with ME to get started! → http://calendly.com/tulsatom \n\n📚 Best Schools: https://www.greatschools.org\n🏘 Neighborhood data: https://www.niche.com\n📍 Census Data: https://www.census.gov/quickfacts\n\n💙Playlists to Watch💙 \n🌟 Living in Tulsa https://bit.ly/42PG6fV \n🏘 Tulsa Real Estate https://bit.ly/3LXQ5tB \n💲 Tulsa Real Estate Investing https://bit.ly/40GXb9L \n😵 My First BRRRR Investment Property https://bit.ly/3ZhfFg0 \n🩳 Shorts https://bit.ly/3TSbp5v \n\n💥Follow me on Social Media 💥\nFacebook ☞ https://bit.ly/3LYbcvO \nInstagram ☞ http://bit.ly/40JwdOH \nLinkedin    ☞ http://bit.ly/40G9Dqj \nTikTok       ☞ http://bit.ly/40eCRwJ \n\n#realestate #realtor #tulsarealtor #tulsarealestate #tulsa #tulsaoklahoma"
   },
   {
    "id": "ttrmG6W3Enw",
@@ -5382,21 +5599,35 @@
    "topics": [
     "data_center"
    ],
-   "counties": [],
-   "states": [
-    "Minnesota"
+   "counties": [
+    "Pittsburg County",
+    "Washington County",
+    "Frederick County"
    ],
-   "towns": [],
+   "states": [
+    "Florida",
+    "Kansas",
+    "Maryland",
+    "Minnesota",
+    "Oklahoma",
+    "Oregon"
+   ],
+   "towns": [
+    "Miami"
+   ],
    "local_because": [
+    "county named",
+    "town named",
     "state named"
    ],
-   "elsewhere": true,
+   "elsewhere": false,
    "found_by": [
     "national"
    ],
    "score": 5,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "In Inver Grove Heights, Minnesota, the city council adjourned before a scheduled data center vote as 80+ residents booed. That's one of eight stories unfolding across America right now.\n\n🏘️ **COMMUNITY** — The Inver Grove Heights, MN City Council adjourned Monday night before a scheduled data center moratorium vote, prompting boos and shouting from 80+ residents. The hearing was rescheduled for Friday at 8 AM. Council Member Sue Gliva cited unspecified \"confidential\" new information. The developer behind the proposed 54,000 sq ft facility has threatened legal action if the city acts on anything beyond zoning law.\n\n🗳️ **LEGAL** — In Frederick County, Maryland, the Frederick County Data Center Referendum Committee filed its opening appeal brief with the Maryland Supreme Court on Tuesday, representing 21,000+ residents who signed a petition to vote on a 2,615-acre data center zone north of Adamstown. A lower court blocked the referendum. Oral arguments are set June 30 — one day before ballot language is due to the state.\n\n⚖️ **LEGAL** — 1000 Friends of Oregon, Tax Fairness Oregon, the Tualatin Riverkeepers, and a sitting Hillsboro City Councilor sued Hillsboro and Washington County Monday over tax breaks for 17 data centers. The city rushed enterprise zone approvals to beat Oregon's June 6 data center tax moratorium. The Oregon Education Association is also a plaintiff.\n\n⚡ **POWER** — A new Cleanview analysis reveals 46 planned U.S. data centers with 56 GW combined capacity plan to build private gas plants and bypass the grid entirely. That sidesteps utility regulators — while leaving all ratepayers to fund grid upgrades. Residential electricity prices rose 11.5% in 2025; analysts forecast a further 40% increase by 2030.\n\n💧 **WATER** — Two-thirds of 809 planned U.S. data centers are being sited in drought-affected areas (Tom's Hardware / The Guardian). AI data centers consumed 264 billion gallons of water in 2025 — 550 million gallons per day. U.S. data center water demand is forecast to quadruple by 2028, reaching 73 billion gallons per year.\n\n🏛️ **POLICY** — Florida Governor DeSantis signed SB 484 (effective July 1): data centers drawing 50 MW or more must pay their full cost of service, including all grid upgrades. Utilities are barred from charging residential or small-business ratepayers for data center infrastructure. At least 12 other states are pursuing similar laws.\n\n🏗️ **NEW BUILD** — Miami developer Revitalization Unlimited filed plans for a 20-story, 384-foot data center tower in downtown Kansas City, designed by Skidmore, Owings & Merrill. The 140,880 sq ft building devotes 18 floors to IT racks and fuel cells, with a coffee shop on the ground floor. City review begins June 30.\n\n💰 **INVESTMENT** — Australia-based IREN's \"Project Emerald\" — a 2,000-acre hyperscale AI campus in Pittsburg County, Oklahoma — was stalled Monday when county commissioners tabled two proposed tax incentive districts. 200 residents showed up opposed; one called it \"a tax avoidance structure written by the developer's attorneys.\" IREN claims $24M in annual taxes and 100 permanent jobs."
   },
   {
    "id": "vfUbtqhG_gE",
@@ -5407,21 +5638,34 @@
    "topics": [
     "data_center"
    ],
-   "counties": [],
+   "counties": [
+    "Box Elder County"
+   ],
    "states": [
-    "Utah"
+    "Illinois",
+    "Iowa",
+    "Minnesota",
+    "New York",
+    "North Dakota",
+    "Ohio",
+    "Oklahoma",
+    "Texas",
+    "Utah",
+    "Wisconsin"
    ],
    "towns": [],
    "local_because": [
+    "county named elsewhere",
     "state named"
    ],
-   "elsewhere": true,
+   "elsewhere": false,
    "found_by": [
     "national"
    ],
    "score": 5,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "Nine hundred Utahns showed up to a county commission hearing and forced Kevin O'Leary's city-sized data center into a 75% scale-back — and it's now a national story that Congress is watching. Here's everything happening in U.S. data centers right now.\n\n🏘️ **COMMUNITY** — Utah's proposed 40,000-acre Stratos Project in Box Elder County was set to consume 9 gigawatts of electricity — more than double the entire state's usage. Over 900 people packed the county hearing, 300 more rallied outside, and investor Kevin O'Leary admitted \"We pissed off a lot of people.\" He agreed to a 75% scale-back. Congress held hearings on June 11 as the protests went national. Residents cite threats to the Great Salt Lake's water supply.\n\n⚖️ **LEGAL** — New York's legislature passed the Responsible Data Center Development Act (S10642) in a historic vote: Senate 44-16, Assembly 102-39. If signed by Gov. Kathy Hochul, New York would become the first state in the nation to impose a statewide moratorium on large data center permits. The one-year ban would freeze new environmental approvals for any facility drawing 20 megawatts or more. Hochul has not committed to signing.\n\n⚡ **POWER/REGULATORY** — Ohio lawmakers unveiled what may be the nation's most sweeping data center regulation bill, targeting tax incentive rollbacks, nondisclosure agreement bans, water use reporting, and ratepayer billing protections in a single package. A separate citizen petition is circulating for a constitutional amendment to ban large-scale data centers in Ohio. Five other Heartland states — Illinois, Iowa, Minnesota, Oklahoma, and Wisconsin — are advancing similar legislation.\n\n🏗️ **NEW BUILD** — CloudBurst broke ground on its debut 1.2 GW data center campus in the San Marcos area of Central Texas, one of the largest data center projects ever announced in the U.S. The first 50 MW phase is due online by Q4 2026. The project highlights a growing divide: while some states pass moratoriums, Texas keeps building.\n\n💰 **INVESTMENT** — CoreWeave priced $1.25 billion in dollar bonds and €2 billion in euro notes on June 11 — the first euro-denominated junk bonds ever sold by a U.S. AI infrastructure company. Applied Digital separately raised $1.59 billion in junk bonds to fund a fourth data center building for CoreWeave in North Dakota. The euro orderbook topped €7 billion — nearly 3.5× oversubscribed.\n\n---\n\nIf you found this useful, subscribe, leave a like, and drop a comment — it helps us cover more of these stories.\n🔔 Subscribe · 👍 Like · 💬 Comment with questions or story tips\n\n---\n\n**Sources:**\n- https://rollcall.com/2026/06/11/data-center-uproar-utah-congress-watching-waiting/\n- https://www.ksl.com/article/51501551/hundreds-of-utahns-rally-against-proposed-box-elder-data-center\n- https://www.csmonitor.com/Environment/2026/0605/utah-stratos-data-center-kevin-oleary\n- https://spectrumlocalnews.com/nys/central-ny/politics/2026/06/05/data-center-moratorium-approved-\n- https://www.datacenterdynamics.com/en/news/new-york-state-legislature-passes-data-center-moratorium-awaits-governor-hochuls-approval/\n- https://heartlandsignal.com/2026/06/10/ohio-lawmakers-introduce-sweeping-new-data-center-legislation/\n- https://www.hppr.org/hppr-news/2026-06-11/as-people-protest-data-centers-across-the-heartland-lawmakers-rush-to-regulate-development\n- https://www.datacenterdynamics.com/en/news/cloudburst-breaks-ground-on-gigawatt-scale-data-center-campus-in-texas/\n- https://finance.yahoo.com/markets/stocks/articles/coreweave-ai-funding-goes-global-153021346.html\n- https://www.bloomberg.com/news/articles/2026-06-10/coreweave-s-credit-rebound-drives-cheaper-data-center-funding\n\n#DataCenter #KevinOLeary #UtahProtest #DataCenterNews #NewYorkMoratorium #OhioDataCenter #AIInfrastructure #DataCenter2026 #CoreWeave #CloudBurst"
   },
   {
    "id": "s-g9a1SZcgA",
@@ -5438,8 +5682,8 @@
    ],
    "towns": [],
    "local_because": [
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5447,7 +5691,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "In this Big Story Breakdown, FOX 25 is continuing to look at data centers. \n___________\nFollow KOKH on social media:\n\nTikTok: https://www.tiktok.com/@fox25news\nFacebook: https://www.facebook.com/foxokc\nTwitter: https://twitter.com/OKCFOX\nInstagram: https://www.instagram.com/okcfox/\nNewsletter sign-up: https://okcfox.com/sign-up\n\nHave a tip? Email us at news@okcfox.com\nHave a video or photo you want to share? Upload it to okcfox.com/chimein/\nwww.okcfox.com\nFOX 25 is an Oklahoma-based station and a FOX television affiliate owned and operated by Sinclair Broadcast Group. Sinclair owns and operates, programs or provides sales services to 163 television stations in 77 markets. Sinclair's television group reaches approximately 38.7% of US television households and includes FOX, ABC, MyTV, CW, CBS, NBC, Univision, and Azteca affiliates.\n\n#okc #oklahoma #news #fox25"
   },
   {
    "id": "1P2AssXuUm0",
@@ -5464,8 +5709,8 @@
    ],
    "towns": [],
    "local_because": [
-    "broadcast call letters",
-    "state inferred from station"
+    "state named",
+    "broadcast call letters"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5549,7 +5794,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-14",
-   "comments": 40
+   "comments": 40,
+   "description": "SHOULD DATA CENTERS BE BANNED? Gov. Kevin Stitt told KOCO's Dacoda Wahpekeche they should not be. This comes amid talk across the state about data centers moving in from the big city to areas in rural Oklahoma. | Click here for more: https://tinyurl.com/yx5febtx"
   },
   {
    "id": "iFoPii11cEY",
@@ -5575,7 +5821,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-14",
-   "comments": 6
+   "comments": 6,
+   "description": "California is losing its grip on the AI infrastructure race as local opposition leads to the delay or cancellation of nearly 50% of planned data center projects in 2026. From noise pollution in Monterey Park to water rights in the Imperial Valley, we explore why developers are abandoning the Golden State for the Texas grid."
   },
   {
    "id": "_EJU5vDSs5E",
@@ -5598,7 +5845,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-15",
-   "comments": 5
+   "comments": 5,
+   "description": "Rep. Alexandria Oscasio-Cortez and Sen. Bernie Sanders introduced a bill to pause the construction of new data centers until national safeguards are in place."
   },
   {
    "id": "7AvwQUvYEHk",
@@ -5623,7 +5871,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-14",
-   "comments": 55
+   "comments": 55,
+   "description": "During an event in Stanford, California, Sen. Bernie Sanders (I-VT) and Rep. Ro Khanna (D-CA) were asked about the impact of AI data centers on rural economies.\n\nStay Connected\nForbes Breaking News on X: https://x.com/ForbesTVNews\nForbes Breaking News on TikTok: https://www.tiktok.com/@forbestvnews\nMore From Forbes: http://forbes.com"
   },
   {
    "id": "PzrlOIk8Rig",
@@ -5714,7 +5963,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-14",
-   "comments": 713
+   "comments": 713,
+   "description": ""
   },
   {
    "id": "Y6gHfkYi0FY",
@@ -5731,9 +5981,7 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [
-    "Muskogee"
-   ],
+   "towns": [],
    "local_because": [
     "county named",
     "state inferred from station"
@@ -5745,7 +5993,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-15",
-   "comments": 3
+   "comments": 3,
+   "description": "Muskogee County officials are sharing new details about the two Google data centers coming to the area, announced by the company last Thursday."
   },
   {
    "id": "z_dZmi51rIs",
@@ -5763,11 +6012,14 @@
     "Oklahoma"
    ],
    "towns": [
-    "Muskogee"
+    "Tulsa",
+    "Muskogee",
+    "Coweta"
    ],
    "local_because": [
     "county named",
-    "state inferred from channel name"
+    "town named",
+    "state named"
    ],
    "elsewhere": false,
    "found_by": [
@@ -5775,7 +6027,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-15",
-   "comments": 2
+   "comments": 2,
+   "description": "MUSKOGEE, (Okla.) — The Muskogee area is no stranger to data centers. There's the up and running Polaris Technology, and just across the street is the under-construction Project Scissortail data center. And this week, an announcement by Google that two new data centers are being planned for Muskogee County as well.\n\n\"There's activity happening in the city where there really has been no major job creation in over 20 years,\" said local entrepreneur Charles Crawford. He's running for city council and says the construction boom has been great for his bed and breakfast.\n\n\"My bed and breakfast and my Airbnbs are doing fantastic with the increased labor force coming here, and that is the good side of all this is there’s jobs coming here,\" he said.\n\nNoticeably absent in Muskogee, any large-scale organized resistance to data centers as recently seen in Coweta.\n\nBut that's not to say that concerns about water usage and power rates are absent here.\n\n\"The cautious tale is can you do it and still protect the small farmers, still protect the river the streams out there and protect the watershed and keep enough power and electricity available for the 37,000 people that live in this community,\" he said.\n\nGoogle says when it comes to power, it \"will add 600 megawatts (MW) of new clean energy to Oklahoma’s electricity grid,\" from nearby solar farms. And as for water, \"The company is supporting a regenerative agriculture program that seeks to replenish approximately 1.4 billion gallons of water in North-Central Oklahoma over the next seven years.\"\n\nAssurances that only go so far with some residents worried about rate hikes.\n\n\"There are people here who are living paycheck to paycheck. I think we have almost 25% of our population just in the city of Muskogee is considered poverty and every penny they’ve got to account for,\" said concerned resident Mark Hughes.\n\nThe data center boom of Muskogee County, arriving at the speed of tech, with misgivings by some as to benefits they'll actually create.\n\n\"There are two things I don't trust, the government and big corporations,\" said Hughes.\n\nRead story: https://ktul.com/news/local/data-centers-aplenty-in-muskogee-county\n\nKTUL: http://www.ktul.com\nFacebook: https://www.facebook.com/NewsChannel8Tulsa\nTwitter: https://twitter.com/KTULNews \nInstagram: https://www.instagram.com/newschannel8tulsa/ \nTikTok: https://www.tiktok.com/@newschannel8tulsa \n\niOS KTUL App: https://apps.apple.com/us/app/tulsas-channel-8/id392330857?platform=iphone  \nAndroid KTUL App: https://play.google.com/store/apps/details?id=com.cellit.cellitnews.ktul \n\niOS Weather App: https://apps.apple.com/us/app/ktul-wx/id489182496 \nAndroid Weather App: https://play.google.com/store/apps/details?id=com.ktul.android.weather&hl=en_US&gl=US \n\nHave a news tip? Email us at news@ktul.com \n\nHave a video or photo you want to share? Upload it to https://ktul.com/chimein\n\n#Tulsa #oklahoma #abc #news #muskogee #datacenter #datacenters #google #googledatacenter #growth #economy #business #technology"
   },
   {
    "id": "0nSZQFuVQD4",
@@ -5798,7 +6051,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-14",
-   "comments": 69
+   "comments": 69,
+   "description": "President Trump speaks about the demand for data centers to power AI initiatives and their energy demands. He states his preference for fossil fuels and nuclear energy, while discounting the potential for solar or wind energy to fuel the growing energy demand. \n\nRead more at www.GovTech.com. \n\n#news #climate #fossilfuels #nuclear"
   },
   {
    "id": "R8BTa78hDSU",
@@ -5823,7 +6077,8 @@
    ],
    "score": 5,
    "first_seen": "2026-09-15",
-   "comments": 2
+   "comments": 2,
+   "description": "Bitcoin\n\nBitFuFu\n\nMining\n\nBitFuFu's strategic acquisition of a 51-megawatt Bitcoin mining data center in Oklahoma leverages the state's favorable regulatory environment and low-cost energy resources. This move not only enhances BitFuFu's operational efficiency but also aligns with Oklahoma's initiatives to attract cryptocurrency enterprises through supportive legislation and tax incentives.\n\nLast updated:                                        February 20, 2025\n\nJournalist\n\nTanzeel Akhtar\n\nJournalist\n\nTanzeel Akhtar\n\nAbout Author\n\nTanzeel Akhtar has been covering the cryptocurrency and blockchain sector since 2015. She has written for the Wall Street Journal, Bloomberg, CoinDesk, Bitcoin Magazine and Bitcoin.com.\n\nAuthor Profile\n\nShare\n\nCopied\n\nLast updated:\n\nFebruary 20, 2025 at 23:24 GMT+2\n\nWhy Trust Cryptonews\n\nCryptonews has covered the cryptocurrency industry topics since 2017, aiming to provide informative insights to our readers. Our journalists and analysts have extensive experience in market analysis and blockchain technologies. We strive to maintain high editorial standards, focusing on factual accuracy and balanced reporting across all areas...\n\nhttps://cryptonews.com/news/crypto-mining-firm-bitfufu-acquires-data-center-in-oklahoma/\n\n#crypto #bitcoin #ethereum #cryptocurrency #news #blockchain #litecoin #cryptonews #cryptonewstoday #cryptoworld #litecoinleader \n***NOT FINANCIAL, LEGAL, OR TAX ADVICE! JUST OPINION! I AM NOT AN EXPERT! I DO NOT GUARANTEE A PARTICULAR OUTCOME I HAVE NO INSIDE KNOWLEDGE! YOU NEED TO DO YOUR OWN RESEARCH AND MAKE YOUR OWN DECISIONS! THIS IS JUST ENTERTAINMENT!\n\nThis information is what was found publicly on the internet. This information could’ve been doctored or misrepresented by the internet. All information is meant for public awareness and is public domain. This information is not intended to slander harm or defame any of the actors involved but to show what was said through their social media accounts. Please take this information and do your own research.\n\nbitcoin, blockchain, crypto, cryptocurrency, altcoin, investment, ethereum, bitcoin crash, xrp, cardano, ripple"
   },
   {
    "id": "r6gTNbytuOs",
@@ -5848,7 +6103,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-14",
-   "comments": 2
+   "comments": 2,
+   "description": "#CherokeeNation #datacenter #Oklahoma #ai \nhttps://www.tomshardware.com/tech-industry/data-centers/largest-tribe-in-the-us-bans-hyperscale-data-centers-on-its-lands\n\nhttps://www.youtube.com/@UCRnxwrSacKjB3GNZKhiRyHw \nhttps://www.youtube.com/@UC8mtuRGc57TRbGGSdD7t0MA \nhttps://www.youtube.com/@UCI8SUZjbHOW_xWbeN5ASzXg\nhttps://www.youtube.com/@SteveTurgoose\nhttps://youtube.com/@ThatGuyScottWebb?si=70RQE56p449q_QDP\nKitty & Paula ladies night\nhttps://rumble.com/c/c-6055449?e9s=src_v1_sa%2Csrc_v1_sa_o\nhealthFreedomUK\nhttps://rumble.com/user/healthFreedomUK?e9s=src_v1_cbl\nStarfish Troopers\nhttps://rumble.com/c/c-1916037?e9s=src_v1_cbl"
   },
   {
    "id": "FHMxDg29bo4",
@@ -5892,7 +6148,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-14",
-   "comments": 4
+   "comments": 4,
+   "description": ""
   },
   {
    "id": "Txl-o8qr9dA",
@@ -5920,7 +6177,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-15",
-   "comments": 7
+   "comments": 7,
+   "description": "This is a full conversation with a Fluidstack representative for the Okmulgee Data Center project.\n\nAdvertised on social media as an \"open house to meet the Fluidstack team, ask questions, and chat one-on-one with our experts. This is a casual, science-fair style event.\"\n\nThe open house event was held at OSUIT in Okmulgee. \n\n(Please excuse the sound, it was very difficult to capture the conversation with that much background noise. I tried to capture the whole conversation, therefore video editing is minimal.)\n\nThanks for watching, Subscribe for more updates!\n\n#news #localnews #community #datacenter #awareness #public"
   },
   {
    "id": "shT38RUbhmE",
@@ -5945,7 +6203,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-15",
-   "comments": 135
+   "comments": 135,
+   "description": "The lands north of the Great Salt Lake are brown dirt, sagebrush and tumbleweed. And to Brenna Williams, they are pristine.\n\nFULL STORY - https://www.fox13now.com/news/fox-13-investigates/heres-how-much-water-kevin-olearys-partner-says-data-center-will-use-and-what-it-could-mean-for-utah\n\nMore Utah news: https://www.fox13now.com/\n\nSubscribe: youtube.com/user/fox13newsutah\nLike Fox 13 News on Facebook: https://bit.ly/3ydzNlD\nFollow on Twitter: https://bit.ly/3kraqI8\nFollow on Instagram: https://bit.ly/2XQc4eJ\nFollow on TikTok: https://bit.ly/3MrVff0\n\nSubscribe to Fox 13 Newsletters to receive breaking news, weather, and daily headlines from around Utah right in your inbox: https://bit.ly/3B9heku"
   },
   {
    "id": "EYP9UfYo2WI",
@@ -5970,7 +6229,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-15",
-   "comments": 166
+   "comments": 166,
+   "description": "There's growing backlash nationwide against AI data centers and now New York is hitting pause. Gov. Kathy Hochul signed an executive order to delay the building boom. Kelly O'Grady has more.\n\nEach weekday morning, \"CBS Mornings\" co-hosts Gayle King and Nate Burleson bring you the latest breaking news, smart conversation and in-depth feature reporting. \"CBS Mornings\" airs weekdays at 7 a.m. on CBS and stream it at 8 a.m. ET on the CBS News app.\n\nSubscribe to \"CBS Mornings\" on YouTube: https://youtube.com/CBSMornings \nWatch CBS News 24/7: https://cbsnews.com/live/\nDownload the CBS News app: https://cbsnews.com/mobile/\nFollow \"CBS Mornings\" on Instagram: https://instagram.com/cbsmornings/\nLike \"CBS Mornings\" on Facebook: https://facebook.com/CBSMornings\nFollow \"CBS Mornings\" on X: https://twitter.com/CBSMornings\nSubscribe to our newsletter: https://cbsnews.com/newsletters/\nTry Paramount+ free: https://paramountplus.com/?ftag=PPM-05-10aeh8h\n\nFor video licensing inquiries, contact: licensing@veritone.com"
   },
   {
    "id": "W8cRqkycdsw",
@@ -5981,21 +6241,26 @@
    "topics": [
     "data_center"
    ],
-   "counties": [],
+   "counties": [
+    "Hood County"
+   ],
    "states": [
+    "Oklahoma",
     "Texas"
    ],
    "towns": [],
    "local_because": [
+    "county named elsewhere",
     "state named"
    ],
-   "elsewhere": true,
+   "elsewhere": false,
    "found_by": [
     "national"
    ],
    "score": 4,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "THE RURAL LAND WAR IS LIVE: 248 AI DATA CENTERS PLANNED FOR TEXAS. \n\nAn absolute infrastructure civil war has officially exploded across the Texas and Oklahoma corridors, completely rewriting the rules for how multi-billion dollar tech projects can operate in the Southwest.A comprehensive June 2026 Texas Tribune analysis has just revealed a stunning development: at least 248 massive data centers are currently planned across the Lone Star State. In a massive shift, nearly half of these hyperscale facilities are targeting unincorporated rural counties to bypass traditional municipal regulations. Leading the charge is the newly exposed \"Comanche Circle\" mega-project in Hood County, a massive 2,100-acre industrial development pulling up to 3 gigawatts of power southwest of Fort Worth. This massive land grab is triggering an immediate legislative backlash across state lines. Oklahoma has officially enacted the historic Data Center Customer Ratepayer Protection Act to shield families from utility costs, while Texas lawmakers move to permanently strip legacy corporate sales tax exemptions.  \n\nWatch the full video to see the raw geographical and legislative metrics transforming our regional economy today.\n\nDo you support state governments stripping tax incentives from multi-billion dollar tech conglomerates to protect rural landowners and local utility grids? Let’s hear your hard take below!\n\n#TexasNews #OklahomaNews #ERCOT #DataCenter #ComancheCircle #HoodCounty #MetaTulsa #TexasEconomy #ArtificialIntelligence"
   },
   {
    "id": "B0QvMdqbVw4",
@@ -6024,7 +6289,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-14",
-   "comments": 11
+   "comments": 11,
+   "description": "The agreement between Google and OG&E is very similar to the legislation signed into law meant to protect consumers as more data centers are developed in the state.\n\nThe Oklahoma News Report, hosted by Rich Lenz, is a weekly in-depth exploration of news and issues affecting all Oklahomans, featuring topical information and meaningful stories that provide context and meaning to educate and engage every citizen across the state. For more information about The Oklahoma News Report, visit https://www.OETA.tv/onr.\n\nFollow The Oklahoma News Report:\n• Facebook - @OETAONR (https://www.facebook.com/OETAONR)\n• Twitter - @OETAONR (https://twitter.com/OETAONR)\n\nSupport local, independent journalism. Become a member of OETA at https://www.oeta.tv/donate."
   },
   {
    "id": "D-3DWVvE9gk",
@@ -6050,7 +6316,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-14",
-   "comments": 139
+   "comments": 139,
+   "description": "Rep. Alexandria Ocasio-Cortez (D-New York) questioned EPA Assistant Administrator for Water Jessica Kramer on data centers' effects on clean drinking water.\n\nSubscribe to The Washington Post on YouTube: https://wapo.st/2QOdcqK\n\nFollow us:\nX: https://x.com/washingtonpost\nInstagram: https://www.instagram.com/washingtonpost/\nFacebook: https://www.facebook.com/washingtonpost/\nThreads: https://www.threads.com/@washingtonpost\nBluesky: https://bsky.app/profile/washingtonpost.com"
   },
   {
    "id": "6YLnzIx0bxM",
@@ -6155,7 +6422,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-14",
-   "comments": 1
+   "comments": 1,
+   "description": "Factfinder examines data center’s impact on small town in Oklahoma\r\n\r\nFor more Local News from KWCH: https://www.kwch.com/\r\nFor more YouTube Content: https://www.youtube.com/channel/UC4xYcejEglOusOraL07nzdg"
   },
   {
    "id": "gE0eK5_130I",
@@ -6170,8 +6438,11 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Tulsa"
+   ],
    "local_because": [
+    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -6273,7 +6544,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-14",
-   "comments": 4
+   "comments": 4,
+   "description": "For more than a century, Oklahoma’s biggest export was energy — oil and gas. But in the age of AI, our newest export might be server time.\n\nAcross northeastern Oklahoma, massive data center projects with names like Project Clydesdale, Atlas, and Anthem are being proposed or built. Companies like Google — and possibly Meta — are investing billions in infrastructure that will power the cloud, artificial intelligence, and the modern internet.\n\nBut the boom is raising big questions:\n• Will data centers drive economic growth and jobs?\n• Could they increase electricity demand and water usage?\n• And how can cities like Tulsa make sure these projects benefit the community?\n\nIn this video, we break down the pros, the concerns, and the smart path forward for Oklahoma as it becomes part of the global AI infrastructure race.\n\nBecause this isn’t just about servers. It’s about the future of energy, technology, and the Oklahoma economy."
   },
   {
    "id": "IBuRIw4Yt3A",
@@ -6284,12 +6556,22 @@
    "topics": [
     "data_center"
    ],
-   "counties": [],
+   "counties": [
+    "Tulsa County"
+   ],
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Tulsa",
+    "Stillwater",
+    "Owasso",
+    "Blanchard",
+    "Coweta"
+   ],
    "local_because": [
+    "county named",
+    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -6382,7 +6664,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-14",
-   "comments": 8
+   "comments": 8,
+   "description": "Data Centers in Oklahoma: Promises & Pitfalls\n\nGiven the resources that hyperscale data centers demand, and given the environmental harms that they produce, is it likely that the promised economic and workforce benefits for data center development in Oklahoma will be a net benefit to rural residents in the state? Who wins and loses in the datacenter-driven economy?\n\n00:05-Intros\n03:38-Discussion Topic 1-  Philip Jackson’s coverage reported on a proposed hyperscale data center project in Coweta, OK- Project Atlas. What have you discovered in your reporting?\n8:02-Discussion Topic 2- What conclusions have studies come to & what is the conversation at the state level about hyperscale data centers? \n14:01-Discussion topic 3-Lack of transparency around these projects.\n20:34-Discussion Topic 4-Why do we need these and/or the technology this enables?\n23:28-Discussion Topic 5-We know these facilities don’t create a lot of jobs. How should we weigh economic development benefits, or are there any?\n34:04-Discussion Topic 6-Energy needs-Let’s understand capacity, policies, price increase demands by PSO, which is asking for a 15% increase. What are we getting in return? \n45:53-Discussion Topic 7-What do we know about the water, energy, land resources that these centers are going to need?\n47:02-Discussion Topic 8-National Security, Facial Recognition, & Tracking Movement of People in Real Time vs Right to Privacy\n55:12-Topic 9-Who can one speak to in order to make your opinion known?\n57:36-Audience Q&A\n1:25:23-Closing Remarks & Thanks\n\nHost: Carlos Moreno-https://www.tricitycollective.com/carlosmoreno \n\nPanelists:\nPhillip Jackson-Government Reporter at @TulsaFlyer \nAlec Helmturner-Software Engineer & AI Developer\nDarren Blanchard-Community Advocate & Certified Naturally Grown Produce Farmer\nAmanda Clinton-Oklahoma House of Representatives, District 71 https://www.okhouse.gov/representatives/amanda-clinton \n\nThis Real Talk will bring together local advocates, journalists, and tech industry professionals, going beyond the headlines to have a informed and balanced discussion about the potential impact – good and bad – of data centers in Oklahoma. \n\nOklahoma has a long history of being friendly to extractive economies such as oil and natural gas. Once described as the “Oil Capital of the World,” Tulsa, OK’s Mid-Continent field provided more than 35% of the petroleum produced in the entire United States by 1916. The petroleum industry has been the primary driver of the state’s economy for the entirety of the 20th century. Today, the state is struggling to find its relevance and identity in the midst of changing cultures, economies, and technology.\n\nHyperscale data centers create massive amounts of demand for land, water, energy, and early reporting from places like Memphis, TN and Atlanta, GA (South Fulton) point to Black and brown communities suffering the greatest negative effects of these developments.\n\nProject Anthem is a 340 acre development that will include a hyperscale data center which will be built near 11th Street and the Creek Turnpike in Tulsa, OK on land that is currently owned by the City of Tulsa. The project was announced as a partnership with the City and a company called Atmoss LLC. It is largely believed that Atmoss is associated with Meta, the parent company of Facebook.\n\nProject Clydesdale is another hyperscale datacenter project being built on about 500 acres on 76th Street N and North Sheridan Road in Tulsa County, near the city of Owasso. This seems to be a private development, as the land is currently owned by Bird Creek Ranch Limited Partnership. While the company behind this datacenter has not been revealed, either, it is widely believed to be Google, who is building another data center facility near Stillwater, OK, approved by that city’s local government in 2024.\n\n\nPresented by Tri-City Collective- https://www.youtube.com/@TriCityCollectiveOK. This project is funded in part by Oklahoma Humanities (OH- https://www.youtube.com/@tnjinkens) and the National Endowment for the Humanities (NEH- https://www.youtube.com/@NEHgov). Any views, findings, conclusions, or recommendations expressed in the program do not necessarily represent those of OH or NEH.\n\nWatch past Real Talk: Voicing the Margins and stay up on new installments through our https://www.youtube.com/playlist?list=PL1izmHy8PJrXQFGdAd9troTiGpWScRlr1 YouTube playlist. \n\nLivestreamed at \nhttps://www.youtube.com/@Pursuit_Films  \nhttps://linktr.ee/PursuitFilms\nhttps://www.instagram.com/pursuit_films/\nhttps://www.facebook.com/pursuitfilms.co/\n\n*Follow us https://linktr.ee/TriCityCollective & https://linktr.ee/focusblackok."
   },
   {
    "id": "wLX_w0TtBpY",
@@ -6409,7 +6692,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-15",
-   "comments": 1225
+   "comments": 1225,
+   "description": "Taxpayers in Texas and Virginia are subsidizing data centers by handing out over $1 billion a year to tech companies.\nMore than 30 states subsidize data centers and Big Tech with massive tax breaks.\nAnd while CEOs have promised thousands of jobs, they haven't materialized.\n-----\n\nMore Perfect Union is an Emmy-winning, nonprofit newsroom whose mission is to build power for working people. Here’s what that means: We report on the real struggles and challenges of the working class from a working-class perspective. We attempt to connect those problems to potential solutions. We report on the abuses and wrongdoing of corporate power. And we seek to hold accountable the ultra-rich who have too much power over America’s political and economic systems.\n\n To support our independent journalism, subscribe, donate, and follow our other pages through the links below:\n- Help fund our reporting: https://secure.actblue.com/donate/mpu-splash\n- Substack: https://substack.perfectunion.us/\n- TikTok: https://www.tiktok.com/@moreperfectunion\n- Twitter: https://twitter.com/MorePerfectUS\n- Bluesky: https://bsky.app/profile/moreperfectunion.bsky.social\n- Facebook: https://www.facebook.com/MorePerfectUS\n- Instagram: https://www.instagram.com/perfectunion/\n- Threads: https://www.threads.net/@perfectunion\n- Website: https://www.perfectunion.us"
   },
   {
    "id": "bhOHyNBPi_Q",
@@ -6434,7 +6718,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-15",
-   "comments": 717
+   "comments": 717,
+   "description": ""
   },
   {
    "id": "p_Fp6KqXaL0",
@@ -6459,7 +6744,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-15",
-   "comments": 4
+   "comments": 4,
+   "description": "I''m breaking down what’s really happening with the massive Oklahoma data center and why it matters for your privacy and the future of tech.\n\nSign up for my free newsletter here: https://f.mtr.cool/fzluyntkiw"
   },
   {
    "id": "H_AGKcII2iQ",
@@ -6484,7 +6770,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-15",
-   "comments": 618
+   "comments": 618,
+   "description": "In St. Charles, Missouri, a secret tech company just withdrew their plans to build an AI data center after widespread community outrage.\n\nMany think the developers will return in hopes that public attention dies down—but residents vow they’ll be waiting."
   },
   {
    "id": "VfnGZQdFpTQ",
@@ -6499,8 +6786,12 @@
    "states": [
     "Oklahoma"
    ],
-   "towns": [],
+   "towns": [
+    "Stillwater",
+    "Pryor"
+   ],
    "local_because": [
+    "town named",
     "state named"
    ],
    "elsewhere": false,
@@ -6509,7 +6800,8 @@
    ],
    "score": 4,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "💰 Google's $9 Billion Oklahoma Investment! Massive AI Data Centers & Free University Training (2025)\n\nGoogle just announced a game-changing $9 billion investment in Oklahoma that's reshaping the entire state's tech landscape! From massive AI data centers in Stillwater and Pryor to free AI certifications for university students, this massive initiative is creating thousands of jobs and positioning Oklahoma as a major AI hub. Here's everything you need to know about this transformative investment.\n\n🏗️ Google's Massive Oklahoma Infrastructure:\n🏢 New AI Data Centers:\n\nStillwater: Advanced computing facility for AI workloads\nPryor: Cloud services and AI infrastructure expansion\nResponding to soaring demand for AI and cloud services\nPart of urgent domestic tech investment trends\n\n⚡ Workforce Development Revolution:\n🔧 Electrical Workers Training:\n\n135% increase in trained electrical workers planned\nCritical for construction and operational stability\nMassive job creation in skilled trades\nInfrastructure support for ongoing projects\n\n🎓 AI for Education Accelerator:\n\nUniversity of Oklahoma students get free AI certifications\nOklahoma State University included in training programs\nPreparing students for high-demand tech careers\nNext-generation tech leader development\n\n🌟 Competitive Landscape:\n🚀 Tech Giants Battle:\n\nAmazon & Microsoft also investing billions in training\nIndustry-wide push for skilled labor force\nFast-evolving technological landscape demands\nCompetition for AI talent intensifying\n\n🇨🇳 China Challenge:\n\nChina's early AI education investments create urgency\nU.S. companies racing to maintain competitive edge\nDomestic AI leadership at stake\nCritical for national technological dominance\n\n🤖 Advanced AI Training:\n\nGenie 3: Google's innovative AI training system\nCutting-edge technology development\nMaintaining competitive advantage\nNext-generation AI capabilities\n\n🎯 Why Oklahoma Matters:\nThis investment transforms Oklahoma from traditional industries to a major AI and tech hub, creating economic opportunities and establishing the state as a key player in America's AI future.\n💼 Economic Impact:\n\nThousands of new high-paying tech jobs\nInfrastructure development and construction employment\nUniversity partnerships creating skilled workforce pipeline\nLong-term economic transformation for the state\n\n🔮 The Bigger Picture:\nGoogle's Oklahoma investment represents a crucial move in the global AI race, combining infrastructure development with education to create America's next generation of AI leaders.\n⚡ Bottom Line:\nThis $9 billion investment isn't just about data centers - it's about creating a complete AI ecosystem that produces both infrastructure and the skilled workforce to operate it.\n\n🔔 Subscribe to The AI Report for more major AI investment and infrastructure news!\n#GoogleOklahoma #AIInvestment #GoogleDataCenters #AIEducation #TechJobs #AIInfrastructure #OklahomaAI #GoogleAI #AITraining #TechInvestment"
   },
   {
    "id": "t0lVeHNmvJY",
@@ -6522,6 +6814,7 @@
    ],
    "counties": [],
    "states": [
+    "Arizona",
     "North Dakota"
    ],
    "towns": [],
@@ -6534,7 +6827,8 @@
    ],
    "score": 3,
    "first_seen": "2026-09-15",
-   "comments": 0
+   "comments": 0,
+   "description": "Tribal Nations Ban Data Centers as Developers Target Sovereign Lands\n— NORTH DAKOTA\n\n• Data center developers are targeting tribal lands for massive infrastructure projects, prompting Native nations to enact bans to protect water resources.\n• The Seminole, Kickapoo, and Cherokee nations have recently banned or opposed hyperscale data centers on their territories.\n• A 500-acre Arizona site near Navajo Nation sold for $7 million will host a 1 gigawatt data center despite tribal opposition.\n• Tribal sovereignty allows Native nations to set their own environmental and economic policies independent of state and local laws.\n\nWhat's your take?\n\nRead the full story → https://theamericanstarnews.com/?p=9632\n\n#NorthDakota #Business #News #Politics\n\n#Shorts"
   },
   {
    "id": "9StNYo8TBro",
@@ -6548,6 +6842,7 @@
    "counties": [],
    "states": [
     "Alabama",
+    "Georgia",
     "Oklahoma",
     "Texas"
    ],
@@ -6561,7 +6856,8 @@
    ],
    "score": 3,
    "first_seen": "2026-09-15",
-   "comments": 3
+   "comments": 3,
+   "description": "AMD signed long-term leases with Core Scientific for 529 MW of data center capacity across Texas, Oklahoma, Alabama and Georgia — roughly $14B in base contracted revenue over 15 years, with rights to reserve up to 2.5 GW through 2028. The seller is a former bitcoin miner turned AI landlord.\n\nChips, power, or cooling — which one actually caps AI in 2027?\n\n#Shorts #AI #AMD #datacenter\n\nCo-Intelligence — Ethan Mollick: https://www.amazon.com/s?k=co-intelligence+ethan+mollick&tag=pthwyconnect-20\nThe Coming Wave — Mustafa Suleyman: https://www.amazon.com/s?k=the+coming+wave+mustafa+suleyman&tag=pthwyconnect-20\nChip War — Chris Miller: https://www.amazon.com/s?k=chip+war+chris+miller&tag=pthwyconnect-20\n\nSome links above are affiliate links — the channel may earn a small commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases."
   },
   {
    "id": "PApPd6p6lX0",
@@ -6586,7 +6882,8 @@
    ],
    "score": 3,
    "first_seen": "2026-09-14",
-   "comments": 1125
+   "comments": 1124,
+   "description": "Some families in Georgia are being forced to sell their homes or face government seizures to make way for AI data centers. CBS News' Skyler Henry has more.\n\nCBS News 24/7 is the premier anchored streaming news service from CBS News and Stations that is available free to everyone with access to the internet and is the destination for breaking news, live events, original reporting and storytelling, and programs from CBS News and Stations' top anchors and correspondents working locally, nationally and around the globe. It is available on more than 30 platforms across mobile, desktop and connected TVs for free, as well as CBSNews.com and Paramount+ and live in 91 countries.\n\nSubscribe to the CBS News YouTube channel: https://youtube.com/cbsnews\nWatch CBS News 24/7: https://cbsnews.com/live/\nDownload the CBS News app: https://cbsnews.com/mobile/\nFollow CBS News on Instagram: https://instagram.com/cbsnews/\nLike CBS News on Facebook: https://facebook.com/cbsnews\nFollow CBS News on X: https://twitter.com/cbsnews\nSubscribe to our newsletters: https://cbsnews.com/newsletters/\nTry Paramount+ free: https://paramountplus.com/?ftag=PPM-05-10aeh8h\n\nFor video licensing inquiries, contact: licensing@veritone.com"
   },
   {
    "id": "DGjj7wDYaiI",
@@ -6611,7 +6908,8 @@
    ],
    "score": 3,
    "first_seen": "2026-09-15",
-   "comments": 1122
+   "comments": 1123,
+   "description": "What's the true cost of the AI revolution and who should be paying for it? We went to Georgia to find out. \n\nDemand for data centers is booming as ChatGPT and other AI tools become integrated into our daily life. Under the Trump administration, investments into data centers in the U.S. is expected to surpass $1 trillion in the next five years.\n\nBut data centers put extraordinary demand on the power grid and require entirely new infrastructure. In the next three years, data center use of electricity is expected to double or even triple.\n\nWe went to rural Georgia, the state with the fastest data center growth in the country, and spoke with residents who are living next to massive data centers owned by Meta and Blackstone and facing nonstop noise, pollution and rapidly rising electricity bills.\n-----\nMore Perfect Union’s mission is to build power for working people. Here’s what that means:\n\nWe report on the real struggles and challenges of the working class from a working-class perspective, and we attempt to connect those problems to potential solutions.\n\nWe report on the abuses and wrongdoing of corporate power, and we seek to hold accountable the ultra-rich who have too much power over America’s political and economic systems.\n\nWe're an independent, nonprofit newsroom. To support our work:\n- Help fund our reporting: https://secure.actblue.com/donate/mpu-splash\n- Substack: https://substack.perfectunion.us/\n- TikTok: https://www.tiktok.com/@moreperfectunion\n- Twitter: https://twitter.com/MorePerfectUS\n- Bluesky: https://bsky.app/profile/moreperfectunion.bsky.social\n- Facebook: https://www.facebook.com/MorePerfectUS\n- Instagram: https://www.instagram.com/perfectunion/\n- Threads: https://www.threads.net/@perfectunion\n- Website: https://www.perfectunion.us"
   }
  ]
 }

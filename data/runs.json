@@ -1,6 +1,27 @@
 {
  "runs": [
   {
+   "when": "2026-09-16T01:33:16+00:00",
+   "searches": 82,
+   "counties": 77,
+   "sweep_position": 90,
+   "sweep_total": 130,
+   "videos_seen": 0,
+   "videos_rejected": 0,
+   "new_videos": 0,
+   "tracked_videos": 158,
+   "new_comments": 97,
+   "refreshed_comments": 10239,
+   "expired_comments": 0,
+   "total_comments": 10677,
+   "problems": [
+    "search \"Oklahoma data center moratorium\" — 429 rateLimitExceeded",
+    "search \"Oklahoma data center opposition residents\" — 429 rateLimitExceeded",
+    "search \"Oklahoma City data center moratorium council\" — 429 rateLimitExceeded",
+    "search quota or rate limit reached; remaining searches skipped. The daily quota resets at midnight Pacific."
+   ]
+  },
+  {
    "when": "2026-09-15T22:05:40+00:00",
    "searches": 82,
    "counties": 77,
