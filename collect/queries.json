@@ -84,6 +84,11 @@
   "Blanchard",
   "Jenks"
  ],
+ "not_towns": [
+  "_comment: people whose surname is also an Oklahoma town, so a",
+  "_comment: mention of them is not read as the town.",
+  "Darren Blanchard"
+ ],
  "county_source": {
   "_comment": [
    "Counties come from the news crawler, which pulls them out of",
@@ -209,7 +214,11 @@
     "Tulsa Oklahoma data center residents",
     "Oklahoma AI data center county commissioners",
     "Cherokee Nation data center",
-    "Oklahoma data center tax incentives"
+    "Oklahoma data center tax incentives",
+    "Oklahoma data center",
+    "Oklahoma data center jobs economic development",
+    "Project Mustang Claremore",
+    "El Reno data center bitcoin"
    ],
    "county_template": "{place} Oklahoma data center",
    "recognize": [
@@ -293,12 +302,22 @@
   "expire_days old. Links and your own coding always stay.",
   "",
   "max_tracked_home  home-state videos always tracked, up to this many",
-  "max_tracked       total tracked videos; other states fill what is left"
+  "max_tracked       total tracked videos; other states fill what is left",
+  "",
+  "per_search              results asked for per search, up to 50; the quota",
+  "                        cost of a search is the same either way",
+  "max_comment_pages       pages of 100 comment threads per video",
+  "max_comment_pages_home  the same for Oklahoma videos",
+  "max_reply_pages         pages of 100 replies fetched when a thread has more",
+  "                        than the five YouTube shows inline; Oklahoma only"
  ],
  "searches_per_run": 85,
  "max_tracked": 250,
  "max_tracked_home": 1000,
  "max_comment_pages": 5,
+ "max_comment_pages_home": 20,
+ "max_reply_pages": 3,
+ "per_search": 50,
  "search_days": 1095,
  "expire_days": 30,
  "min_comments": 2,

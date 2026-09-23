@@ -369,7 +369,13 @@ def place_of(video, cfg, known_counties=(), cities=()):
     known_set = set(known_counties)
     known_hit = [c for c in counties if c in known_set
                  or c.rsplit(' ', 1)[0] in known_set]
-    towns = cities_named(place_text, cities)
+    # A person who shares a town's name is not the town. Darren Blanchard,
+    # arrested at the Claremore meeting, was read as the town of Blanchard.
+    town_text = place_text
+    for phrase in cfg.get('not_towns', []):
+        if not phrase.startswith('_comment'):
+            town_text = town_text.replace(phrase.lower(), ' ')
+    towns = cities_named(town_text, cities)
 
     why = []
     if known_hit:
@@ -482,9 +488,14 @@ def cues_in(text, codebook):
 
 # ------------------------------------------------------------- comments
 
-def fetch_comments(video_id, max_pages):
+def fetch_comments(video_id, max_pages, reply_pages=0):
     """Comments and replies, with nothing identifying who wrote them.
-    Author names are never requested into storage."""
+    Author names are never requested into storage.
+
+    commentThreads shows at most five replies under each comment. When a
+    thread has more, and reply_pages is above zero, the full set is asked
+    for separately, at one quota unit per 100 replies. Long arguments in
+    the replies were otherwise cut off after the fifth."""
     out, token = [], None
     for _ in range(max_pages):
         params = dict(part='snippet,replies', videoId=video_id, maxResults=100,
@@ -497,12 +508,37 @@ def fetch_comments(video_id, max_pages):
         for item in data.get('items', []):
             top = item['snippet']['topLevelComment']
             out.append(one_comment(top, video_id, None))
-            for reply in (item.get('replies') or {}).get('comments', []):
-                out.append(one_comment(reply, video_id, top['id']))
+            shown = (item.get('replies') or {}).get('comments', [])
+            total = item['snippet'].get('totalReplyCount', len(shown))
+            replies = None
+            if reply_pages and total > len(shown):
+                replies = fetch_replies(top['id'], video_id, reply_pages)
+            if replies is None:
+                replies = [one_comment(r, video_id, top['id']) for r in shown]
+            out.extend(replies)
         token = data.get('nextPageToken')
         if not token:
             break
     return out, None
+
+
+def fetch_replies(parent_id, video_id, max_pages):
+    """Every reply under one comment, or None if the request failed, in
+    which case the caller keeps the five it already has."""
+    out, token = [], None
+    for _ in range(max_pages):
+        params = dict(part='snippet', parentId=parent_id, maxResults=100,
+                      textFormat='plainText')
+        if token:
+            params['pageToken'] = token
+        data, err = api('comments', **params)
+        if err:
+            return None
+        out.extend(one_comment(r, video_id, parent_id) for r in data.get('items', []))
+        token = data.get('nextPageToken')
+        if not token:
+            break
+    return out
 
 
 def one_comment(raw, video_id, parent):
@@ -629,7 +665,8 @@ def main():
     ap.add_argument('--counties', default='', help='comma separated; skips the feed')
     ap.add_argument('--days', type=int, default=0)
     ap.add_argument('--topics', default='')
-    ap.add_argument('--per-search', type=int, default=25)
+    ap.add_argument('--per-search', type=int, default=0,
+                    help='results per search, up to 50; blank uses per_search in queries.json')
     ap.add_argument('--dry-run', action='store_true')
     ap.add_argument('--retag-only', action='store_true',
                     help='re-read the location of stored videos and exit; no API calls')
@@ -700,6 +737,9 @@ def main():
         sys.exit('YOUTUBE_API_KEY is not set.')
 
     days = args.days or cfg.get('search_days', 1095)
+    # A search costs the same quota whether it returns 25 results or 50,
+    # so asking for the full 50 looks twice as deep for nothing extra.
+    per_search = args.per_search or cfg.get('per_search', 50)
     store_v = load_json(VIDEOS, {'videos': []})
     store_c = load_json(COMMENTS, {'comments': []})
     known = {v['id']: v for v in store_v['videos']}
@@ -716,7 +756,7 @@ def main():
         for i, s in enumerate(searches, 1):
             if s['county']:
                 pair_index += 1
-            vids, err = search_videos(s['q'], days, args.per_search)
+            vids, err = search_videos(s['q'], days, per_search)
             if err:
                 problems.append('search "%s" — %s' % (s['q'], err))
                 print('  %2d/%d  %-44s failed' % (i, len(searches), s['q'][:44]))
@@ -801,11 +841,15 @@ def main():
 
     by_id = {c['id']: c for c in store_c['comments']}
     pages = cfg.get('max_comment_pages', 5)
+    pages_home = cfg.get('max_comment_pages_home', pages)
+    reply_pages = cfg.get('max_reply_pages', 0)
     fetched = refreshed = 0
 
     try:
         for n, v in enumerate(tracked, 1):
-            got, err = fetch_comments(v['id'], pages)
+            deep = is_home(v)
+            got, err = fetch_comments(v['id'], pages_home if deep else pages,
+                                      reply_pages if deep else 0)
             if err:
                 if 'commentsDisabled' not in err:
                     problems.append('comments %s — %s' % (v['id'], err))
