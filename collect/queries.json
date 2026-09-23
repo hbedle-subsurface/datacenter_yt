@@ -10,6 +10,15 @@
   "and compared directly. Keep them in sync."
  ],
  "home_state": "Oklahoma",
+ "home_only": true,
+ "_home_only_comment": [
+  "true keeps only videos tied to home_state, by name or by one of",
+  "the signals below. Statewide searches still return Georgia, Utah and",
+  "Texas coverage; this turns it away at the door. Videos from other",
+  "states already on file are kept, and their comments are still",
+  "refreshed by id, but no new ones are added. false restores the",
+  "old behavior of keeping any US-local video, flagged as elsewhere."
+ ],
  "_home_comment": [
   "Used to fill in the home state when a video names no state at all.",
   "Local stations rarely say 'Oklahoma' in a title, so a KOCO story about",
@@ -276,12 +285,19 @@
   "per page of 100 from the 10,000-unit pool and is effectively free.",
   "",
   "YouTube's developer policies require stored API data to be deleted or",
-  "refreshed within 30 calendar days. Every run refreshes every tracked",
-  "video. When one drops out, its comment text goes and the link and",
-  "your own coding stay."
+  "refreshed within 30 calendar days. Every run fetches the comment threads",
+  "of every tracked video, then asks for every other stored comment by id,",
+  "50 to a call. So a comment keeps its text as long as it is still on",
+  "YouTube, whether or not its video is tracked. Text is removed only for",
+  "comments YouTube no longer returns, once their last refresh is",
+  "expire_days old. Links and your own coding always stay.",
+  "",
+  "max_tracked_home  home-state videos always tracked, up to this many",
+  "max_tracked       total tracked videos; other states fill what is left"
  ],
  "searches_per_run": 85,
  "max_tracked": 250,
+ "max_tracked_home": 1000,
  "max_comment_pages": 5,
  "search_days": 1095,
  "expire_days": 30,

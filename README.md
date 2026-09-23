@@ -69,10 +69,23 @@ Needs a free YouTube API key. Five minutes:
 YouTube's developer policies require stored API data to be deleted or refreshed within 30
 calendar days, so this cannot be a growing archive the way the news crawler is.
 
-Every run re-fetches comments for every tracked video, which keeps them inside the window.
-When a video drops out of the tracked set, its comment **text is removed** — the permalink
-and your own coding survive, because your categories and notes are your research data, not
-YouTube's.
+Every run fetches the comment threads of every tracked video, then asks YouTube for every
+other stored comment by its id, 50 to a call. A comment therefore keeps its text for as long
+as it is still on YouTube, whether or not its video is still tracked, and a comment whose
+text was removed earlier gets it back the next time YouTube returns it.
+
+Text is removed only for comments YouTube no longer returns (deleted or hidden by the
+author or the channel), and only once their last refresh is 30 days old. The permalink and
+your own coding always survive, because your categories and notes are your research data,
+not YouTube's.
+
+Oklahoma videos are tracked first and are not limited by `max_tracked`, so a week that
+turns up many new videos cannot push Oklahoma coverage out. With `home_only` set in
+`collect/queries.json`, videos from other states are no longer added.
+
+Your coding lives in the browser you code in (its local storage), not in this repository.
+Clearing that browser's data, or switching computers, loses it unless you have a file
+from *Back up your work* to restore from.
 
 So: the weekly run is load-bearing, and **export regularly**. *Your coding, as a table*
 includes the comment text, and that file under your own data management plan is where a

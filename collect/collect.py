@@ -434,6 +434,16 @@ def judge(video, asked_topic, cfg, known_counties=(), cities=()):
                 'local_because': why, 'elsewhere': elsewhere,
                 'missing': 'no matching phrase' if spec is None else 'nothing local'}
 
+    # home_only keeps the collection to one state. An Oklahoma search still
+    # returns Georgia and Utah coverage, and before this those videos passed
+    # the local test and took tracking slots from Oklahoma ones.
+    home = cfg.get('home_state')
+    if cfg.get('home_only') and home and home not in states:
+        return {'keep': False, 'score': 0, 'topic': spec['id'],
+                'counties': counties, 'states': states, 'towns': towns,
+                'local_because': why, 'elsewhere': elsewhere,
+                'missing': 'outside %s' % home}
+
     score = 3 if any(p in video['title'].lower() for p in phrases(spec['recognize'])) else 2
     score += min(sum(1 for a in cfg['angles'] if a in text), 2)
     if counties or towns:
@@ -502,6 +512,48 @@ def one_comment(raw, video_id, parent):
             'published': (sn.get('publishedAt') or '')[:10],
             'likes': sn.get('likeCount', 0), 'reply_to': parent,
             'url': 'https://www.youtube.com/watch?v=%s&lc=%s' % (video_id, raw['id'])}
+
+
+def refresh_by_id(stale, codebook):
+    """Refresh stored comments directly by id, 50 to a call at one quota
+    unit a call.
+
+    commentThreads only returns the first few hundred threads of a video,
+    in relevance order, and only for tracked videos. Anything outside that
+    window used to go unrefreshed and lose its text. Asking for the stored
+    ids reaches every comment still on YouTube, on any video, tracked or
+    not. It also brings back the text of comments that were blanked
+    earlier, since the id and link were kept.
+
+    A comment YouTube does not return has been deleted or hidden by its
+    author or the channel. It is left alone here and ages out once its
+    last refresh is expire_days old."""
+    renewed = restored = 0
+    stamp = today()
+    for i in range(0, len(stale), 50):
+        batch = {c['id']: c for c in stale[i:i + 50]}
+        data, err = api('comments', part='snippet', id=','.join(batch),
+                        textFormat='plainText')
+        if err:
+            return renewed, restored, 'comment refresh by id — %s' % err
+        for item in data.get('items', []):
+            c = batch.get(item.get('id'))
+            if c is None:
+                continue
+            sn = item.get('snippet', {})
+            text = sn.get('textOriginal') or sn.get('textDisplay') or ''
+            if not text:
+                continue
+            if c.get('expired'):
+                restored += 1
+            else:
+                renewed += 1
+            c['text'] = text
+            c['likes'] = sn.get('likeCount', c.get('likes', 0))
+            c['cues'] = cues_in(text, codebook)
+            c['refreshed'] = stamp
+            c['expired'] = False
+    return renewed, restored, None
 
 
 # ----------------------------------------------------------------- main
@@ -729,9 +781,23 @@ def main():
     videos = sorted(known.values(),
                     key=lambda v: (v.get('score', 0), v.get('published', '')),
                     reverse=True)
+    # Home-state videos are tracked first and are not bound by max_tracked,
+    # so a busy week of new videos can no longer push Oklahoma coverage out.
+    # Other videos fill whatever room is left under max_tracked.
+    home = cfg.get('home_state')
+    def is_home(v):
+        return bool(home) and home in (v.get('states') or [])
     cap = cfg.get('max_tracked', 250)
-    tracked, dropped = videos[:cap], videos[cap:]
+    home_cap = cfg.get('max_tracked_home', 1000)
+    home_v = [v for v in videos if is_home(v)]
+    other_v = [v for v in videos if not is_home(v)]
+    tracked = home_v[:home_cap] + other_v[:max(0, cap - min(len(home_v), home_cap))]
     tracked_ids = {v['id'] for v in tracked}
+    dropped = [v for v in videos if v['id'] not in tracked_ids]
+    if len(home_v) > home_cap:
+        problems.append('%d %s videos are over max_tracked_home and were not '
+                        'fetched this run; their stored comments are still '
+                        'refreshed by id' % (len(home_v) - home_cap, home))
 
     by_id = {c['id']: c for c in store_c['comments']}
     pages = cfg.get('max_comment_pages', 5)
@@ -765,10 +831,29 @@ def main():
                         'be refreshed next run.')
         print('  comment quota exhausted')
 
+    # Everything the thread fetch did not reach today, including comments
+    # whose text was blanked before, is asked for by id. Oldest refresh
+    # first, so if the quota runs short the ones closest to the limit go
+    # first.
+    stale = [c for c in by_id.values() if c.get('refreshed') != today()]
+    stale.sort(key=lambda c: (bool(c.get('expired')), c.get('refreshed') or ''))
+    by_id_renewed = restored = 0
+    try:
+        by_id_renewed, restored, err = refresh_by_id(stale, codebook)
+        if err:
+            problems.append(err)
+    except QuotaExhausted:
+        problems.append('quota exhausted during the refresh by id; the rest '
+                        'will be refreshed next run')
+    refreshed += by_id_renewed
+
+    # Text is removed only when YouTube's 30 day limit is actually reached.
+    # It used to be removed the moment a video left the tracked set, which
+    # blanked 6,574 comments on 2026-09-22 that were six to eight days old.
     expire_after = cfg.get('expire_days', 30)
     expired = 0
     for c in by_id.values():
-        if c['video'] not in tracked_ids or days_since(c.get('refreshed')) >= expire_after:
+        if days_since(c.get('refreshed')) >= expire_after:
             if not c.get('expired'):
                 c['text'] = ''
                 c['cues'] = []
@@ -789,7 +874,8 @@ def main():
         'sweep_total': pair_total,
         'videos_seen': seen, 'videos_rejected': rejected, 'new_videos': new_videos,
         'tracked_videos': len(tracked), 'new_comments': fetched,
-        'refreshed_comments': refreshed, 'expired_comments': expired,
+        'refreshed_comments': refreshed, 'restored_comments': restored,
+        'expired_comments': expired,
         'total_comments': len(comments), 'problems': problems[:25],
     })
     runs['runs'] = runs['runs'][:60]
@@ -802,10 +888,13 @@ def main():
         print('\n%d of the tracked videos name a state other than %s. They are kept '
               'and flagged, not dropped \u2014 %s county names repeat in other states.'
               % (away, cfg['home_state'], cfg['home_state']))
+    print('%d tracked videos are in %s' % (sum(1 for v in tracked if is_home(v)),
+                                           cfg.get('home_state') or 'the home state'))
     print('\n%d results looked at, %d turned away for having no matching phrase '
           'or nothing local' % (seen, rejected))
     print('%d new videos, %d tracked' % (new_videos, len(tracked)))
-    print('%d new comments, %d refreshed, %d expired' % (fetched, refreshed, expired))
+    print('%d new comments, %d refreshed, %d restored, %d expired'
+          % (fetched, refreshed, restored, expired))
     print('%d comments on file, %d with text' % (len(comments), live))
     if problems:
         print('\n%d problems:' % len(problems))

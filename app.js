@@ -105,8 +105,9 @@ function showEmpty() {
     + '<li><b>Actions</b> tab, <b>Collect comments</b>, <b>Run workflow</b>.</li>'
     + '<li>Reload this page when it finishes.</li></ol>'
     + '<p class="quiet">YouTube requires stored comments to be refreshed or deleted '
-    + 'every 30 days, so the weekly run is what keeps them readable. Anything not '
-    + 'refreshed loses its text and keeps only its link.</p>');
+    + 'every 30 days, so the weekly run is what keeps them readable. A comment '
+    + 'loses its text only once YouTube stops returning it for 30 days; its link '
+    + 'and your coding stay.</p>');
 }
 
 function videoOf(c) { return VIDEOS[c.video] || {}; }
@@ -379,6 +380,7 @@ function render() {
   $('#runinfo').textContent = r
     ? r.when.slice(0, 10) + ' — ' + r.new_videos + ' new videos, '
       + r.new_comments + ' new comments, ' + r.refreshed_comments + ' refreshed, '
+      + (r.restored_comments ? r.restored_comments + ' restored, ' : '')
       + r.expired_comments + ' aged out'
     : 'No run recorded yet.';
 }
