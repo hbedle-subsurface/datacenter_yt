@@ -1,6 +1,23 @@
 {
  "runs": [
   {
+   "when": "2026-09-29T17:42:20+00:00",
+   "searches": 85,
+   "counties": 77,
+   "sweep_position": 117,
+   "sweep_total": 130,
+   "videos_seen": 3898,
+   "videos_rejected": 1144,
+   "new_videos": 5,
+   "tracked_videos": 432,
+   "new_comments": 26,
+   "refreshed_comments": 19024,
+   "restored_comments": 0,
+   "expired_comments": 0,
+   "total_comments": 19080,
+   "problems": []
+  },
+  {
    "when": "2026-09-27T12:15:58+00:00",
    "searches": 85,
    "counties": 77,
@@ -279,5 +296,5 @@
    ]
   }
  ],
- "cursor": 568
+ "cursor": 637
 }
