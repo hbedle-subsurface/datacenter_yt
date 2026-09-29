@@ -1,6 +1,30 @@
 {
  "runs": [
   {
+   "when": "2026-09-29T18:43:34+00:00",
+   "searches": 85,
+   "counties": 77,
+   "sweep_position": 117,
+   "sweep_total": 130,
+   "videos_seen": 150,
+   "videos_rejected": 37,
+   "new_videos": 1,
+   "tracked_videos": 433,
+   "new_comments": 3,
+   "refreshed_comments": 10611,
+   "restored_comments": 0,
+   "expired_comments": 0,
+   "total_comments": 19083,
+   "problems": [
+    "search \"Oklahoma City data center moratorium council\" — 429 rateLimitExceeded",
+    "search \"Oklahoma data center water use\" — 429 rateLimitExceeded",
+    "search \"Oklahoma data center rezoning hearing\" — 429 rateLimitExceeded",
+    "search \"Norman Oklahoma data center city council\" — 429 rateLimitExceeded",
+    "search \"Stillwater Oklahoma data center\" — 429 rateLimitExceeded",
+    "search quota or rate limit reached; remaining searches skipped. The daily quota resets at midnight Pacific."
+   ]
+  },
+  {
    "when": "2026-09-29T17:42:20+00:00",
    "searches": 85,
    "counties": 77,

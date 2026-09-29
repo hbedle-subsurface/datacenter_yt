@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29T17:42:20+00:00",
+ "updated": "2026-09-29T18:43:34+00:00",
  "expire_days": 30,
  "comments": [
   {
@@ -755,6 +755,19 @@
    "first_seen": "2026-09-27"
   },
   {
+   "id": "UgyB_pFEEvw2CUpFGhR4AaABAg",
+   "video": "fmrUmVeWFZ0",
+   "text": "fun fact, Oklahoma is shaped thst way because of slavery",
+   "published": "2026-09-24",
+   "likes": 2,
+   "reply_to": null,
+   "url": "https://www.youtube.com/watch?v=fmrUmVeWFZ0&lc=UgyB_pFEEvw2CUpFGhR4AaABAg",
+   "cues": [],
+   "refreshed": "2026-09-29",
+   "expired": false,
+   "first_seen": "2026-09-29"
+  },
+  {
    "id": "UgznQfFfZoz0tBa3eh14AaABAg",
    "video": "FUv85cbn-pA",
    "text": "if they open the datacenter 30 seconds early, who goes to prison?",
@@ -1435,6 +1448,32 @@
    "refreshed": "2026-09-29",
    "expired": false,
    "first_seen": "2026-09-27"
+  },
+  {
+   "id": "UgwDpGzYKkdVKF82RyB4AaABAg",
+   "video": "fmrUmVeWFZ0",
+   "text": "Wish the description had a little more context about who's being interviewed and or why, but do enjoy you expanding your voice and others' by extent",
+   "published": "2026-09-23",
+   "likes": 8,
+   "reply_to": null,
+   "url": "https://www.youtube.com/watch?v=fmrUmVeWFZ0&lc=UgwDpGzYKkdVKF82RyB4AaABAg",
+   "cues": [],
+   "refreshed": "2026-09-29",
+   "expired": false,
+   "first_seen": "2026-09-29"
+  },
+  {
+   "id": "UgzR9uiz9H9PIDgrrL54AaABAg",
+   "video": "fmrUmVeWFZ0",
+   "text": "Great clip!",
+   "published": "2026-09-23",
+   "likes": 3,
+   "reply_to": null,
+   "url": "https://www.youtube.com/watch?v=fmrUmVeWFZ0&lc=UgzR9uiz9H9PIDgrrL54AaABAg",
+   "cues": [],
+   "refreshed": "2026-09-29",
+   "expired": false,
+   "first_seen": "2026-09-29"
   },
   {
    "id": "UgzMbskId-O4Oe9qTR94AaABAg",
