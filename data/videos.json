@@ -1,7 +1,162 @@
 {
- "updated": "2026-11-10T20:31:52+00:00",
- "tracked": 564,
+ "updated": "2026-11-17T21:50:00+00:00",
+ "tracked": 597,
  "videos": [
+  {
+   "id": "2kEYcb0qmWU",
+   "title": "Piedmont Data Center Projects: Cloverleaf & Beltline Energy Updates",
+   "channel": "KFOR Oklahoma's News 4",
+   "description": "Ahead of tonight's Planning Commission meeting, we provide an update on two proposed data center projects in Piedmont.",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=2kEYcb0qmWU",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Piedmont"
+   ],
+   "local_because": [
+    "town named",
+    "state named",
+    "broadcast call letters"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Piedmont"
+   ],
+   "score": 10,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "m48VAW8Umqk",
+   "title": "Oklahoma City extends moratorium on data center projects",
+   "channel": "KOKH - FOX 25",
+   "description": "Oklahoma City is keeping its pause on data centers development requests in place. The city council voted on Tuesday to extend a ...",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=m48VAW8Umqk",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Oklahoma City"
+   ],
+   "local_because": [
+    "town named",
+    "state named",
+    "broadcast call letters"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Ada",
+    "Craig County",
+    "Elk City",
+    "Moore",
+    "Stillwater",
+    "national"
+   ],
+   "score": 10,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "Ayc7JxqyRe0",
+   "title": "New This Morning: OKC extends data centers moratorium; Veterans Day celebrations in Oklahoma",
+   "channel": "KOCO 5 News",
+   "description": "NEW THIS MORNING: Oklahoma City leaders voted to extend its moratorium on data center projects, and communities are ...",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=Ayc7JxqyRe0",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Oklahoma City"
+   ],
+   "local_because": [
+    "town named",
+    "state named",
+    "broadcast call letters"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 10,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "n9PxC64bTeM",
+   "title": "Oklahoma City extends moratorium on data center applications, rezoning requests",
+   "channel": "KOKH - FOX 25",
+   "description": "On Tuesday the OKC City Council extended a moratorium on data center applications and rezoning requests through the end of ...",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=n9PxC64bTeM",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Oklahoma City"
+   ],
+   "local_because": [
+    "town named",
+    "state named",
+    "broadcast call letters"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 10,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "voGLOLklfSw",
+   "title": "Oklahoma City extends moratorium on data center projects",
+   "channel": "KOKH - FOX 25",
+   "description": "The city council voted on Tuesday to extend a moratorium on new rezoning requests for data center projects through the end of ...",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=voGLOLklfSw",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Oklahoma City"
+   ],
+   "local_because": [
+    "town named",
+    "state named",
+    "broadcast call letters"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 10,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
   {
    "id": "2bwuUs0gBuY",
    "title": "Holt says Oklahoma City data center vote does not mean city is 'open for business' for data centers",
@@ -58,6 +213,7 @@
    "elsewhere": false,
    "found_by": [
     "Ada",
+    "Mustang",
     "Oklahoma City",
     "Yukon",
     "national"
@@ -91,11 +247,15 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Caddo County",
+    "Canadian County",
     "Choctaw County",
     "Cleveland County",
     "Coal County",
     "Del City",
+    "Elk City",
     "Grady County",
+    "McAlester",
     "McClain County",
     "Mustang",
     "Okfuskee County",
@@ -136,12 +296,14 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Moore",
     "Norman",
+    "Stillwater",
     "national"
    ],
    "score": 10,
    "first_seen": "2026-10-31",
-   "comments": 1
+   "comments": 0
   },
   {
    "id": "8YqB2oEdxTk",
@@ -399,7 +561,7 @@
    ],
    "score": 10,
    "first_seen": "2026-09-22",
-   "comments": 9
+   "comments": 11
   },
   {
    "id": "MdP99PEk6cE",
@@ -575,7 +737,7 @@
    ],
    "score": 10,
    "first_seen": "2026-09-22",
-   "comments": 47
+   "comments": 46
   },
   {
    "id": "IWjp1dpFjPs",
@@ -609,6 +771,7 @@
     "Lincoln County",
     "Logan County",
     "Luther",
+    "Okmulgee",
     "Payne County",
     "Pottawatomie County"
    ],
@@ -816,6 +979,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Ada",
     "Moore",
     "Norman",
     "Stillwater",
@@ -1195,6 +1359,37 @@
    "description": "Yukon residents raise concerns over proposed data center and water use KOCO News 5 is your home for Oklahoma breaking ..."
   },
   {
+   "id": "r6eUl0o0nOs",
+   "title": "Piedmont Planning Commission backs moving Cloverleaf data center master plan to council",
+   "channel": "KOKH - FOX 25",
+   "description": "Piedmont's Planning Commission has voted to recommend the City Council move forward with a master design plan for the ...",
+   "published": "2026-11-13",
+   "url": "https://www.youtube.com/watch?v=r6eUl0o0nOs",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Piedmont"
+   ],
+   "local_because": [
+    "town named",
+    "broadcast call letters",
+    "state inferred from station"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Piedmont",
+    "national"
+   ],
+   "score": 9,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
    "id": "trojlArq7-0",
    "title": "Edmond City Council to discuss possibly extending pause of data centers",
    "channel": "KOCO 5 News",
@@ -1218,6 +1413,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Edmond",
     "national"
    ],
    "score": 9,
@@ -1399,6 +1595,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Ada",
     "Norman",
     "Piedmont",
     "Stillwater",
@@ -1939,7 +2136,7 @@
    ],
    "score": 9,
    "first_seen": "2026-09-15",
-   "comments": 36,
+   "comments": 37,
    "description": "El Reno data center water line leak wastes over 3 million gallons, city issues violations KOCO News 5 is your home for Oklahoma ..."
   },
   {
@@ -1990,7 +2187,7 @@
    ],
    "score": 9,
    "first_seen": "2026-09-14",
-   "comments": 17,
+   "comments": 18,
    "description": "El Reno data center cited for safety violations after water leak KOCO News 5 is your home for Oklahoma breaking news and ..."
   },
   {
@@ -2400,7 +2597,7 @@
    ],
    "score": 9,
    "first_seen": "2026-09-22",
-   "comments": 21
+   "comments": 20
   },
   {
    "id": "cT6LiQDYZpQ",
@@ -2486,6 +2683,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Choctaw",
     "Mustang",
     "Yukon"
    ],
@@ -2853,6 +3051,7 @@
     "Catoosa",
     "Collinsville",
     "Coweta",
+    "Creek County",
     "Glenpool",
     "Jenks",
     "Luther",
@@ -3071,6 +3270,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Ada",
     "Cleveland County",
     "Elk City",
     "Lincoln County",
@@ -3148,8 +3348,7 @@
    ],
    "score": 9,
    "first_seen": "2026-09-22",
-   "comments": 7,
-   "comments_off": true
+   "comments": 7
   },
   {
    "id": "Ms41mObJyeI",
@@ -3407,11 +3606,14 @@
    "found_by": [
     "Ada",
     "Adair County",
+    "Altus",
     "Atoka County",
     "Bartlesville",
     "Bryan County",
+    "Chickasha",
     "Choctaw County",
     "Cotton County",
+    "Creek County",
     "Del City",
     "Duncan",
     "Durant",
@@ -3419,6 +3621,7 @@
     "Elk City",
     "Enid",
     "Hughes County",
+    "Inola",
     "Jackson County",
     "Johnston County",
     "Kiowa County",
@@ -3496,6 +3699,7 @@
     "McClain County",
     "Midwest City",
     "Moore",
+    "Muskogee",
     "Mustang",
     "Newcastle",
     "Norman",
@@ -3598,6 +3802,7 @@
     "Lincoln County",
     "Logan County",
     "Love County",
+    "Luther",
     "Major County",
     "Marshall County",
     "Mayes County",
@@ -3658,7 +3863,7 @@
    ],
    "score": 9,
    "first_seen": "2026-09-14",
-   "comments": 451,
+   "comments": 450,
    "description": "A community meeting hosted by a company behind a controversial data center proposal in Yukon and other Oklahoma cities ..."
   },
   {
@@ -3811,6 +4016,7 @@
    "elsewhere": false,
    "found_by": [
     "Bixby",
+    "Catoosa",
     "Glenpool",
     "Jenks",
     "Sapulpa",
@@ -3894,10 +4100,13 @@
     "Claremore",
     "Cleveland County",
     "Coal County",
+    "Collinsville",
     "Comanche County",
     "Cotton County",
+    "Coweta",
     "Creek County",
     "Custer County",
+    "Del City",
     "Duncan",
     "Durant",
     "Edmond",
@@ -3921,6 +4130,7 @@
     "McClain County",
     "McCurtain County",
     "Miami",
+    "Midwest City",
     "Moore",
     "Murray County",
     "Muskogee",
@@ -3953,7 +4163,7 @@
    ],
    "score": 9,
    "first_seen": "2026-09-22",
-   "comments": 49
+   "comments": 50
   },
   {
    "id": "SJB9MjcVDEY",
@@ -3981,6 +4191,7 @@
    "found_by": [
     "Catoosa",
     "Claremore",
+    "Mustang",
     "Owasso",
     "national"
    ],
@@ -4174,6 +4385,7 @@
    "elsewhere": false,
    "found_by": [
     "Bixby",
+    "Creek County",
     "Muskogee",
     "Muskogee County",
     "Okmulgee",
@@ -4221,6 +4433,7 @@
    "found_by": [
     "Logan County",
     "Moore",
+    "Muskogee",
     "Muskogee County",
     "Noble County",
     "Norman",
@@ -4378,6 +4591,124 @@
    "description": "Construction of Google data center disrupts Stillwater pond Stay informed about Oklahoma news and weather! Follow KFOR ..."
   },
   {
+   "id": "1vnyHSuwNKE",
+   "title": "The Edmond, Oklahoma city council extended a data center moratorium and fired the city attorney at…",
+   "channel": "The Shouting Hour",
+   "description": "NEWSBOT, REX, MEADOW, LUDWIG, and GARY react to an Edmond city council meeting that covered both a moratorium ...",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=1vnyHSuwNKE",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Oklahoma City",
+    "Edmond"
+   ],
+   "local_because": [
+    "town named",
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Edmond",
+    "Guthrie",
+    "national"
+   ],
+   "score": 8,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "XdEHeni75tQ",
+   "title": "Hear Edmond resident speak out against data centers at council meeting",
+   "channel": "The Oklahoman",
+   "description": "David Hennessey tells the Edmond City Council why he is against data centers, at the council meeting on Nov. 9, 2026.",
+   "published": "2026-11-12",
+   "url": "https://www.youtube.com/watch?v=XdEHeni75tQ",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Edmond"
+   ],
+   "local_because": [
+    "town named",
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Edmond"
+   ],
+   "score": 8,
+   "first_seen": "2026-11-17",
+   "comments": 1
+  },
+  {
+   "id": "r_yj3VajGHg",
+   "title": "OKC City Council votes to extend data center moratorium",
+   "channel": "KOCO 5 News",
+   "description": "OKC City Council votes to extend data center moratorium KOCO News 5 is your home for Oklahoma breaking news and weather.",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=r_yj3VajGHg",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "state named",
+    "broadcast call letters"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 8,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "bVqgqniJrKk",
+   "title": "Moratorium extended for OKC data center development",
+   "channel": "OKC, Tulsa & Statewide News: Oklahoma Memo",
+   "description": "Cities across Oklahoma are updating their data center moratoriums, including OKC and Edmond. In this video, I'll share all the ...",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=bVqgqniJrKk",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Edmond"
+   ],
+   "local_because": [
+    "town named",
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Edmond",
+    "national"
+   ],
+   "score": 8,
+   "first_seen": "2026-11-17",
+   "comments": 6
+  },
+  {
    "id": "hoKEqe6lELs",
    "title": "OKC City Council to discuss possibly extending data center moratorium",
    "channel": "KOCO 5 News",
@@ -4403,7 +4734,7 @@
    ],
    "score": 8,
    "first_seen": "2026-11-10",
-   "comments": 0
+   "comments": 1
   },
   {
    "id": "Rj4js0XlKJw",
@@ -4431,6 +4762,35 @@
    ],
    "score": 8,
    "first_seen": "2026-11-10",
+   "comments": 0
+  },
+  {
+   "id": "PyztDaxIdhU",
+   "title": "OKC extends moratorium on data centers through 2027",
+   "channel": "The Oklahoman",
+   "description": "A moratorium on data centers in Oklahoma City will be extended through 2027. Councilmembers, including Mayor David Holt, ...",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=PyztDaxIdhU",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Oklahoma City"
+   ],
+   "local_because": [
+    "town named",
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 8,
+   "first_seen": "2026-11-17",
    "comments": 0
   },
   {
@@ -4582,7 +4942,8 @@
     "McClain County",
     "Oklahoma City",
     "Oklahoma County",
-    "Piedmont"
+    "Piedmont",
+    "national"
    ],
    "score": 8,
    "first_seen": "2026-10-31",
@@ -4677,9 +5038,11 @@
     "Blaine County",
     "Caddo County",
     "Canadian County",
+    "Catoosa",
     "Choctaw",
     "Cleveland County",
     "Coweta",
+    "Creek County",
     "Enid",
     "Glenpool",
     "Grady County",
@@ -4869,6 +5232,7 @@
    "found_by": [
     "Del City",
     "El Reno",
+    "Enid",
     "Le Flore County",
     "national"
    ],
@@ -5188,7 +5552,7 @@
    ],
    "score": 8,
    "first_seen": "2026-09-22",
-   "comments": 79
+   "comments": 81
   },
   {
    "id": "W6vxLfJrcQc",
@@ -5307,8 +5671,10 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Cherokee County",
     "Del City",
     "Luther",
+    "Okmulgee",
     "Seminole County",
     "national"
    ],
@@ -5375,7 +5741,7 @@
    ],
    "score": 8,
    "first_seen": "2026-09-22",
-   "comments": 10
+   "comments": 9
   },
   {
    "id": "VCx0pMDJ_og",
@@ -6125,6 +6491,7 @@
    "found_by": [
     "Ada",
     "Adair County",
+    "Altus",
     "Atoka County",
     "Bartlesville",
     "Beckham County",
@@ -6136,6 +6503,7 @@
     "Chickasha",
     "Choctaw",
     "Choctaw County",
+    "Claremore",
     "Cleveland County",
     "Coal County",
     "Collinsville",
@@ -6408,7 +6776,7 @@
    ],
    "score": 8,
    "first_seen": "2026-09-14",
-   "comments": 5,
+   "comments": 7,
    "description": "Pryor mayor and expert talk data centers and AI in Oklahoma KOCO News 5 is your home for Oklahoma breaking news and ..."
   },
   {
@@ -6872,12 +7240,13 @@
    "elsewhere": false,
    "found_by": [
     "Claremore",
+    "Del City",
     "Mustang",
     "national"
    ],
    "score": 8,
    "first_seen": "2026-09-22",
-   "comments": 239
+   "comments": 231
   },
   {
    "id": "14c3rNCo2uA",
@@ -7422,9 +7791,11 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Coweta",
     "Luther",
     "Mayes County",
     "Moore",
+    "Mustang",
     "Norman",
     "Pryor",
     "Stillwater",
@@ -7497,6 +7868,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Coweta",
     "Logan County",
     "Muskogee",
     "Muskogee County",
@@ -7548,6 +7920,7 @@
     "Claremore",
     "Collinsville",
     "Coweta",
+    "Creek County",
     "Glenpool",
     "Jenks",
     "Love County",
@@ -7572,6 +7945,119 @@
    "description": "An $800 million data center could be coming to east Tulsa if city councilors approve a tax incentive district. This comes at a time ..."
   },
   {
+   "id": "0Oz3S-Rcfnk",
+   "title": "Advisory committee says it has reached no final conclusions on proposed Luther data center",
+   "channel": "KOKH - FOX 25",
+   "description": "A proposed data center in Luther is back under discussion as town leaders consider Beltline Energy's energy use permit ...",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=0Oz3S-Rcfnk",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Luther"
+   ],
+   "local_because": [
+    "town named",
+    "broadcast call letters",
+    "state inferred from station"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Luther"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "5WsJGpMub2I",
+   "title": "nowata data center moratorium",
+   "channel": "KJRH -TV | Tulsa | Channel 2",
+   "description": "nowata data center moratorium.",
+   "published": "2026-11-16",
+   "url": "https://www.youtube.com/watch?v=5WsJGpMub2I",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "broadcast call letters",
+    "state inferred from station"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-17",
+   "comments": 1
+  },
+  {
+   "id": "nJk_DvfhG_I",
+   "title": "Oklahoma City Paused Everyone Until 2027 — Except the 294-Acre Campus",
+   "channel": "Exit9media",
+   "description": "Oklahoma City extends its data center moratorium through Dec 2027 unanimously — while Beltline Energy's 294-acre campus, ...",
+   "published": "2026-11-13",
+   "url": "https://www.youtube.com/watch?v=nJk_DvfhG_I",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Oklahoma City"
+   ],
+   "local_because": [
+    "town named",
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-17",
+   "comments": 1
+  },
+  {
+   "id": "29sQ4f8xsFI",
+   "title": "OKC Council meeting on moratorium extension of data center applications",
+   "channel": "KOKH - FOX 25",
+   "description": "During the OKC City Council meeting on Tuesday, one resident used part of her time during public comment for a moratorium ...",
+   "published": "2026-11-10",
+   "url": "https://www.youtube.com/watch?v=29sQ4f8xsFI",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "broadcast call letters",
+    "state inferred from station"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 7,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
    "id": "xDB-_xZ-RSU",
    "title": "OKC’s first data center is “MEGA”",
    "channel": "The Dry Line OKC",
@@ -7594,6 +8080,8 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Blanchard",
+    "Newcastle",
     "Oklahoma City",
     "Yukon",
     "national"
@@ -7623,6 +8111,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Ada",
     "Oklahoma City",
     "national"
    ],
@@ -7680,12 +8169,22 @@
    "found_by": [
     "Choctaw County",
     "Coal County",
+    "Collinsville",
+    "Coweta",
+    "Del City",
+    "Edmond",
+    "Elk City",
+    "Lawton",
     "Logan County",
+    "McAlester",
+    "Midwest City",
     "Okfuskee County",
     "Oklahoma City",
     "Ottawa County",
+    "Owasso",
     "Sequoyah County",
     "Stephens County",
+    "Yukon",
     "national"
    ],
    "score": 7,
@@ -7743,7 +8242,8 @@
    ],
    "elsewhere": false,
    "found_by": [
-    "Oklahoma City"
+    "Oklahoma City",
+    "national"
    ],
    "score": 7,
    "first_seen": "2026-11-03",
@@ -8678,6 +9178,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Okmulgee",
     "Tahlequah",
     "national"
    ],
@@ -8730,6 +9231,7 @@
     "Okfuskee County",
     "Oklahoma City",
     "Oklahoma County",
+    "Okmulgee",
     "Okmulgee County",
     "Ottawa County",
     "Payne County",
@@ -9018,8 +9520,7 @@
    ],
    "score": 7,
    "first_seen": "2026-09-22",
-   "comments": 2260,
-   "comments_off": true
+   "comments": 2253
   },
   {
    "id": "o5kO9p0qzUk",
@@ -9149,6 +9650,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Ada",
     "Cleveland County",
     "Stillwater",
     "national"
@@ -10007,6 +10509,7 @@
    "elsewhere": false,
    "found_by": [
     "Blanchard",
+    "Catoosa",
     "Claremore",
     "Inola"
    ],
@@ -10046,11 +10549,13 @@
     "Glenpool",
     "Jenks",
     "Mayes County",
+    "Muskogee",
     "Muskogee County",
     "Osage County",
     "Owasso",
     "Pawnee County",
     "Rogers County",
+    "Sand Springs",
     "Sapulpa",
     "Skiatook",
     "Stillwater",
@@ -10159,7 +10664,8 @@
    ],
    "elsewhere": false,
    "found_by": [
-    "Yukon"
+    "Yukon",
+    "national"
    ],
    "score": 7,
    "first_seen": "2026-09-24",
@@ -10827,6 +11333,7 @@
     "Bixby",
     "Creek County",
     "Mayes County",
+    "Muskogee",
     "Muskogee County",
     "Okmulgee County",
     "Osage County",
@@ -10907,6 +11414,7 @@
     "Chickasha",
     "Choctaw",
     "Choctaw County",
+    "Claremore",
     "Cleveland County",
     "Coal County",
     "Collinsville",
@@ -11039,6 +11547,7 @@
     "Bryan County",
     "Carter County",
     "Cotton County",
+    "Creek County",
     "Elk City",
     "Grant County",
     "Jackson County",
@@ -11324,6 +11833,7 @@
    "elsewhere": false,
    "found_by": [
     "Coweta",
+    "Muskogee",
     "Muskogee County",
     "Rogers County",
     "Stillwater",
@@ -11420,6 +11930,7 @@
    "elsewhere": false,
    "found_by": [
     "Coweta",
+    "Muskogee",
     "Muskogee County",
     "Mustang",
     "Owasso",
@@ -12176,6 +12687,182 @@
    "comments": 2
   },
   {
+   "id": "Fk6CtzvEeIE",
+   "title": "A Mayor Signed a Data Center Deal She Couldn't Admit Existed",
+   "channel": "Things Got Complicated",
+   "description": "In September 2025 the mayor of Coweta, Oklahoma signed a confidentiality agreement with a data center developer that barred ...",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=Fk6CtzvEeIE",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Coweta"
+   ],
+   "local_because": [
+    "town named",
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Ada",
+    "Coweta",
+    "Wagoner",
+    "national"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "2hxZwJdnddU",
+   "title": "Edmond, Oklahoma Extends Its Data Center Freeze: 90 Days Became 9 Months at Lake Arcadia",
+   "channel": "Exit9media",
+   "description": "Edmond, Oklahoma just turned a 90-day pause on new data-center applications into nine months — a freeze on paperwork, not ...",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=2hxZwJdnddU",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Edmond"
+   ],
+   "local_because": [
+    "town named",
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Edmond"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-17",
+   "comments": 1
+  },
+  {
+   "id": "NGTdkcPQ3SA",
+   "title": "Yukon mayor ousted over data center support. Many US cities do the same.",
+   "channel": "The Oklahoman",
+   "description": "For more on this story: ...",
+   "published": "2026-11-09",
+   "url": "https://www.youtube.com/watch?v=NGTdkcPQ3SA",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Yukon"
+   ],
+   "local_because": [
+    "town named",
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Enid",
+    "Yukon"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-17",
+   "comments": 2
+  },
+  {
+   "id": "VGYTs85qeZ8",
+   "title": "Enid Residents Don't Trust City Council to Represent Them!",
+   "channel": "No Data Centers in Enid",
+   "description": "Clip taken from 10/27 City Council meeting at the Stride Bank Center. Whether data centers are the future or not, the progression ...",
+   "published": "2026-11-07",
+   "url": "https://www.youtube.com/watch?v=VGYTs85qeZ8",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Enid"
+   ],
+   "local_because": [
+    "town named",
+    "state inferred from town"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Enid"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "lwnvun4gALk",
+   "title": "Questions remain about data centers, smelter plant in Oklahoma",
+   "channel": "KOKH - FOX 25",
+   "description": "Following Tuesday's election, questions remain about Oklahoma's future for data centers, a proposed smelter plant, and a new ...",
+   "published": "2026-11-05",
+   "url": "https://www.youtube.com/watch?v=lwnvun4gALk",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "state named",
+    "broadcast call letters"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Ada"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "8jiftIseICI",
+   "title": "CareerTech Workforce Training: Preparing Oklahoma for Wind and Data Centers",
+   "channel": "Beaver County Stockyards",
+   "description": "Oklahoma's next big industries need a workforce ready to meet the moment. From wind energy to the potential growth of data ...",
+   "published": "2026-11-04",
+   "url": "https://www.youtube.com/watch?v=8jiftIseICI",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "state named",
+    "government channel"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Beaver County",
+    "Stillwater",
+    "national"
+   ],
+   "score": 6,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
    "id": "KLZkZcfbEEc",
    "title": "PFA Contamination in Enid",
    "channel": "No Data Centers in Enid",
@@ -12254,6 +12941,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Moore",
     "Norman",
     "Stillwater",
     "national"
@@ -12323,7 +13011,7 @@
    ],
    "score": 6,
    "first_seen": "2026-10-27",
-   "comments": 0
+   "comments": 2
   },
   {
    "id": "xx8A61Mb1Vk",
@@ -12408,6 +13096,7 @@
    "elsewhere": false,
    "found_by": [
     "Bixby",
+    "Catoosa",
     "Collinsville",
     "Coweta",
     "Del City",
@@ -12591,6 +13280,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Catoosa",
     "Cherokee County",
     "Craig County",
     "Delaware County",
@@ -12728,6 +13418,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Ada",
     "Shawnee",
     "national"
    ],
@@ -12834,6 +13525,7 @@
    "elsewhere": false,
    "found_by": [
     "El Reno",
+    "Piedmont",
     "Yukon",
     "national"
    ],
@@ -12970,6 +13662,7 @@
    "elsewhere": false,
    "found_by": [
     "Enid",
+    "Moore",
     "Noble County"
    ],
    "score": 6,
@@ -13024,6 +13717,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Canadian County",
     "Cleveland County",
     "McClain County",
     "Woods County"
@@ -13072,6 +13766,7 @@
     "Osage County",
     "Owasso",
     "Rogers County",
+    "Sand Springs",
     "Skiatook",
     "Tulsa County",
     "Wagoner",
@@ -13134,7 +13829,7 @@
    ],
    "score": 6,
    "first_seen": "2026-10-31",
-   "comments": 537
+   "comments": 535
   },
   {
    "id": "-2yrHYFJUBE",
@@ -13303,7 +13998,7 @@
    ],
    "score": 6,
    "first_seen": "2026-09-14",
-   "comments": 1120,
+   "comments": 1118,
    "description": "They built their dream home on family property. Now, a massive data center could rise just 300 feet away—and they fear what it ..."
   },
   {
@@ -13403,7 +14098,7 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 52,
+   "comments": 51,
    "description": "A data center campus would mean millions for an Oklahoma town. One family faces the human cost KOCO News 5 is your home ..."
   },
   {
@@ -13534,7 +14229,7 @@
    ],
    "score": 6,
    "first_seen": "2026-09-24",
-   "comments": 43
+   "comments": 42
   },
   {
    "id": "7WMNdRqTGMw",
@@ -14094,6 +14789,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Creek County",
     "Enid",
     "McIntosh County",
     "Muskogee County",
@@ -14284,7 +14980,7 @@
    ],
    "score": 6,
    "first_seen": "2026-09-22",
-   "comments": 1109
+   "comments": 1121
   },
   {
    "id": "VV-gktZfFNY",
@@ -14336,7 +15032,8 @@
    ],
    "elsewhere": false,
    "found_by": [
-    "Blanchard"
+    "Blanchard",
+    "Claremore"
    ],
    "score": 6,
    "first_seen": "2026-09-22",
@@ -14559,6 +15256,7 @@
     "Chickasha",
     "Choctaw",
     "Choctaw County",
+    "Claremore",
     "Cleveland County",
     "Coal County",
     "Collinsville",
@@ -14721,7 +15419,7 @@
    ],
    "score": 6,
    "first_seen": "2026-09-15",
-   "comments": 6,
+   "comments": 5,
    "description": "OKLAHOMA CITY METRO BREAKING REAL ESTATE & DEVELOPMENT NEWS! Yukon politics just descended into absolute ..."
   },
   {
@@ -14901,6 +15599,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Ada",
     "Norman",
     "Stillwater",
     "national"
@@ -15195,6 +15894,7 @@
    "elsewhere": false,
    "found_by": [
     "Blanchard",
+    "Creek County",
     "Mustang",
     "national"
    ],
@@ -15477,6 +16177,7 @@
    "elsewhere": false,
    "found_by": [
     "Cherokee County",
+    "Okmulgee",
     "national"
    ],
    "score": 6,
@@ -16162,7 +16863,7 @@
    ],
    "score": 6,
    "first_seen": "2026-09-22",
-   "comments": 53
+   "comments": 52
   },
   {
    "id": "5IQ7x8BQ-h8",
@@ -16472,6 +17173,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Catoosa",
     "Claremore",
     "national"
    ],
@@ -16506,6 +17208,7 @@
     "Atoka County",
     "Bartlesville",
     "Bixby",
+    "Broken Arrow",
     "Bryan County",
     "Caddo County",
     "Canadian County",
@@ -16524,8 +17227,10 @@
     "Coweta",
     "Creek County",
     "Custer County",
+    "Del City",
     "Duncan",
     "Durant",
+    "Edmond",
     "Elk City",
     "Enid",
     "Glenpool",
@@ -16548,19 +17253,23 @@
     "McAlester",
     "McClain County",
     "McCurtain County",
+    "Midwest City",
     "Moore",
     "Murray County",
     "Muskogee",
     "Muskogee County",
+    "Mustang",
     "Noble County",
     "Nowata County",
     "Okfuskee County",
     "Oklahoma County",
+    "Okmulgee",
     "Okmulgee County",
     "Osage County",
     "Ottawa County",
     "Owasso",
     "Pawnee County",
+    "Piedmont",
     "Ponca City",
     "Pontotoc County",
     "Pottawatomie County",
@@ -16582,6 +17291,7 @@
     "Weatherford",
     "Woods County",
     "Woodward",
+    "Yukon",
     "national"
    ],
    "score": 6,
@@ -16694,6 +17404,7 @@
     "Oklahoma City",
     "Owasso",
     "Rogers County",
+    "Sand Springs",
     "Tulsa",
     "Tulsa County",
     "Wagoner County",
@@ -17048,6 +17759,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Mustang",
     "Oklahoma City"
    ],
    "score": 6,
@@ -17953,6 +18665,7 @@
    "found_by": [
     "Muskogee",
     "Muskogee County",
+    "Sand Springs",
     "national"
    ],
    "score": 6,
@@ -18038,20 +18751,62 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Bixby",
+    "Canadian County",
+    "Catoosa",
     "Cleveland County",
+    "Creek County",
     "Durant",
+    "Glenpool",
+    "Jenks",
     "Major County",
     "Mayes County",
     "Muskogee County",
     "Osage County",
     "Pawnee County",
     "Rogers County",
+    "Sapulpa",
+    "Skiatook",
     "Tulsa County",
     "Wagoner County"
    ],
    "score": 5,
    "first_seen": "2026-10-27",
    "comments": 3
+  },
+  {
+   "id": "Qj3QUCnARRw",
+   "title": "Sen. Lankford discusses data centers, energy costs and federal permitting while in Tulsa",
+   "channel": "Tulsa's News Pulse",
+   "description": "With the midterm elections just weeks away, U.S. Sen. James Lankford spoke to Tulsa business leaders and elected officials ...",
+   "published": "2026-10-21",
+   "url": "https://www.youtube.com/watch?v=Qj3QUCnARRw",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Tulsa"
+   ],
+   "local_because": [
+    "town named",
+    "state inferred from channel name"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Bixby",
+    "Catoosa",
+    "Glenpool",
+    "Jenks",
+    "Sapulpa",
+    "Skiatook"
+   ],
+   "score": 5,
+   "first_seen": "2026-11-17",
+   "comments": 0
   },
   {
    "id": "14hgIUsitKU",
@@ -18086,9 +18841,11 @@
     "Chickasha",
     "Choctaw",
     "Choctaw County",
+    "Cleveland County",
     "Coal County",
     "Collinsville",
     "Comanche County",
+    "Coweta",
     "Creek County",
     "Custer County",
     "Del City",
@@ -18286,6 +19043,7 @@
    "elsewhere": false,
    "found_by": [
     "Bixby",
+    "Catoosa",
     "Coweta",
     "Creek County",
     "Glenpool",
@@ -18579,6 +19337,7 @@
     "Blanchard",
     "Caddo County",
     "Canadian County",
+    "Chickasha",
     "Cleveland County",
     "Comanche County",
     "Duncan",
@@ -18681,7 +19440,7 @@
    ],
    "score": 5,
    "first_seen": "2026-09-27",
-   "comments": 10
+   "comments": 7
   },
   {
    "id": "1wl2WXV0KY8",
@@ -18786,6 +19545,32 @@
    "score": 5,
    "first_seen": "2026-09-24",
    "comments": 0
+  },
+  {
+   "id": "GijKMdn59xA",
+   "title": "One Data Center Leak Disrupted an Oklahoma Community… #datacenter #oklahoma #water #ai #drought",
+   "channel": "CozyUnfiltered",
+   "description": "One data center property. More than 3 million gallons of water lost. Schools closed. Water pressure dropped. Businesses ...",
+   "published": "2026-09-03",
+   "url": "https://www.youtube.com/watch?v=GijKMdn59xA",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 5,
+   "first_seen": "2026-11-17",
+   "comments": 18
   },
   {
    "id": "X08mLJBJYwM",
@@ -18997,6 +19782,34 @@
    "comments": 2
   },
   {
+   "id": "499gbp_wumU",
+   "title": "Large-load tariffs and the data center water backlash | The Data Center Daily Jul 13",
+   "channel": "Lantern Tech Podcasts",
+   "description": "OG&E's large-load tariff heads for a November Oklahoma regulator decision as Texas, Iowa and Coachella Valley communities ...",
+   "published": "2026-07-13",
+   "url": "https://www.youtube.com/watch?v=499gbp_wumU",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Iowa",
+    "Oklahoma",
+    "Texas"
+   ],
+   "towns": [],
+   "local_because": [
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 5,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
    "id": "mTAn_ky1QDI",
    "title": "Video: Community pushes back against planned Okmulgee County data center",
    "channel": "FOX23 News Tulsa",
@@ -19134,6 +19947,7 @@
    "elsewhere": false,
    "found_by": [
     "Blanchard",
+    "Catoosa",
     "Claremore",
     "Mayes County",
     "Mustang",
@@ -19143,7 +19957,7 @@
    ],
    "score": 5,
    "first_seen": "2026-09-22",
-   "comments": 96
+   "comments": 95
   },
   {
    "id": "n9Te8acjFmA",
@@ -19259,6 +20073,7 @@
    "found_by": [
     "Ada",
     "Adair County",
+    "Altus",
     "Atoka County",
     "Bartlesville",
     "Beaver County",
@@ -19509,6 +20324,35 @@
    "comments": 0
   },
   {
+   "id": "JiRgco6DAvA",
+   "title": "Broken Arrow City Manager talks about potential data center",
+   "channel": "FOX23 News Tulsa",
+   "description": "FOX23's Devyn Lyon talks to Broken Arrow City Manager Michael Spurgeon about a potential data center coming near the Creek ...",
+   "published": "2026-04-30",
+   "url": "https://www.youtube.com/watch?v=JiRgco6DAvA",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Broken Arrow"
+   ],
+   "local_because": [
+    "town named",
+    "state inferred from station"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Broken Arrow"
+   ],
+   "score": 5,
+   "first_seen": "2026-11-17",
+   "comments": 1
+  },
+  {
    "id": "W9cei2IfNkg",
    "title": "Why has the Mayor of Coweta filed an Open Records request on her own city council?",
    "channel": "Tulsa's News Pulse",
@@ -19536,6 +20380,36 @@
    "score": 5,
    "first_seen": "2026-09-22",
    "comments": 0
+  },
+  {
+   "id": "ZVvGEGX-T-U",
+   "title": "One of The DATA CENTERs with more coming to Muskogee.  The Soul of this town was sold out 🤬",
+   "channel": "Soul Saver",
+   "description": "",
+   "published": "2026-04-22",
+   "url": "https://www.youtube.com/watch?v=ZVvGEGX-T-U",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [
+    "Muskogee"
+   ],
+   "local_because": [
+    "town named",
+    "state inferred from town"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Muskogee"
+   ],
+   "score": 5,
+   "first_seen": "2026-11-17",
+   "comments": 0,
+   "comments_off": true
   },
   {
    "id": "UzPf1Yv3BhQ",
@@ -19929,7 +20803,7 @@
    ],
    "score": 5,
    "first_seen": "2026-09-14",
-   "comments": 1934,
+   "comments": 1939,
    "description": ""
   },
   {
@@ -20075,7 +20949,7 @@
    ],
    "score": 5,
    "first_seen": "2026-11-03",
-   "comments": 1
+   "comments": 0
   },
   {
    "id": "p93IMZPokUs",
@@ -20440,6 +21314,7 @@
    "elsewhere": false,
    "found_by": [
     "Cherokee County",
+    "Coweta",
     "Haskell County",
     "Hughes County",
     "Major County",
@@ -20449,6 +21324,7 @@
     "Muskogee County",
     "Okmulgee",
     "Okmulgee County",
+    "Owasso",
     "Rogers County",
     "Sequoyah County",
     "Tulsa",
@@ -20548,10 +21424,14 @@
     "Bixby",
     "Catoosa",
     "Collinsville",
+    "Coweta",
     "Creek County",
     "Glenpool",
     "Jenks",
+    "Luther",
+    "Muskogee",
     "Muskogee County",
+    "Mustang",
     "Okmulgee County",
     "Osage County",
     "Owasso",
@@ -20559,6 +21439,7 @@
     "Rogers County",
     "Sapulpa",
     "Skiatook",
+    "Stillwater",
     "Tulsa",
     "Tulsa County",
     "Wagoner County",
@@ -20680,7 +21561,7 @@
    ],
    "score": 5,
    "first_seen": "2026-09-15",
-   "comments": 2,
+   "comments": 1,
    "description": "Bitcoin BitFuFu Mining BitFuFu's strategic acquisition of a 51-megawatt Bitcoin mining data center in Oklahoma leverages the ..."
   },
   {
@@ -20713,6 +21594,140 @@
    "comments": 2
   },
   {
+   "id": "ZAv726TbMbQ",
+   "title": "Data Center Economic Considerations webinar 11-17-26",
+   "channel": "OSU AgEcon",
+   "description": "Curious about data centers in Oklahoma? Join OSU Agricultural Economics Assistant Professor Dr. Mckenzie Boyce for a ...",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=ZAv726TbMbQ",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Muskogee",
+    "Stillwater",
+    "national"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "vV2qSB-Slg4",
+   "title": "Rural America becomes a hot spot for growing data center demand",
+   "channel": "Oklahoma Farm Report Daily News & Markets",
+   "description": "The rapid growth of artificial intelligence is driving, demand for data centers and developers are increasingly looking to rule ...",
+   "published": "2026-11-17",
+   "url": "https://www.youtube.com/watch?v=vV2qSB-Slg4",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "national"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "kESuiRAGx-U",
+   "title": "How Data Centers Get Built Before You Hear About Them",
+   "channel": "Things Got Complicated",
+   "description": "A mayor in Oklahoma signed a contract that barred her from saying the talks existed, or that the contract itself did. It was for a data ...",
+   "published": "2026-11-14",
+   "url": "https://www.youtube.com/watch?v=kESuiRAGx-U",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Ada",
+    "Beaver County"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
+   "id": "tSQPY9F8EDs",
+   "title": "Cheyenne and Arapaho governor spotlights data centers' economic promise on Living Oklahoma",
+   "channel": "CNAGuardian",
+   "description": "",
+   "published": "2026-11-11",
+   "url": "https://www.youtube.com/watch?v=tSQPY9F8EDs",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "El Reno"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-17",
+   "comments": 0,
+   "comments_off": true
+  },
+  {
+   "id": "h4q72efC_pI",
+   "title": "Poland, Malaysia, and Oklahoma Want Your Data Center",
+   "channel": "Six Five Media",
+   "description": "Every data center a state turns away has somewhere else to go. That's the tension behind Ep. 326 of The Six Five Pod. Daniel ...",
+   "published": "2026-11-09",
+   "url": "https://www.youtube.com/watch?v=h4q72efC_pI",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Elk City"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
    "id": "bM6VskVJig4",
    "title": "Data Center Study",
    "channel": "Kendal Sacchieri",
@@ -20739,6 +21754,32 @@
    "comments": 0
   },
   {
+   "id": "h8ksJNC8248",
+   "title": "DATA CENTERS | The Issues That Moved Voters in the 2026 Midterms",
+   "channel": "Tulsa's News Pulse",
+   "description": "Candidates aren't the only thing on the ballot. Voters in communities across the country will decide whether to allow data centers ...",
+   "published": "2026-11-07",
+   "url": "https://www.youtube.com/watch?v=h8ksJNC8248",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma"
+   ],
+   "towns": [],
+   "local_because": [
+    "state inferred from channel name"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Ada"
+   ],
+   "score": 4,
+   "first_seen": "2026-11-17",
+   "comments": 0
+  },
+  {
    "id": "ybcpWnaBmTA",
    "title": "Oklahoma Energy and Data Centers, Richard Evans testimony to Oklahoma Senate, 2026-Oct-28",
    "channel": "Richard Evans",
@@ -20758,7 +21799,8 @@
    ],
    "elsewhere": false,
    "found_by": [
-    "Oklahoma City"
+    "Oklahoma City",
+    "national"
    ],
    "score": 4,
    "first_seen": "2026-11-10",
@@ -20820,7 +21862,8 @@
    ],
    "score": 4,
    "first_seen": "2026-11-03",
-   "comments": 7
+   "comments": 7,
+   "comments_off": true
   },
   {
    "id": "9NGBlyy2524",
@@ -20842,16 +21885,24 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Bethany",
+    "Canadian County",
+    "Choctaw",
     "Cleveland County",
     "Grady County",
+    "Guthrie",
     "Kingfisher County",
     "Lincoln County",
     "Logan County",
     "McClain County",
+    "Midwest City",
+    "Moore",
+    "Newcastle",
     "Norman",
     "Oklahoma County",
     "Payne County",
     "Pottawatomie County",
+    "Shawnee",
     "national"
    ],
    "score": 4,
@@ -21047,6 +22098,7 @@
    "elsewhere": false,
    "found_by": [
     "Bixby",
+    "Catoosa",
     "Coweta",
     "Glenpool",
     "Jenks",
@@ -21113,6 +22165,7 @@
    "elsewhere": false,
    "found_by": [
     "Bixby",
+    "Catoosa",
     "Glenpool",
     "Jenks",
     "Sapulpa",
@@ -21282,7 +22335,8 @@
    ],
    "elsewhere": false,
    "found_by": [
-    "Ada"
+    "Ada",
+    "national"
    ],
    "score": 4,
    "first_seen": "2026-11-03",
@@ -22886,6 +23940,7 @@
    "elsewhere": false,
    "found_by": [
     "Bixby",
+    "Catoosa",
     "Cherokee County",
     "Glenpool",
     "Jenks",
@@ -23047,6 +24102,7 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Ada",
     "Bixby",
     "Catoosa",
     "Cherokee County",
@@ -23093,10 +24149,38 @@
    ],
    "elsewhere": false,
    "found_by": [
+    "Canadian County",
     "Cleveland County"
    ],
    "score": 3,
    "first_seen": "2026-10-20",
+   "comments": 0
+  },
+  {
+   "id": "bQZHrb_HDVE",
+   "title": "🚨 Hauling Job Opportunity Alert 🚨",
+   "channel": "National Dump Trucking Association",
+   "description": "QUICK UPDATE ON THE NDTA DATA CENTER JOB! Oklahoma ➡️ Texas There's an important update regarding the data ...",
+   "published": "2026-08-27",
+   "url": "https://www.youtube.com/watch?v=bQZHrb_HDVE",
+   "topics": [
+    "data_center"
+   ],
+   "counties": [],
+   "states": [
+    "Oklahoma",
+    "Texas"
+   ],
+   "towns": [],
+   "local_because": [
+    "state named"
+   ],
+   "elsewhere": false,
+   "found_by": [
+    "Ada"
+   ],
+   "score": 3,
+   "first_seen": "2026-11-17",
    "comments": 0
   },
   {
