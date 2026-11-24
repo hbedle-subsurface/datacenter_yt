@@ -1,6 +1,27 @@
 {
  "runs": [
   {
+   "when": "2026-11-24T23:04:33+00:00",
+   "searches": 85,
+   "counties": 77,
+   "sweep_position": 88,
+   "sweep_total": 130,
+   "videos_seen": 3493,
+   "videos_rejected": 1641,
+   "new_videos": 9,
+   "tracked_videos": 606,
+   "new_comments": 30,
+   "refreshed_comments": 19993,
+   "restored_comments": 0,
+   "expired_comments": 37,
+   "total_comments": 20232,
+   "problems": [
+    "comments dIbdhatVGc0 — 404 videoNotFound",
+    "comments FUU2fkSjCPc — 404 videoNotFound",
+    "comments YKZiPUFmA2U — 404 videoNotFound"
+   ]
+  },
+  {
    "when": "2026-11-17T21:50:00+00:00",
    "searches": 85,
    "counties": 77,
@@ -461,5 +482,5 @@
    ]
   }
  ],
- "cursor": 1189
+ "cursor": 1258
 }
